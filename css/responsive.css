@@ -1,9 +1,272 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-button {
+
+:root {
+    --primary-color: #e38724;
+    --secondary-color: #A7A6A9;
+    --font-family: 'century gothic';
+}
+
+.button-container {
     padding: 0;
     margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-translation {
+    background-color: var(--primary-color);
+}
+
+body {
+    font-family: var(--font-family);
+    text-transform: uppercase;
+    background-color: #00070d;
+}
+.active{
+    color: white;
+}
+
+/* Styles for dropdown */
+/* Show dropdown menu on hover for main dropdowns */
+.navbar-nav .nav-item.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+/* Show dropdown menu on hover for sub-dropdowns */
+.navbar-nav .nav-item.dropdown .dropdown-menu .dropend:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-toggle::after {
+    display: none !important;
+}
+
+.dropdown-item {
+    color: #ffffff;
+    background-color: black;
+    font-family: century gothic;
+    font-size: 10px;
+}
+.dropdown-item:focus,
+.dropdown-item:hover {
+    color: #ffffff !important;
+    font-family: century gothic;
+    background-color:black;
+}
+/* Apply the 3D effect when the item is clicked */
+.dropdown-item {
+    transition: transform 0.2s;
   }
+  
+  .dropdown-item:active {
+    transform: translateY(3px);
+  }
+  
+/* media querires for the dropdown */
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-nav .dropdown-menu {
+        position: absolute;
+        background-color: transparent;
+    }
+}
+
+/* Styles for the arrows */
+#right_arrow img {
+    float: right;
+    right: 21px;
+    z-index: 10;
+    float: right;
+    top: 60%;
+    position: fixed;
+
+}
+
+#left_arrow img {
+    z-index: 10;
+    top: 60%;
+    left: 21px;
+    position: fixed;
+
+}
+/* styles for the icon-bar */
+.icon-bar {
+    position: fixed;
+    top: 41%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 2.2%;
+    z-index: 10;
+}
+
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 3px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.icon-bar a:hover {
+    color: var(--primary-color);
+}
+
+/* Welcome text styles for smaller screens (iPhone 5, 6/7/8, 6/7/8 Plus) */
+@media (max-width: 414px) {
+    .icon-bar {
+        position: absolute;
+        top: 45%;
+        transform: translateY(-50%);
+        right: 2%;
+        z-index: 10;
+    }
+}
+
+.iso-certificates {
+    display: flex;
+    justify-content: center;
+    column-gap: 2%;
+}
+/* index page styles */
+/* Welcome text styles for larger screens */
+.welcometext {
+    margin-top: 5em;
+}
+
+.welcometext h1 {
+    color: #32373c;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 61px;
+}
+
+span.welomeTo {
+    font-size: 36px;
+    font-weight: lighter;
+    color: #a7a9ac;
+    display: inline-block;
+    position: relative;
+    top: -10px;
+    right: 3%;
+}
+
+span.welcomeNext {
+    color: #e38724;
+    margin-right: 4%;
+}
+
+/* Welcome text styles for smaller screens (iPhone 5, 6/7/8, 6/7/8 Plus) */
+@media (max-width: 414px) {
+    .col-12 {
+        display: flex !important;
+        justify-content: flex-end !important;
+    }
+
+    .welcometext {
+        margin-top: 1em;
+    }
+
+    .welcometext h1 {
+        font-size: 42px !important;
+        line-height: 48px !important;
+        color: #32373c;
+    }
+
+    span.welomeTo {
+        font-size: 16px;
+        font-weight: lighter;
+        color: #a7a9ac;
+    }
+
+    span.welcomeNext {
+        /* font-size: 67px; */
+        color: #e38724;
+        margin-right: 4%;
+    }
+
+}
+
+/* styles for the particles */
+/* styles for the ts particles */
+canvas {
+    display: block;
+}
+
+#tsparticles {
+    width: 100%;
+    height: 100%;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    position: absolute;
+}
+
+/* styles for the about us page */
+/* styles for he who are we text */
+.welcometext_about {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    position: absolute;
+    top: 8%;
+    left: 20%;
+}
+.welcometext_about h1 {
+    font-size: 55px;
+    line-height: 55px;
+    color: #1e2933;
+    letter-spacing: 0px;
+    margin-left: 13%;
+    position: absolute;
+    top: 17%;
+    font-weight: bold;
+}
+
+.welcometext_about span.welcomeNext {
+    font-size: 25px;
+    font-weight: lighter;
+    color: #a7a9ac;
+    margin-left: 50%;
+    position: relative;
+    top: -20px;
+}
+span .dots{
+    font-size: 16px;
+}
+/* Welcome text styles for smaller screens (iPhone 5, 6/7/8, 6/7/8 Plus) */
+@media (max-width: 414px) {
+    .welcometext_about {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        position: absolute;
+        top: 4%;
+        left: 40%;
+    }
+
+    .welcometext_about h1 {
+        font-size: 30px;
+        line-height: 45px;
+        position: absolute;
+        font-weight: bold;
+    }
+    .welcometext_about span.welcomeNext {
+        font-size: 20px;
+        font-weight: lighter;
+        color: rgb(167, 169, 172);
+        margin-left: 50%;
+        position: relative;
+        top: -20px;
+    }
+    span .dots {
+        font-size: 10px;
+    }
+}
+
