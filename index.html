@@ -13,8 +13,9 @@
   <style>
     .background-image {
       background-image: url(./assets/images/home/tower.png);
-      background-size: cover;
+      background-size: contain;
       background-repeat: no-repeat;
+      position: absolute;
     }
 
     @media (max-width: 767px) {
@@ -22,6 +23,7 @@
         background-size: cover;
       }
     }
+
     /* Default styles for larger screens */
   </style>
 </head>
@@ -119,15 +121,15 @@
     <div class="row">
       <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3"></div>
       <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col-9">
-          <web-particles id="tsparticles" class="blur-class"
-              options='{"fps_limit":60,"interactivity":{"detectsOn":"canvas","events":{"onClick":{"enable":true,"mode":"push"},"onHover":{"enable":true,"mode":"grab"},"resize":true},"modes":{"push":{"particles_nb":4},"repulse":{"distance":250,"duration":0.4}}},"particles":{"color":{"value":"#e38724"},"links":{"color":"#e38724","distance":150,"enable":true,"opacity":0.4,"width":1},"move":{"bounce":false,"direction":"none","enable":true,"outMode":"out","random":false,"speed":1,"straight":false},"number":{"density":{"enable":true,"area":800},"value":80},"opacity":{"value":0.5},"shape":{"type":"square"},"size":{"random":true,"value":2}},"detectRetina":true}'></web-particles>
+        <web-particles id="tsparticles" class="blur-class"
+          options='{"fps_limit":60,"interactivity":{"detectsOn":"canvas","events":{"onClick":{"enable":true,"mode":"push"},"onHover":{"enable":true,"mode":"grab"},"resize":true},"modes":{"push":{"particles_nb":4},"repulse":{"distance":250,"duration":0.4}}},"particles":{"color":{"value":"#e38724"},"links":{"color":"#e38724","distance":150,"enable":true,"opacity":0.4,"width":1},"move":{"bounce":false,"direction":"none","enable":true,"outMode":"out","random":false,"speed":1,"straight":false},"number":{"density":{"enable":true,"area":800},"value":80},"opacity":{"value":0.5},"shape":{"type":"square"},"size":{"random":true,"value":2}},"detectRetina":true}'></web-particles>
       </div>
-  </div>
+    </div>
     <div class="row">
       <div class="col-xl-6 col-lg-6 col-md-6 col-sm-4">
       </div>
       <div class="col-xl-6 col-lg-6 col-md-6 col-sm-8 col-12">
-        <div class="welcometext blur-select " data-translate="welcome_heading" id="bannertext">  
+        <div class="welcometext blur-select " data-translate="welcome_heading" id="bannertext">
           <h1>
             <span class="wel">WELCOME</span><br />
             <div class="flex-container d-flex justify-content-center">
@@ -138,49 +140,54 @@
         </div>
       </div>
     </div>
-    <div id="left_arrow" class="blur-select">
-      <a href="contactus-no-change.html"><img src="./assets/images/left-arrow.png" alt="left-arrow"
-          style="height: 6%;"></a>
+    <div class="container-fluid arrows-container">
+      <div id="left_arrow" class="blur-select">
+        <a href="contactus-no-change.html"><img src="./assets/images/left-arrow.png" alt="left-arrow"
+            ></a>
+      </div>
+      <div id="right_arrow" class="blur-select">
+        <a href="about-6.html"><img src="./assets/images/right-arrow.png" /></a>
+      </div>
     </div>
-    <div id="right_arrow" class="blur-select">
-      <a href="about-6.html"><img src="./assets/images/right-arrow.png" style="height: 6%;" /></a>
-    </div>
-    <div class="icon-bar blur-select" >
+    <div class="icon-bar blur-select">
       <a href="https://www.linkedin.com/company/next-engineering-consultants/" class="linkedin" target="_blank"><i
-              class="fab fa-linkedin"></i></a>
+          class="fab fa-linkedin"></i></a>
       <a href="https://www.instagram.com/next.engineering.consultants/" class="instagram" target="_blank"><i
-              class="fab fa-instagram"></i></a>
+          class="fab fa-instagram"></i></a>
       <a href="https://www.facebook.com/NEXT.Engineering.Consultants" class="facebook" target="_blank"><i
-              class="fab fa-facebook"></i></a>
+          class="fab fa-facebook"></i></a>
       <a href="#" class="whatsapp"><i class="fab fa-whatsapp"></i></a>
       <a href="#" class="comment-dots"><i class="far fa-comment-dots"></i></a>
-  </div>
-</section>
-<section class="footer ">
-  <div class="row my-3">
-      <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3"></div>
-      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 iso-certificates">
+    </div>
+    <div class="row mt-5">
+      <div class="col-xl-2 col-lg-2 col-md-2"></div>
+      <div class="col-xl-10 col-lg-10 col-md-10">
+        <img src="./assets/images/home/home-2.png" alt="img" style="width: 110%;opacity: 25%;">
+      </div>
+
+    </div>
+    <section class="footer ">
+      <div class="row mt-1">
+        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3"></div>
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 iso-certificates">
           <img src="./assets/images/home/1.png" alt="iso-1" style="width: 8%;" class="iso-1">
           <img src="./assets/images/home/2.png" alt="iso-2" style="width: 8%;" class="iso-2">
           <img src="./assets/images/home/3.png" alt="iso-3" style="width: 8%;" class="iso-3">
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3"></div>
       </div>
-      <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3"></div>
-  </div>
+    </section>
   </section>
- 
-
-    
-
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.1/umd/popper.min.js"
     crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/tsparticles@1.28.0/dist/tsparticles.min.js"></script>
-    <script
-        src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2.5.0/custom-elements-es5-adapter.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2.5.0/webcomponents-loader.js"></script>
-    <script type="module" src="https://cdn.jsdelivr.net/npm/web-particles@1.1.0/dist/web-particles.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/three@0.131.2/examples/js/libs/stats.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@1.28.0/dist/tsparticles.min.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2.5.0/custom-elements-es5-adapter.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2.5.0/webcomponents-loader.js"></script>
+  <script type="module" src="https://cdn.jsdelivr.net/npm/web-particles@1.1.0/dist/web-particles.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.131.2/examples/js/libs/stats.min.js"></script>
 </body>
 </html>
