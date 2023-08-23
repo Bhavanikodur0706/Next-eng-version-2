@@ -19,10 +19,13 @@ html {
     margin: 0;
     display: flex;
     justify-content: flex-end;
+    transition: transform 0.2s;
 }
 
 .btn-translation {
     background-color: var(--primary-color);
+    padding-left: 1%;
+    padding-right: 1%;
 }
 
 body {
@@ -96,25 +99,6 @@ body {
     height: 30%
     
   }
-  
-
-/* #right_arrow img {
-    float: right;
-    right: 21px;
-    z-index: 10;
-    float: right;
-    top: 60%;
-    position: fixed;
-
-}
-
-#left_arrow img {
-    z-index: 10;
-    top: 60%;
-    left: 21px;
-    position: fixed;
-
-} */
 
 /* styles for the icon-bar */
 .icon-bar {
@@ -153,24 +137,14 @@ body {
         width: 100%;
     }
       
-      #left_arrow img, #right_arrow img {
+      #left_arrow img {
         height: 30%
         
       }
-    /* #right_arrow img {
-        float: right;
-        right: 15px;
-        z-index: 10;
-        top: 40%;
-        position: fixed;
-    }
-
-    #left_arrow img {
-        z-index: 10;
-        top: 40%;
-        left: 15px;
-        position: fixed;
-    } */
+      #right_arrow img{
+        position: relative;
+        height: 30%;
+      }
 
     .icon-bar {
         position: absolute;
@@ -293,9 +267,42 @@ canvas {
     top: -20px;
 }
 
+
 span .dots {
     font-size: 16px;
 }
+/* particles in about us styles */
+.polygons {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.polygons_banner_views {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.particle-class {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+span.js-count-particles {
+    display: none !important;
+}
+/* titles styles in about us page */
+.mission-title {
+    font-family: century gothic;
+    color: #7F6541;
+    letter-spacing: 700;
+    letter-spacing: 7px;
+    font-size: 21pt;
+    border-block-end: 1px solid #3E4143;
+}
+
 
 /* Welcome text styles for smaller screens (iPhone 5, 6/7/8, 6/7/8 Plus) */
 @media (max-width: 414px) {
@@ -362,6 +369,7 @@ span .dots {
     display: flex;
     flex-direction: column;
     align-items: center;
+    letter-spacing: -0.8px;
 }
 
 div#arabic {
@@ -410,6 +418,7 @@ span.card-text {
     justify-content: flex-end;
     color: var(--primary-color);
 }
+/* tsparticles container */
 
 /* Welcome text styles for smaller screens (iPhone 5, 6/7/8, 6/7/8 Plus) */
 @media (max-width: 414px) {
@@ -477,5 +486,31 @@ span.card-text {
         margin-bottom: 30px;
         font-family: var(--font-family);
         color: var(--secondary-color);
+    }
+    .mission-title{
+        display: flex;
+        justify-content: center;
+    }
+    /* our vision/mision/values styles */
+    /* .mission-para p{
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        line-height: 1.3;
+        text-align: center;
+        font-size: 14px;
+        font-family: var(--font-family);
+        color: var(--secondary-color);
+    } */
+    .card {
+        display: flex;
+        justify-content: center;
+        padding: 10%;
+        line-height: 1.3;
+        text-align: center;
+        font-size: 14px;
+        font-family: var(--font-family);
+        color: var(--secondary-color);
+        
     }
 }

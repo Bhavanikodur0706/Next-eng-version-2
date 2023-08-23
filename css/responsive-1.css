@@ -186,6 +186,17 @@ span.welcomeNext {
         color: #e38724;
         margin-right: 4%;
     }
+    /* our vision/mision/values styles */
+    .mission-para.card p{
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        line-height: 1.3;
+        text-align: center;
+        font-size: 14px;
+        font-family: var(--font-family);
+        color: var(--secondary-color);
+    }
   }
   
   /* Other custom media queries for specific devices or screen resolutions */
