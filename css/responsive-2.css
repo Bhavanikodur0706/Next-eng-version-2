@@ -1,49 +1,43 @@
-/* Reset default padding and margin for all elements */
 * {
     padding: 0;
     margin: 0;
 }
 
-/* Global variables */
 :root {
     --primary-color: #e38724;
     --secondary-color: #a7a9ac;
     --font-family: 'century gothic';
 }
 
-/* Apply font-family to the entire HTML */
 html {
-    font-family: var(--font-family);
+    --font-family: 'century gothic';
 }
 
-/* Button container styles */
 .button-container {
-    display: flex;
-    justify-content: flex-end;
     padding: 0;
     margin: 0;
+    display: flex;
+    justify-content: flex-end;
     transition: transform 0.2s;
 }
 
-/* Translation button styles */
 .btn-translation {
     background-color: var(--primary-color);
-    padding: 0 1%;
+    padding-left: 1%;
+    padding-right: 1%;
 }
 
-/* Body styles */
 body {
     font-family: var(--font-family);
     text-transform: uppercase;
     background-color: #00070d;
 }
 
-/* Active link styles */
 .active {
     color: white;
 }
 
-/* Dropdown styles */
+/* Styles for dropdown */
 /* Show dropdown menu on hover for main dropdowns */
 .navbar-nav .nav-item.dropdown:hover>.dropdown-menu {
     display: block;
@@ -54,27 +48,25 @@ body {
     display: block;
 }
 
-/* Remove default dropdown toggle arrow */
 .dropdown-toggle::after {
     display: none !important;
 }
 
-/* Dropdown item styles */
 .dropdown-item {
     color: #ffffff;
     background-color: black;
-    font-family: 'century gothic';
+    font-family: century gothic;
     font-size: 10px;
 }
 
-/* Hover and focus styles for dropdown items */
 .dropdown-item:focus,
 .dropdown-item:hover {
     color: #ffffff !important;
+    font-family: century gothic;
     background-color: black;
 }
 
-/* Apply the 3D effect when dropdown item is clicked */
+/* Apply the 3D effect when the item is clicked */
 .dropdown-item {
     transition: transform 0.2s;
 }
@@ -83,7 +75,7 @@ body {
     transform: translateY(3px);
 }
 
-/* Media query for larger screens */
+/* media querires for the dropdown */
 @media (min-width: 992px) {
     .navbar-expand-lg .navbar-nav .dropdown-menu {
         position: absolute;
@@ -91,7 +83,7 @@ body {
     }
 }
 
-/* Styles for arrows container */
+/* Styles for the arrows */
 .arrows-container {
     display: flex;
     justify-content: space-between;
@@ -100,19 +92,24 @@ body {
     left: 51%;
     transform: translateX(-50%);
     width: 100%;
+}
+  
+  #left_arrow img, #right_arrow img {
+    height: 30%
+    
+  }
+
+/* styles for the icon-bar */
+.icon-bar {
+    position: fixed;
+    top: 41%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 2.2%;
     z-index: 10;
 }
 
-/* Arrow styles */
-#left_arrow img,
-#right_arrow img {
-    height: 30%;
-    z-index: 10;
-}
-
-
-
-/* Icon bar links styles */
 .icon-bar a {
     display: block;
     text-align: center;
@@ -123,90 +120,47 @@ body {
     margin-bottom: 10px;
 }
 
-/* Hover styles for icon bar links */
 .icon-bar a:hover {
     color: var(--primary-color);
 }
 
-
 /* Welcome text styles for smaller screens (iPhone 5, 6/7/8, 6/7/8 Plus) */
 @media (max-width: 414px) {
-    .background-image {
-        background-image: url(./assets/images/home/tower.png);
-        background-size: cover !important;
-        background-repeat: no-repeat;
-        position: absolute;
-        height: 110vh;
-    }
-
     .arrows-container {
         display: flex;
         position: fixed;
         top: 52%;
-        z-index: 10;
-
     }
-
-    #left_arrow img {
-        height: 20%;
-        z-index: 10;
-    }
-
-    #right_arrow img {
+      
+      #left_arrow img {
+        height: 30%
+        
+      }
+      #right_arrow img{
         position: fixed;
         left: 73%;
-        height: 20%;
-        z-index: 10;
-    }
+        height: 30%;
+      }
 
     .icon-bar {
         position: absolute;
-        top: 25%;
+        top: 45%;
         transform: translateY(-50%);
         right: 2%;
         z-index: 10;
     }
-
+    section.footer {
+        margin-top: 50%;
+    }
 }
 
-/* media from 414 to 767px small-col-sm*/
-@media (min-width: 414px) and (max-width: 767px) {
-
-    .iso-certificates {
-        display: flex;
-        justify-content: center;
-        column-gap: 2%;
-
-    }
-
-    .arrows-container {
-        display: flex;
-        justify-content: space-around;
-        position: fixed;
-        top: 40%;
-        left: 41%;
-        transform: translateX(-50%);
-        width: 146%;
-        z-index: 10;
-    }
-
-    #left_arrow img,
-    #right_arrow img {
-        height: 14%;
-        position: relative;
-        z-index: 10;
-    }
-
-}
-
-/* ISO Certificates */
 .iso-certificates {
     display: flex;
     justify-content: center;
     column-gap: 2%;
 }
 
-/* Index Page Styles */
+/* index page styles */
 /* Welcome text styles for larger screens */
 .welcometext {
     margin-top: 5em;
@@ -233,108 +187,18 @@ span.welcomeNext {
     color: #e38724;
     margin-right: 4%;
 }
-
-/* Media queries between tablet and PC (768px and 1336px) */
-/* Tablets in portrait mode */
-@media (min-width: 414px) and (max-width: 767px) {
-    .welcometext {
-        margin-top: 5em;
-        display: flex;
-        justify-content: center;
-    }
-
-    .welcometext h1 {
-        font-size: 42px !important;
-        line-height: 48px !important;
-        color: #32373c;
-    }
-
-    span.welomeTo {
-        font-size: 16px;
-        font-weight: lighter;
-        color: var(--secondary-color);
-    }
-
-    .icon-bar {
-        position: fixed;
-        top: 40%;
-        right: 22.2%;
-        transform: translateY(-50%);
-        z-index: 10;
-    }
-
-    .icon-bar a {
-        display: block;
-        text-align: center;
-        padding: 3px;
-        transition: all 0.3s ease;
-        color: white;
-        font-size: 15px;
-        margin-bottom: -2px
-    }
-
-
+/* media queries betweeen tab and pc (767px and 998px) */
+@media (min-width: 767px) and (max-width:992px) {
     .iso-certificates {
-        display: flex;
-        justify-content: center;
-        column-gap: 2%;
-        margin-top: 50%;
+        margin-top: 46%;
     }
-
-    .arrows-container {
-        display: flex;
-        justify-content: space-around;
-        position: fixed;
-        top: 58%;
-        left: 38%;
-        transform: translateX(-50%);
-        width: 153%;
-        z-index: 10;
-    }
-
-    #left_arrow img,
-    #right_arrow img {
-        height: 26%;
-        position: fixed;
-        z-index: 10;
-    }
-
-
-}
-
-@media (min-width: 768px) and (max-width: 1024px) {
-    .iso-certificates {
-        margin-top: 70%;
-    }
-
-    .icon-bar {
-        position: fixed;
-        top: 31%;
-        right: 22.2%;
-        transform: translateY(-50%);
-        z-index: 10;
-    }
-
-}
-
-
-/* Tablets in landscape mode */
-
-@media (min-width: 1025px) and (max-width: 1366px) {
-    .icon-bar {
-        position: fixed;
-        top: 41%;
-        right: 2.2%;
-        transform: translateY(-50%);
-        z-index: 10;
-    }
-}
-
+    
+  }
 /* Welcome text styles for smaller screens (iPhone 5, 6/7/8, 6/7/8 Plus) */
 @media (max-width: 414px) {
-    .col-10 {
+    .col-12 {
         display: flex !important;
-        justify-content: center !important;
+        justify-content: flex-end !important;
     }
 
     .welcometext {
@@ -354,12 +218,15 @@ span.welcomeNext {
     }
 
     span.welcomeNext {
+        /* font-size: 67px; */
         color: #e38724;
         margin-right: 4%;
     }
+
 }
 
-/* Styles for the ts particles */
+/* styles for the particles */
+/* styles for the ts particles */
 canvas {
     display: block;
 }
@@ -374,8 +241,8 @@ canvas {
     position: absolute;
 }
 
-/* Styles for the about us page */
-/* Styles for "Who Are We" text */
+/* styles for the about us page */
+/* styles for he who are we text */
 .welcometext_about {
     display: flex;
     align-items: flex-start;
@@ -405,24 +272,22 @@ canvas {
     top: -20px;
 }
 
+
 span .dots {
     font-size: 16px;
 }
-
-/* Particles in about us styles */
+/* particles in about us styles */
 .polygons {
     position: relative;
     width: 100%;
     height: 100%;
 }
-
 .polygons_banner_views {
     position: relative;
     width: 100%;
     height: 100%;
     overflow: hidden;
 }
-
 .particle-class {
     position: absolute;
     top: 0;
@@ -430,19 +295,19 @@ span .dots {
     width: 100%;
     height: 100%;
 }
-
 span.js-count-particles {
     display: none !important;
 }
-
-/* Titles styles in about us page */
+/* titles styles in about us page */
 .mission-title {
     font-family: century gothic;
     color: #7F6541;
+    letter-spacing: 700;
     letter-spacing: 7px;
     font-size: 21pt;
     border-block-end: 1px solid #3E4143;
 }
+
 
 /* Welcome text styles for smaller screens (iPhone 5, 6/7/8, 6/7/8 Plus) */
 @media (max-width: 414px) {
@@ -476,20 +341,20 @@ span.js-count-particles {
     }
 }
 
-/* Chairman Image Styles */
+/* styles for the chairman image */
 #main_about_us .card_img {
+    border: 1px solid #e38724;
     width: 335px;
     height: 374px;
+    padding: 2px;
     margin: 0 auto;
     margin-top: 50%;
-    border: 1px solid #e38724;
-    padding: 2px;
 }
 
 #main_about_us .card_img img {
     width: 331px;
-    height: 369px;
     margin: 0 auto;
+    height: 369px;
     object-fit: cover;
     border: 1px solid #e38724;
 }
@@ -497,14 +362,13 @@ span.js-count-particles {
 #main_about_us .card-footer {
     border: 0;
     background: transparent;
-    text-align: center;
     font-size: 14px;
+    text-align: center;
     font-style: italic;
     font-family: var(--font-family);
     color: var(--secondary-color);
 }
 
-/* Card Styles */
 .card {
     background-color: transparent;
     display: flex;
@@ -537,9 +401,10 @@ span.card-text {
     font-size: 16px;
     text-transform: capitalize;
     color: var(--secondary-color);
+
 }
 
-/* Paragraph Styles for Big Screens */
+/* styles for the paragraphs for big screens */
 .main_content_about_us.about-para p {
     line-height: 18px;
     text-align: justify;
@@ -549,12 +414,8 @@ span.card-text {
     color: var(--secondary-color);
     text-transform: none;
 }
-.image-container {
-    display: flex;
-    justify-content: space-evenly;
-}
 
-/* Eng-Nazih Paragraph Styles */
+/* styles for the eng-nazih */
 .sing_aboutus p {
     font-size: 18px;
     font-weight: bold;
@@ -562,15 +423,8 @@ span.card-text {
     justify-content: flex-end;
     color: var(--primary-color);
 }
-p.mission-para.card {
-    color: var(--secondary-color);
-}
-h1{
-    font-style: var(--font-family);
-    color: var(--secondary-color);
-    font-weight: 900;
-    text-transform: none;
-}
+/* tsparticles container */
+
 /* Welcome text styles for smaller screens (iPhone 5, 6/7/8, 6/7/8 Plus) */
 @media (max-width: 414px) {
     #main_about_us .card_img {
@@ -583,22 +437,14 @@ h1{
 
     #main_about_us .card_img img {
         width: 240px;
-        height: 300px;
         margin: 0 auto;
+        height: 300px;
         object-fit: cover;
         border: 1px solid #e38724;
     }
 
     #main_about_us .card {
         background-color: transparent;
-        display: flex;
-        justify-content: center;
-        padding: 10%;
-        line-height: 1.3;
-        text-align: center;
-        font-size: 14px;
-        font-family: var(--font-family);
-        color: var(--secondary-color);
     }
 
     div#arabic {
@@ -625,6 +471,7 @@ h1{
         font-size: 11px;
         text-transform: capitalize;
         color: var(--secondary-color);
+
     }
 
     #main_about_us .card-footer {
@@ -645,21 +492,30 @@ h1{
         font-family: var(--font-family);
         color: var(--secondary-color);
     }
-
-    .mission-title {
+    .mission-title{
         display: flex;
         justify-content: center;
     }
-
-    p.mission-para.card {
-        padding-left: 10%;
+    /* our vision/mision/values styles */
+    /* .mission-para p{
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        line-height: 1.3;
         text-align: center;
-        padding-right: 10%;
         font-size: 14px;
+        font-family: var(--font-family);
         color: var(--secondary-color);
-    }
-
-    #organization-structure{
-        content: url('./assets/images/about/new-chart.jpg');
+    } */
+    .card {
+        display: flex;
+        justify-content: center;
+        padding: 10%;
+        line-height: 1.3;
+        text-align: center;
+        font-size: 14px;
+        font-family: var(--font-family);
+        color: var(--secondary-color);
+        
     }
 }

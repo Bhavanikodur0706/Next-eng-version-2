@@ -18,10 +18,35 @@
       position: absolute;
     }
 
-    @media (max-width: 767px) {
+    @media (min-width: 568px) and (max-width: 767px) {
+      .background-image {
+        background-image: url(./assets/images/home/tower.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+      }
+    }
+
+    @media (min-width: 767px) and (max-width:992px) {
       .background-image {
         background-size: cover;
+        height: 110vh;
       }
+
+    }
+    .footer .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .background-image {
+        display: flex;
+        flex-direction: column;
+        min-height: 110vh; /* Ensures the section takes at least the full viewport height */
+    }
+
+    .footer {
+        margin-top: auto; /* Pushes the footer to the bottom */
     }
 
     /* Default styles for larger screens */
@@ -126,9 +151,9 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-4">
+      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-2">
       </div>
-      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-8 col-12">
+      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-10">
         <div class="welcometext blur-select " data-translate="welcome_heading" id="bannertext">
           <h1>
             <span class="wel">WELCOME</span><br />
@@ -142,11 +167,10 @@
     </div>
     <div class="container-fluid arrows-container">
       <div id="left_arrow" class="blur-select">
-        <a href="contactus-no-change.html"><img src="./assets/images/left-arrow.png" alt="left-arrow"
-            ></a>
+        <a href="contactus-no-change.html"><img src="./assets/images/left-arrow.png" alt="left-arrow"></a>
       </div>
       <div id="right_arrow" class="blur-select">
-        <a href="about.html"><img src="./assets/images/right-arrow.png" /></a>
+        <a href="about.html"><img src="./assets/images/right-arrow.png" alt="right-arrow" /></a>
       </div>
     </div>
     <div class="icon-bar blur-select">
@@ -166,8 +190,8 @@
       </div>
 
     </div>
-    <section class="footer ">
-      <div class="row mt-1">
+    <section class="footer" style="position: absolute; bottom: 0; width: 100%;">
+      <div class="row mb-3">
         <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3"></div>
         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 iso-certificates">
           <img src="./assets/images/home/1.png" alt="iso-1" style="width: 8%;" class="iso-1">
@@ -178,6 +202,18 @@
       </div>
     </section>
   </section>
+  <!-- <section class="footer">
+    <div class="row mt-1">
+      <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3"></div>
+      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 iso-certificates">
+        <img src="./assets/images/home/1.png" alt="iso-1" style="width: 8%;" class="iso-1">
+        <img src="./assets/images/home/2.png" alt="iso-2" style="width: 8%;" class="iso-2">
+        <img src="./assets/images/home/3.png" alt="iso-3" style="width: 8%;" class="iso-3">
+      </div>
+      <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3"></div>
+    </div>
+</section> -->
+
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.1/umd/popper.min.js"
     crossorigin="anonymous"></script>

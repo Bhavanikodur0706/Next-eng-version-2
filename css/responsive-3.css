@@ -1,0 +1,294 @@
+/* Reset default padding and margin for all elements */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Global variables */
+:root {
+    --primary-color: #e38724;
+    --secondary-color: #a7a9ac;
+    --font-family: 'century gothic';
+}
+
+/* Apply font-family to the entire HTML */
+html {
+    font-family: var(--font-family);
+}
+
+/* Button container styles */
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    margin: 0;
+    transition: transform 0.2s;
+}
+
+/* Translation button styles */
+.btn-translation {
+    background-color: var(--primary-color);
+    padding: 0 1%;
+}
+
+/* Body styles */
+body {
+    font-family: var(--font-family);
+    text-transform: uppercase;
+    background-color: #00070d;
+}
+
+/* Active link styles */
+.active {
+    color: white;
+}
+
+/* Dropdown styles */
+/* Show dropdown menu on hover for main dropdowns */
+.navbar-nav .nav-item.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+
+/* Show dropdown menu on hover for sub-dropdowns */
+.navbar-nav .nav-item.dropdown .dropdown-menu .dropend:hover > .dropdown-menu {
+    display: block;
+}
+
+/* Remove default dropdown toggle arrow */
+.dropdown-toggle::after {
+    display: none !important;
+}
+
+/* Dropdown item styles */
+.dropdown-item {
+    color: #ffffff;
+    background-color: black;
+    font-family: 'century gothic';
+    font-size: 10px;
+}
+
+/* Hover and focus styles for dropdown items */
+.dropdown-item:focus,
+.dropdown-item:hover {
+    color: #ffffff !important;
+    background-color: black;
+}
+
+/* Apply the 3D effect when dropdown item is clicked */
+.dropdown-item {
+    transition: transform 0.2s;
+}
+
+.dropdown-item:active {
+    transform: translateY(3px);
+}
+/* Media query for larger screens */
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .dropdown-menu {
+        position: absolute;
+        background-color: transparent;
+    }
+}
+/* Index page styles */
+/* Smallest screens */
+@media (max-width: 414px) {
+    .col-10 {
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    .welcometext {
+        margin-top: 1em;
+    }
+
+    .welcometext h1 {
+        font-size: 42px !important;
+        line-height: 48px !important;
+        color: #32373c;
+        margin-left: -22%;
+    }
+
+    span.welomeTo {
+        font-size: 16px;
+        font-weight: lighter;
+        color: var(--secondary-color);
+    }
+
+    span.welcomeNext {
+        color: #e38724;
+        margin-right: 4%;
+    }
+    .background-image {
+    height: 110vh;
+    background-size: cover;
+    }
+    .icon-bar {
+        position: fixed;
+        top: 31%;
+        right: 23.2%;
+        transform: translateY(-50%);
+        z-index: 10;
+    }
+}
+
+/* above 414px and below 767px , small screens*/
+@media (min-width: 414px) and (max-width: 767px) {
+    .icon-bar {
+        position: fixed;
+        top: 31%;
+        right: 23.2%;
+        transform: translateY(-50%);
+        z-index: 10;
+    }
+    .iso-certificates {
+        display: flex;
+        justify-content: center;
+        column-gap: 2%;
+        margin-top: 50%;
+    }
+    .arrows-container {
+        display: flex;
+        justify-content: space-around;
+        position: fixed;
+        top: 40%;
+        left: 41%;
+        transform: translateX(-50%);
+        width: 146%;
+        z-index: 10;
+    }
+    #left_arrow img, #right_arrow img {
+        height: 14%;
+        position: relative;
+        z-index: 10;
+    }
+
+}
+/* tabs screens and pc from 768px to 1024px */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .iso-certificates {
+        margin-top: 46%;
+    }
+    .icon-bar{
+        position: fixed;
+        top: 31%;
+        right: 2.2%;
+        transform: translateY(-50%);
+        z-index: 10; 
+    }
+    
+}
+
+/* Tablets in landscape mode from 1025px to 1366px*/
+
+@media (min-width: 1025px) and (max-width: 1366px) {
+    .icon-bar{
+        position: fixed;
+        top: 41%;
+        right: 2.2%;
+        transform: translateY(-50%);
+        z-index: 10; 
+    }
+}
+
+/* default styles for index page */
+/* Styles for arrows container */
+.arrows-container {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 25%;
+    left: 51%;
+    transform: translateX(-50%);
+    width: 100%;
+    z-index: 10;
+}
+/* Arrow styles */
+#left_arrow img,
+#right_arrow img {
+    height: 30%;
+    z-index: 10;
+}
+@media (max-width: 414px) {
+.arrows-container {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top: 45%;
+    left: 41%;
+    transform: translateX(-50%);
+    width: 150%;
+    z-index: 10;
+}
+#left_arrow img, #right_arrow img {
+    height: 12%;
+    z-index: 10;
+}
+}
+
+
+
+
+
+
+/* Icon bar links styles */
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 3px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Hover styles for icon bar links */
+.icon-bar a:hover {
+    color: var(--primary-color);
+}
+/* ISO Certificates */
+.iso-certificates {
+    display: flex;
+    justify-content: center;
+    column-gap: 2%;
+}
+
+/* Index Page Styles */
+/* Welcome text styles for larger screens */
+.welcometext {
+    margin-top: 5em;
+}
+
+.welcometext h1 {
+    color: #32373c;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 61px;
+}
+
+span.welomeTo {
+    font-size: 36px;
+    font-weight: lighter;
+    color: var(--secondary-color);
+    display: inline-block;
+    position: relative;
+    top: -10px;
+    right: 3%;
+}
+
+span.welcomeNext {
+    color: #e38724;
+    margin-right: 4%;
+}
+canvas {
+    display: block;
+}
+
+#tsparticles {
+    width: 100%;
+    height: 100%;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    position: absolute;
+}
