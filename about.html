@@ -26,7 +26,7 @@
     }
 
     @media (max-width: 414px) {
-      .arrows-container {
+      .arrows-container-about {
         display: flex;
         position: fixed;
         top: 56%;
@@ -39,10 +39,12 @@
 
     #image-eye:hover {
       content: url('./assets/images/about/eye-open.png');
+      transition: background-image 0.3s ease;
     }
 
     .image-container:hover {
       content: url('./assets/images/about/hit-image.png');
+      transition: background-image 0.3s ease;
       opacity: 30%;
       width: 50%;
     }
@@ -92,7 +94,19 @@
       content: url('./assets/images/about/team-tree/8-1.webp');
       transition: background-image 0.3s ease;
     }
-
+    /* replacing content of organization structure for small devices */
+    @media (max-width: 776px) {
+      #organization-structure{
+        display: flex;
+        justify-content: center;
+        content: url('./assets/images/about/new-chart.jpg');
+        width: 50%;
+      }
+      #organization-structure:hover{
+        scale: 1.1;
+      }
+    }
+    
 
 
     /* Default styles for larger screens */
@@ -185,7 +199,7 @@
       </div>
     </nav>
   </div>
-  <section>
+  <!-- <section>
     <div class="container">
       <div class="row">
         <div class="col-lg-12 col-md-12 col-xl-12">
@@ -196,12 +210,36 @@
         </div>
       </div>
     </div>
+  </section> -->
+  <div class="icon-bar blur-select">
+    <a href="https://www.linkedin.com/company/next-engineering-consultants/" class="linkedin" target="_blank"><i
+            class="fab fa-linkedin"></i></a>
+    <a href="https://www.instagram.com/next.engineering.consultants/" class="instagram" target="_blank"><i
+            class="fab fa-instagram"></i></a>
+    <a href="https://www.facebook.com/NEXT.Engineering.Consultants" class="facebook" target="_blank"><i
+            class="fab fa-facebook"></i></a>
+    <a href="#" class="whatsapp"><i class="fab fa-whatsapp"></i></a>
+    <a href="#" class="comment-dots"><i class="far fa-comment-dots"></i></a>
+</div>
+  <section>
+    <div class="row">
+      <div class="col-xl-2 col-lg-2 col-md-2 col-sm-4"></div>
+      <div class="col-xl-10 col-lg-10 col-md-10 col-sm-8">
+        <div class="container-fluid d-flex">
+          <div class="welcometext_about blur-select" data-translate="who">
+            <h1>WHO <br /><span class="welcomeNext">ARE</span><span class="donew">WE<span
+                  class="dots">&#9632;&#9632;</span></span></h1>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3"></div>
+    </div>
   </section>
   <section id="main_about_us" class="about_us_height mt-5">
     <div class="container-fluid">
       <div class="row" id="arabic">
         <div class="row">
-          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+          <div class="col-xl-4 col-lg-4 col-md-3 col-sm-4">
             <div class="polygons">
               <div class="polygons_banner_views">
                 <div id="particle-container" class="particle-class"></div>
@@ -211,13 +249,13 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-4 col-xl-4">
+          <div class="col-lg-4 col-md-6 col-xl-4 col-sm-4">
             <div class="card" style="border: none;">
               <div class="card_img blur-select">
                 <img src="./assets/images/about/pic-02.webp" class="card-img-top" alt="chairman-pic" width="240"
                   height="300">
               </div>
-              <div class="card-body">
+              <div class="card-body d-flex justify-content-center p-0">
                 <h5 class="card-title" data-translate="Eng.NAZIH">ENG.NAZIH MOHAMMED MARKIZ</h5>
                 <span class="card-text" data-translate="Founder"><i>Founder</i></span>
               </div>
@@ -231,7 +269,7 @@
               </div>
             </div>
           </div>
-          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+          <div class="col-xl-4 col-lg-4 col-md-3 col-sm-4">
             <div class="polygons">
               <div class="polygons_banner_views">
                 <div id="particle-container2" class="particle-class">
@@ -246,7 +284,7 @@
         <div class="row">
           <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1"></div>
           <div class="col-lg-10 col-md-10 col-xl-10 col-sm-10 fade-in-section">
-            <div class="main_content_about_us about-para" style="height: 100vh;">
+            <div class="main_content_about_us about-para" >
               <div data-translate="paragraph1">
                 <p>
                   <b>NEXT Engineering Consultants</b> founded by <b>Eng. Nazih</b> and established
@@ -297,7 +335,7 @@
                 </p>
               </div>
               <div class="sing_aboutus" data-translate="eng_Nazih">
-                <p style="color: #e38724;">
+                <p>
                   - ENG.NAZIH MOHAMMED MARKIZ
                 </p>
               </div>
@@ -308,12 +346,12 @@
       </div>
     </div>
   </section>
-  <div class="container-fluid arrows-container">
-    <div id="left_arrow" class="blur-select">
-      <a href="index.html"><img src="./assets/images/left-arrow.png" alt="left-arrow"></a>
+  <div class="container-fluid arrow-container">
+    <div class="blur-select left-arrow-class"> 
+      <a href="index.html"><img src="./assets/images/left-arrow.png" alt="left-arrow" class="left-arrow-img"></a>
     </div>
     <div id="right_arrow" class="blur-select">
-      <a href="about.html"><img src="./assets/images/right-arrow.png" /></a>
+      <a href="services.html"><img src="./assets/images/right-arrow.png" alt="right-arrow" class="right-arrow-img"></a>
     </div>
   </div>
 
@@ -321,14 +359,14 @@
     <div class="row">
       <div class="col-lg-8 col-md-8 col-xl-8">
         <div class="row">
-          <div class="xl-1 col-lg-1 col-md-1 col-3"></div>
-          <div class="col-lg-4 col-md-4 col-xl-4 col-6">
+          <div class="xl-1 col-lg-1 col-md-1 col-sm-1 col-2"></div>
+          <div class="col-lg-4 col-md-4 col-xl-4 col-sm-5 col-10">
             <div class="image-eyecontainer">
               <img id="image-eye" class="img-fluid" src="./assets/images/about/eye-close.png" alt="eyeclose"
-                style="opacity: 30%;">
+                style="opacity: 30%;width: 80%;">
             </div>
           </div>
-          <div class="col-lg-7 col-md-7 col-xl-7" style="text-align: justify;">
+          <div class="col-lg-7 col-md-7 col-xl-7 col-sm-5 mt-3" style="text-align: justify;">
             <h1 class="mission-title">OUR VISION</h1>
             <p class="mission-para card">
               We constantly strive to develop our rating among the largest architectural and engineering
@@ -338,7 +376,7 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-4 col-md-4 col-xl-4 d-flex justify-content-center align-items-center">
+      <div class="col-lg-4 col-md-4 col-xl-4 col-sm-1 d-flex justify-content-center align-items-center">
         <div class="polygons">
           <div class="polygon-banner-mission">
             <div id="particle-container3" class="particle-class"></div>
@@ -364,8 +402,8 @@
       </div>
       <div class="col-lg-8 col-md-8 col-xl-8">
         <div class="row">
-          <div class="xl-1 col-lg-1 col-md-1 col-3"></div>
-          <div class="col-lg-4 col-md-4 col-xl-4 col-9">
+          <div class="xl-1 col-lg-1 col-md-1 col-sm-1 col-2"></div>
+          <div class="col-lg-4 col-md-4 col-xl-4 col-sm-5 col-10">
             <div class="image-container">
               <img id="image-bull" src="./assets/images/about/Mission Circle-32.png" alt="Bullseye 1" width="40%"
                 style="opacity: 30%;">
@@ -374,7 +412,7 @@
             </div>
 
           </div>
-          <div class="col-lg-6 col-md-6 col-xl-6 col-12" style="text-align: justify;">
+          <div class="col-lg-6 col-md-6 col-xl-6 col-sm-5" style="text-align: justify;">
             <h1 class="mission-title">OUR MISSION</h1>
             <p class="mission-para card">
               To maintain the highest levels of professionalism, integrity, honesty, and fairness in our
@@ -382,7 +420,7 @@
               with our suppliers, subcontractors, professional associates, and customers.
             </p>
           </div>
-          <div class="col-xl-1 col-lg-1 col-md-1"></div>
+          <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1"></div>
 
         </div>
       </div>
@@ -402,14 +440,14 @@
     <div class="row">
       <div class="col-lg-8 col-md-8 col-xl-8">
         <div class="row">
-          <div class="col-xl-1 col-lg-1 col-md-1 col-3"></div>
-          <div class="col-lg-4 col-md-4 col-xl-4 col-6">
+          <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1"></div>
+          <div class="col-lg-4 col-md-4 col-xl-4 col-sm-5">
             <div class="diamond-container d-flex justify-content-center">
-              <img src="./assets/images/about/ICON-24.png" class="img-fluid diamond-image" alt="Diamond"
-                style="opacity: 30%;">
+              <img src="./assets/images/about/ICON-24.png" class=" diamond-image" alt="Diamond"
+                style="opacity: 30%;width: 60%;">
             </div>
           </div>
-          <div class="col-lg-7 col-md-7 col-xl-7" style="text-align: justify;">
+          <div class="col-lg-7 col-md-7 col-xl-7 col-sm-5" style="text-align: justify;">
             <h1 class="mission-title">OUR VALUES</h1>
             <p class="mission-para card">
               We constantly strive to develop our rating among the largest architectural and engineering
@@ -419,7 +457,7 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-4 col-md-4 col-xl-4 d-flex justify-content-center align-items-center">
+      <div class="col-lg-4 col-md-4 col-xl-4 col-sm-1 d-flex justify-content-center align-items-center">
         <div class="polygons">
           <div class="polygon-banner-mission">
             <div id="particle-container5" class="particle-class"></div>
@@ -447,8 +485,8 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-xl-3 col-lg-3 col-md-3 col-2"></div>
-      <div class="col-xl-6 col-lg-6 col-md-6 col-8">
+      <div class="col-xl-3 col-lg-3 col-md-3 col-1"></div>
+      <div class="col-xl-6 col-lg-6 col-md-6 col-10">
         <div class="container-fluid d-flex my-5" style="justify-content: space-around;">
           <div class="card" style="width: 7rem; background-color: transparent;">
             <img src="./assets/images/about/Dr.Nizar.png" class="card-img-top image-card-2" alt="image" width="70%">
@@ -462,35 +500,35 @@
         </div>
 
       </div>
-      <div class="col-xl-3 col-lg-3 col-md-3 col-2"></div>
+      <div class="col-xl-3 col-lg-3 col-md-3 col-1"></div>
     </div>
     <div class="row mt-3">
-      <div class="col-xl-2 col-lg-2 col-md-2 col-2"></div>
-      <div class="col-xl-8 col-lg-8 col-md-8 col-8">
+      <div class="col-xl-2 col-lg-2 col-md-2 col-1"></div>
+      <div class="col-xl-8 col-lg-8 col-md-8 col-10">
         <div class="contaier-fluid d-flex" style="justify-content: space-around;">
-          <div class="card" style="width: 6rem; background-color: transparent;">
+          <div class="card" style="width: 5rem; background-color: transparent;">
             <img src="./assets/images/about/abudhabi.png" class="card-img-top image-card-5" alt="image" width="70%">
           </div>
-          <div class="card" style="width: 6rem; background-color: transparent;">
+          <div class="card" style="width: 5rem; background-color: transparent;">
             <img src="./assets/images/about/fujairah.png" class="card-img-top image-card-6" alt="image" width="70%">
           </div>
-          <div class="card" style="width: 6rem; background-color: transparent;">
+          <div class="card" style="width: 5rem; background-color: transparent;">
             <img src="./assets/images/about/al-ain.png" class="card-img-top image-card-7" alt="image" width="70%">
           </div>
-          <div class="card" style="width: 6rem; background-color: transparent;">
+          <div class="card" style="width: 5rem; background-color: transparent;">
             <img src="./assets/images/about/rak.png" class="card-img-top image-card-8" alt="image" width="70%">
           </div>
         </div>
       </div>
-      <div class="col-xl-2 col-lg-2 col-md-2 col-2"></div>
+      <div class="col-xl-2 col-lg-2 col-md-2 col-1"></div>
     </div>
 
   </section>
-  <section class="my-5" id="organization-structure">
+  <section class="my-5">
     <div class="container-fluid d-flex justify-content-center my-5">
       <h1>Organization Structure</h1>
     </div>
-    <div class="container-fluid org-struct">
+    <div class="container-fluid" id="organization-structure">
       <div class="row">
         <div class="col-xl-1 col-lg-1 col-md-1"></div>
         <div class="col-xl-10 col-lg-10 col-md-10 ">

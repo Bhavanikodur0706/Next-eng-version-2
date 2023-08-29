@@ -1,0 +1,1391 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="/assets/imgs/fevicon.webp">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        crossorigin="anonymous">
+
+
+    <title>Services</title>
+    <style>
+        p {
+            margin-left: 11%;
+            margin-right: 10%;
+            opacity: 100%;
+            font-family: century gothic;
+        }
+
+        /* styles for the titles to attach the screen  */
+        .left-title {
+            display: flex;
+            position: relative;
+            left: -32px;
+
+        }
+
+        .right-title {
+            display: flex;
+            position: relative;
+            right: -32%;
+        }
+
+
+
+
+        /* popupstyles for service images */
+        .services:hover {
+            transition: 0.3s;
+            transform: scale(1.1);
+        }
+
+        .blur {
+            backdrop-filter: blur(3px);
+            filter: blur(3px);
+        }
+
+        /* Styles for the active tab and its dropdown */
+        .nav-item.non-blur,
+        .nav-item.non-blur .dropdown-menu,
+        .non-blur {
+            backdrop-filter: none !important;
+            filter: none !important;
+        }
+
+        .read-more-link {
+            color: grey !important;
+        }
+
+        .read-more-link:hover {
+            color: grey !important;
+        }
+
+        a {
+            color: none !important;
+            text-decoration: none !important;
+        }
+
+        .space-semi-circle {
+            width: 900px;
+            height: 900px;
+            background: rgba(0, 0, 0, 0.1);
+            border-radius: 50%;
+            position: relative;
+            margin: 50px auto;
+            box-shadow: 0 -1px 25px rgba(251, 249, 249, 0.5);
+            clip-path: polygon(0 0, 100% -6%, 100% 50%, 0% 50%);
+        }
+
+        span.js-count-particles {
+            display: none !important;
+        }
+
+        .particle-class {
+            position: absolute;
+            border-radius: 50%;
+            top: 40%;
+            left: 20%;
+            width: 652px;
+            height: 323px;
+            z-index: 1;
+            pointer-events: none;
+        }
+
+        /* adjusting text inside the semi circle for all devices */
+        @media (min-width: 992px) {
+            .row-1 {
+                justify-content: space-evenly;
+            }
+        }
+
+        @media (min-width: 992px) {
+            .row-2 {
+                margin-top: 5%;
+                justify-content: space-evenly;
+            }
+
+            .row-3 {
+                justify-content: space-evenly;
+                margin-top: 4%;
+            }
+
+            .row-4 {
+                margin-top: 2%;
+                justify-content: space-evenly;
+            }
+
+            .row-5 {
+                margin-top: 6%;
+                justify-content: space-evenly;
+            }
+            .row-6{
+                justify-content: space-between;
+            }
+        }
+
+        @media (min-width: 600px) and (max-width: 768px) {
+            .row-1 {
+                margin-top: 3%;
+                justify-content: center;
+                column-gap: 14%;
+            }
+
+            h5 {
+                font-size: 14px;
+            }
+
+            h3 {
+                font-size: 14px;
+                font-weight: bold !important;
+            }
+
+            .row-4 {
+                justify-content: space-between;
+            }
+
+            .row-5 {
+                margin-top: 3%;
+                justify-content: space-around;
+            }
+            .row-6{
+                justify-content: space-between;
+            }
+        }
+
+        @media (max-width: 576px) {
+            h5 {
+                font-size: 11px !important;
+            }
+
+            .row-1 {
+                justify-content: center;
+                column-gap: 8%;
+                margin-top: 3%;
+            }
+        }
+
+        @media (min-width: 208px) and (max-width: 320px) {
+
+            h5,
+            h3 {
+                font-size: 7px !important;
+            }
+
+
+            .row-2 {
+                margin-top: 4%;
+                column-gap: 24%;
+            }
+
+            .row-3 {
+                margin-top: 3%;
+                justify-content: space-between;
+            }
+
+            .row-4 {
+                justify-content: space-between;
+            }
+            .row-6{
+                justify-content: space-between;
+            }
+        }
+
+        @media (min-width: 320px) and (max-width: 479px) {
+            h5 {
+                font-size: 11px !important;
+            }
+
+            h3 {
+                font-size: 12px !important;
+                font-weight: bold !important;
+            }
+
+            .row-2 {
+                justify-content: space-evenly;
+                margin-top: 7%;
+            }
+
+            .row-3 {
+                margin-top: 3%;
+                justify-content: space-between;
+            }
+
+            .row-4 {
+                justify-content: space-between;
+            }
+
+            .row-5 {
+                margin-top: 3%;
+                justify-content: space-evenly;
+            }
+            .row-6{
+                justify-content: space-between;
+            }
+        }
+
+        @media (min-width: 480px) and (max-width: 576px) {
+            .row-2 {
+                justify-content: space-evenly;
+                margin-top: 3%;
+            }
+
+            .row-3 {
+                margin-top: 3%;
+                justify-content: space-evenly;
+            }
+
+            .row-4 {
+                justify-content: space-around;
+            }
+
+            h3 {
+                font-size: 11px !important;
+            }
+
+            .row-5 {
+                margin-top: 4%;
+                justify-content: space-around;
+            }
+            .row-6{
+                justify-content: space-between;
+            }
+        }
+
+        @media (min-width: 576px) and (max-width: 768px) {
+            .row-2 {
+                justify-content: space-between;
+                margin-top: 6%;
+            }
+
+            .row-3 {
+                margin-top: 2%;
+                justify-content: space-around;
+            }
+            .row-6{
+                justify-content: space-between;
+            }
+
+        }
+
+        @media (min-width: 768px) and (max-width: 850px) {
+            .row-1 {
+                column-gap: 6%;
+                margin-top: 2%;
+            }
+
+            .row-2 {
+                justify-content: space-evenly;
+                margin-top: 6%;
+            }
+
+            .row-3 {
+                margin-top: 5%;
+                justify-content: space-around;
+            }
+
+            .row-4 {
+                justify-content: space-around;
+            }
+
+            .row-5 {
+                margin-top: 4%;
+                justify-content: space-around;
+            }
+            .row-6{
+                justify-content: space-between;
+            }
+        }
+
+        @media (min-width: 850px) and (max-width: 992px) {
+            .row-1 {
+                column-gap: 21%;
+                margin-top: 2%;
+            }
+
+            .row-2 {
+                justify-content: space-evenly;
+                margin-top: 5%;
+            }
+
+            .row-3 {
+                margin-top: 4%;
+                justify-content: space-around;
+            }
+
+            .row-4 {
+                justify-content: space-around;
+            }
+
+            .row-5 {
+                margin-top: 4%;
+                justify-content: space-around;
+            }
+            .row-6{
+                justify-content: space-between;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="#">
+        <section id="#">
+            <div class="row">
+                <div class="container-fluid button-container">
+                    <button type="button" class="btn-translation text-white">En / عربى</button>
+                </div>
+            </div>
+        </section>
+        <section id="#">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="home-6.html" style="margin-left: 1%;">
+                        <img src="./assets/images/logo.webp" alt="Logo" width="150" height="auto">
+                    </a>
+                    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link " href="home-6.html">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle " href="about-6.html" role="button"
+                                    aria-expanded="false"> About us </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="about-6.html#ceo-message">Ceo's Message</a></li>
+                                    <li><a class="dropdown-item" href="about-6.html#vision">Vision</a></li>
+                                    <li><a class="dropdown-item" href="about-6.html#mission">Mission</a></li>
+                                    <li><a class="dropdown-item" href="about-6.html#values">values</a></li>
+                                    <li><a class="dropdown-item" href="about-6.html#team">Team</a></li>
+                                    <li><a class="dropdown-item" href="about-6.html#organization">Organization
+                                            structure</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle active" href="services-6.html" role="button"
+                                    aria-expanded="false">
+                                    Services
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="services-6.html#urban">URBAN&INFRASTRUCTURE FIELD
+                                            DEVELOPMENT</a></li>
+                                    <li><a class="dropdown-item" href="services-6.html#managment">PROJECT MANAGMENT</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="services-6.html#architect">ARCHITECTURAL
+                                            DESIGN</a></li>
+                                    <li><a class="dropdown-item" href="services-6.html#structural">STRUCTURAL DESIGN</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="services-6.html#mep">MEP&LOWCURRENT DESIGN</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="services-6.html#design">INTERIOR DESIGN</a></li>
+                                    <li><a class="dropdown-item" href="services-6.html#review">DESIGN REVIEW</a></li>
+                                    <li><a class="dropdown-item" href="services-6.html#scape">LANDSCAPE DESIGN</a></li>
+                                    <li><a class="dropdown-item" href="services-6.html#tender">TENDERING PROCESS</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="services-6.html#value-eng">VALUE ENGINEERING</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="services-6.html#super-civil">SUPERVISION&CIVIL
+                                            CONSULTING</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="portfolio-6.html">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="iconic-6.html">Iconic Projects</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="more-6.html" role="button"
+                                    aria-expanded="false">
+                                    KNOW More
+                                </a>
+                                <ul class="dropdown-menu ">
+                                    <li><a class="dropdown-item" href="more-6.html#announce">ANNOUNCEMENTS</a></li>
+                                    <li><a class="dropdown-item" href="more-6.html#news">NEWS</a></li>
+                                    <li><a class="dropdown-item" href="more-6.html#gallery">GALLERY</a></li>
+                                    <li><a class="dropdown-item" href="more-6.html#promotions">PROMOTIONS</a></li>
+                                    <li><a class="dropdown-item" href="more-6.html#freehand">FREEHAND SKETCH</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contactus-no-change.html">Contact us</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <!-- <section>
+            <div class="container-fluid">
+                <div id="particle-container5" class="particle-class"></div>
+                <div class="count-particles">
+                    <span class="js-count-particles"></span>
+                </div>
+
+                <div class="space-semi-circle">
+                    <div class="row">
+                        <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1">
+                        </div>
+                        <div class="col-xl-10 col-lg-10 col-md-10 col-sm-10 col-sm-10">
+                            <div class="d-flex flex-column" id="titleContainer">
+                                <div class="row container title-container1 mt-3">
+                                    <div class="col-xl-6 col-lg-6 ">
+                                        <div class="title d-flex" style="justify-content: flex-end;">
+                                            <a href="#design">
+                                                <h5 class="heading services" style="color:#797B7C ;margin-top: 16%;">
+                                                    Interior Design</h5>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 col-lg-6 ">
+                                        <div class="title d-flex" style="justify-content: flex-start;">
+                                            <a href="#tender">
+                                                <h5 class="heading services" style="color:#606365 ;">Tendering</h5>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row container title-container2 mt-3">
+                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                                        <div class="title d-flex mt-3"
+                                            style="justify-content:flex-end;margin-right: 21%;">
+                                            <a href="#mep">
+                                                <h5 class="heading services" style="color:#9C9C9C ;margin-left: -5em;">
+                                                    Mechanical Design
+                                                </h5>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                                        <div class="title d-flex mt-2"
+                                            style="justify-content: center;margin-top: -2%;margin-left: -11%;">
+                                            <a href="#architect">
+                                                <h5 class="heading services" style="color: #5B5D60;">Architectural
+                                                    Design
+                                                </h5>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row container title-container3 mt-3">
+                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 ">
+                                        <div class="title d-flex mt-3" style="justify-content: end;">
+                                            <a href="#mep">
+                                                <h5 class="heading services" style="color:#9C9C9C ;">Electrical Design
+                                                </h5>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                                        <div class="title d-flex mt-3"
+                                            style="justify-content: flex-end;margin-right: -4%;">
+                                            <a href="#mep">
+                                                <h5 class="heading services" style="color:#5D6063;margin-top: -10%;">Low
+                                                    Current Design</h5>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row container title-container4 mt-3">
+                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                                        <div class="structural-container d-flex" style="margin-left: 20%;">
+                                            <a href="#structural">
+                                                <h5 class="heading services" style="color:#737576 ;margin-left: -2em">
+                                                    Structural Design
+                                                </h5>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                                        <div class="title d-flex">
+                                            <a href="#managment">
+                                                <h3 class="heading services" style="color:#6D6F6F ;">Project Managament
+                                                </h3>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row container title-container5 mt-3">
+                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                                        <div class="title d-flex mt-2"
+                                            style="justify-content: flex-end;margin-right: -10%;">
+                                            <a href="#mep">
+                                                <h5 class="heading services" style="color:#7F8182 ;">Plumbing Design
+                                                </h5>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+
+                                    </div>
+                                </div>
+                                <div class="row container title-container6 mt-3">
+                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                                        <div class="title d-flex" style="margin-left: -20%;">
+                                            <a href="#urban">
+                                                <h5 class="heading services" style="color: #7f8182;">
+                                                    Urban & Infrastructure<br>Field Development
+                                                </h5>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 mt-3">
+                                        <div class="title d-flex justify-content-center">
+                                            <a href="#review">
+                                                <h5 class="heading services" style="color:#9C9C9C;margin-top: -20%;">
+                                                    Design Review</h5>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row container title-container7 mt-3">
+                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                                        <div class="title d-flex" style="justify-content: flex-end;margin-right: -20%;">
+                                            <a href="#value-eng">
+                                                <h5 class="heading services" style="color:#78797B ;margin-top: -20%;">
+                                                    Value Engineering</h5>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 mt-3">
+                                        <div class="title d-flex justify-content-end" style="margin-right: -32%;">
+                                            <a href="#super-civil">
+                                                <h5 class="heading services" style="color:#545759 ;margin-top: -60%">
+                                                    Supervision & <br>
+                                                    Civil Consulting
+                                                </h5>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1"></div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <section>
+            <div class="row">
+                <div class="col-xl-12 col-lg-12">
+                    <div class="container-fluid">
+                        <div class="space-semi-circle">
+                            <div class="row">
+                                <div class="col-xl-3 col-lg-3 col-sm-2 col-md-3"></div>
+                                <div class="col-xl-6 col-lg-6 col-md-9 col-sm-8 col-12">
+                                    <div class="container-fluid d-flex row-1">
+                                        <a href="#design">
+                                            <h5 class="heading services Interior"
+                                                style="color:#797B7C ;margin-top: 16%;">
+                                                Interior Design</h5>
+                                        </a>
+                                        <a href="#tender">
+                                            <h5 class="heading services mt-3 Tender" style="color:#606365 ;">Tendering
+                                            </h5>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-3 col-sm-2"></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xl-1 col-lg-1 col-sm-2"></div>
+                                <div class="col-xl-10 col-lg-10 col-md-12 col-sm-8 col-12">
+                                    <div class="container-fluid d-flex row-2">
+                                        <a href="#mep">
+                                            <h5 class="heading services" style="color:#9C9C9C ;">
+                                                Mechanical Design
+                                            </h5>
+                                        </a>
+                                        <a href="#architect">
+                                            <h5 class="heading services" style="color: #5B5D60;margin-top: -10%;">
+                                                Architectural
+                                                Design
+                                            </h5>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-1 col-lg-1 col-sm-2"></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xl-2 col-lg-2 col-sm-2 col-md-2 col-2"></div>
+                                <div class="col-xl-10 col-lg-10 col-md-10 col-sm-10 col-10">
+                                    <div class="container-fluid d-flex row-3">
+                                        <a href="#mep">
+                                            <h5 class="heading services" style="color:#9C9C9C ;">Electrical Design
+                                            </h5>
+                                        </a>
+                                        <a href="#mep">
+                                            <h5 class="heading services" style="color:#5D6063;margin-top: -10%;">Low
+                                                Current Design</h5>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xl-1 col-lg-1 col-sm-2"></div>
+                                <div class="col-xl-10 col-lg-10 col-md-12 col-sm-8 col-12">
+                                    <div class="container-fluid d-flex row-4">
+                                        <a href="#structural">
+                                            <h5 class="heading services" style="color:#737576 ;">
+                                                Structural Design
+                                            </h5>
+                                        </a>
+                                        <a href="#managment">
+                                            <h3 class="heading services" style="color:#6D6F6F ;">Project Managament
+                                            </h3>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-1 col-lg-1"></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                    <div class="container-fluid d-flex row-5">
+                                        <a href="#urban">
+                                            <h5 class="heading services" style="color: #7f8182;">
+                                                Urban & Infrastructure<br>Field Development
+                                            </h5>
+                                        </a>
+                                        <a href="#mep">
+                                            <h5 class="heading services" style="color:#7F8182 ;margin-top: -18%;">
+                                                Plumbing Design
+                                            </h5>
+                                        </a>
+                                        <a href="#review">
+                                            <h5 class="heading services" style="color:#9C9C9C;margin-top: 5%;">
+                                                Design Review</h5>
+                                        </a>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xl-4 col-lg-4 col-sm-3 col-md-3 col-2"></div>
+                                <div class="col-xl-8 col-lg-8 col-md-9 col-sm-9 col-10">
+                                    <div class="container-fluid d-flex row-6">
+                                        <a href="#value-eng">
+                                            <h5 class="heading services" style="color:#78797B ;">
+                                                Value Engineering</h5>
+                                        </a>
+
+                                        <a href="#super-civil">
+                                            <h5 class="heading services" style="color:#545759 ;">
+                                                Supervision & <br>
+                                                Civil Consulting
+                                            </h5>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container-fluid " style="margin-top: -40%;">
+                <div class="row" id="urban">
+                    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-5">
+                        <div class="container d-flex justify-content-center">
+                            <img src="./assets/images/services/1-urban.png" alt="pic-1" style="width: 70%;"
+                                class="services">
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7 col-7" id="urban-1">
+                        <div class="container d-flex" style="justify-content: flex-end; margin-right: -6%;">
+                            <img src="./assets/images/services/1-urban-title.png" alt="urban" style="width: 100%;"
+                                class="services">
+                        </div>
+                        <div class="d-flex text-white mt-3">
+                            <p class="expandable-para">
+                                There has never been a more urgent need to create resilient and sustainable
+                                infrastructure. With smart
+                                infrastructure, we are shaping an ecosystem that connects the real world with the
+                                digital world. Making
+                                decisions based on data and analytics empowers our customers to make their energy
+                                systems and processes in buildings and
+                                industries more efficient and sustainable. Following are the principal phases of an
+                                urban planning process
+                                <span class="read-more-content" style="display: none;">
+                                    <br>
+                                    <span class="row">
+                                        <span class="col-6">
+                                            &#8226;Preparatory / exploration phase <br>
+                                            &#8226;Feasibility / planning phase <br>
+                                            &#8226;Formal planning / zoning phase <br>
+                                        </span>
+                                        <span class="col-6" style="text-align: justify;word-spacing: -3px;">
+                                            &#8226;Design/implementation phase<br>
+                                            &#8226;Operational phase <br>
+                                        </span>
+                                    </span>
+                                </span>
+                                <a class="read-more-link" href="javascript:void(0)" onclick="toggleReadMore(this)">Read
+                                    more...</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-5" id="managment">
+                    <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7 col-7">
+                        <div class="container d-flex" style="justify-content: flex-end; margin-left: -6%;">
+                            <img src="./assets/images/services/2-proj-title.png" alt="img-2" class="services"
+                                style="width: 100%;">
+                        </div>
+                        <div class="d-flex text-white mt-3">
+                            <p class="expandable-para">
+                                Next Engineering Consultants provides a total solution to management of the entire
+                                design and construction process. The process of Project Management is a proven method
+                                which combines the project phrases of pm-design, design, tender, construction and
+                                occupancy into a series of highly integrated tasks. This shall
+                                frequently bring together the Designer and Construction Manager in an interactive
+                                relationship and shall allow the Owner to participate in the construction progress.
+                                <span class="read-more-content" style="display: none;">
+                                    <br>
+                                    <span class="row">
+                                        <span class="col-6">
+                                            &#8226;Prepare Feasibility Study<br>
+                                            &#8226;Undertake Market Research<br>
+                                            &#8226;Obtain and develop the client brief<br>
+                                            &#8226;Conduct design competition and select consultants<br>
+                                            &#8226;Coordinate design <br>
+                                            &#8226;Obtain all necessary building and planning permissions <br>
+                                            &#8226;Ground investigations and traffic impact surveys <br>
+                                            &#8226;Review design and construction programs <br>
+                                            &#8226;Define the scope of work being procured in each package <br>
+                                            <!-- &#8226;Draft procurement package scope <br>
+                                                &#8226;Pre-qualify contractors <br>
+                                                &#8226;Prepare tender documents <br>
+                                                &#8226;Evaluate tenders and select/appointment contractors <br>
+                                                &#8226;Organize control systems -->
+                                        </span>
+                                        <span class="col-6" style="text-align: justify;">
+                                            &#8226;Monitor progress<br>
+                                            &#8226;Arrange and chair meeting <br>
+                                            &#8226;Authorize payments<br>
+                                            &#8226;Establish reporting systems<br>
+                                            &#8226;Provide total project<br> coordination<br>
+                                            &#8226;Coordinate statutory authorities<br>
+                                            <!-- &#8226;Monitor the budget/variations and develop final account<br> -->
+                                            &#8226;Organize control systems<br>
+                                            &#8226;Manage commissioning<br>
+                                            &#8226;Manage handover/occupation<br>
+                                            &#8226;Develop 0 and M Manuals<br>
+                                            &#8226;Plan maintenance programmed<br>
+                                            &#8226;Plan Facilities Management<br>
+                                        </span>
+                                    </span>
+                                </span>
+                                <a class="read-more-link" href="javascript:void(0)" onclick="toggleReadMore(this)">Read
+                                    more...</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-5">
+                        <img src="./assets/images/services/2-proj.png" alt="img-2" style="width: 70%;" class="services">
+                    </div>
+                </div>
+                <div class="row mt-5" id="architect">
+                    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-5">
+                        <div class="container d-flex justify-content-center">
+                            <img src="./assets/images/services/3-archi.png" alt="pic-1" style="width: 70%;"
+                                class="services">
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7 col-7" id="urban-1">
+                        <div class="container d-flex" style="justify-content: flex-end; margin-right: -6%;">
+                            <img src="./assets/images/services/3-archi-title.png" alt="urban" class="services"
+                                style="width: 100%;">
+                        </div>
+                        <div class="d-flex text-white mt-3">
+                            <p class="expandable-para" style="word-spacing: -1.1px;">
+                                We do intelligent architectural design, depend into the large experience in
+                                architectural and business architectural field, following the latest technology best
+                                investment calculations, rolls and regulations in any
+                                kind of buildings such as
+                                <span class="read-more-content" style="display: none;">
+                                    <br>
+                                    <span class="row">
+                                        <span class="col-6">
+                                            &#8226;Hospital and Health Care <br>
+                                            &#8226;Urban and Master Planning<br>
+                                            &#8226;Private Villas and Palaces<br>
+                                            &#8226;Mosques, Schools, Malls<br>
+                                            &#8226;Sports Facilities<br>
+                                        </span>
+                                        <span class="col-6" style="text-align: justify;">
+                                            &#8226;Towers and High Rise<br>
+                                            &#8226;Commercial and Residential<br>
+                                            &#8226;Mosques, Schools, Malls<br>
+                                            &#8226;Sports Facilities<br>
+                                            <!-- &#8226;Resort,Hotels and Hotel Apartments<br>
+                                            &#8226;Showrooms and Commercial Shopping Centers<br> -->
+
+                                        </span>
+                                    </span>
+                                </span>
+                                <a class="read-more-link" href="javascript:void(0)" onclick="toggleReadMore(this)">Read
+                                    more...</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-5" id="structural">
+                    <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7 col-7">
+                        <div class="container d-flex" style="justify-content: flex-end; margin-left: -6%;">
+                            <img src="./assets/images/services/4-title.png" alt="img-2" style="width: 100%;"
+                                class="services">
+                        </div>
+                        <div class="d-flex text-white mt-3">
+                            <p class="expandable-para">
+                                We do professional structural design solutions for any kind of building, mid-rise, high
+                                rise and unlimited buildings, based
+                                on the elite structural engineer staff, using the latest engineering techniques and
+                                software. In order to achieve high quality,
+                                cost control, intelligence solutions, with all related calculations and detailed
+                                drawings for all types of buildings while keep-
+                                ing in mind safety, architecture and MEP requirements and coordination, cost control and
+                                value engineering work to get
+                                the best.
+                                <span class="read-more-content" style="display: none;">
+                                    <br>
+                                    <span class="row">
+                                        <span class="col-6">
+                                            &#8226;Typical Buildings, Mid-Rise. High Rise and Unlimited Buildings and
+                                            Towers<br>
+                                            &#8226;Special design for any kind of buildings,
+                                            foundations, shoring piles<br>
+                                            &#8226;Design and review pre-stressed projects,
+                                            slabs, walls, foundations<br>
+                                            &#8226;Design and review pre-cast projects, slabs,
+                                            walls and foundations<br>
+                                        </span>
+                                        <span class="col-6" style="text-align: justify;">
+                                            &#8226;Design and review post-tension slabs including all
+                                            details and calculations with specialized companies<br>
+                                            &#8226;Design steel structural projects including
+                                            all details and calculations<br>
+                                            &#8226;Value Engineering for under construction
+                                            projects and cost saving<br>
+                                        </span>
+                                    </span>
+                                </span>
+                                <a class="read-more-link" href="javascript:void(0)" onclick="toggleReadMore(this)">Read
+                                    more...</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-5">
+                        <img src="./assets/images/services/4-struc.png" alt="img-2" style="width: 70%;"
+                            class="services">
+                    </div>
+                </div>
+                <div class="row mt-5" id="mep">
+                    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-5">
+                        <div class="container d-flex justify-content-center">
+                            <img src="./assets/images/services/5-image.png" alt="pic-1" style="width: 70%;"
+                                class="services">
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7 col-7" id="urban-1">
+                        <div class="container d-flex" style="justify-content: flex-end; margin-right: -6%;">
+                            <img src="./assets/images/services/5-mep.png" alt="urban" style="width: 100%;"
+                                class="services">
+                        </div>
+                        <div class="d-flex text-white mt-3">
+                            <p class="expandable-para">
+                                We ensure in our design reach the maximum limit of quality and higher efficiency of the
+                                building while maintaining the energy
+                                saving policies. We are following the latest developments in the world of
+                                electromechanical to fit with the environmental safety
+                                putting in mind the conditions and requirements for green building systems and Estidama
+                                systems and so by the following the
+                                standards that achieve energy saving and reducing the heat load of the building, which
+                                increases the efficiency of adaptive de-
+                                vices and reduces the project's electrical load.
+                                Electromechanical services include.
+                                <span class="read-more-content" style="display: none;">
+                                    <br>
+                                    <span class="row">
+                                        <span class="col-6" style="text-align: justify;">
+                                            &#8226;HVAC<br>
+                                            &#8226;Plumbing and Drainage<br>
+                                            &#8226;Fire Protection<br>
+                                            &#8226;Solar Energy Systems<br>
+                                            &#8226;Heat recovery Systems<br>
+                                            &#8226;Electrical Services<br>
+                                            &#8226;Electrical Power Design<br>
+                                            &#8226;Fire Alarm and Detection Systems<br>
+                                            &#8226;Building Management Systems<br>
+                                        </span>
+                                        <span class="col-6">
+                                            &#8226;Closed Circuit Television Systems<br>
+                                            &#8226;IT and ELV Systems<br>
+                                            &#8226;Security and Access Control<br>
+                                            &#8226;Power and Lighting<br>
+                                            &#8226;Estidama Basic Commissioning<br>
+                                            &#8226;Feasibility Studies<br>
+                                            &#8226;Value Engineering and Tender Evaluation<br>
+                                            &#8226;Tender Documentation Including Design<br>
+                                            <!-- &#8226;Drawings and Technical Specifications<br>
+                                            &#8226;Construction Supervision Management UpTo Hand Over to Client<br> -->
+                                        </span>
+                                    </span>
+                                </span>
+                                <a class="read-more-link" href="javascript:void(0)" onclick="toggleReadMore(this)">Read
+                                    more...</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-5" id="design">
+                    <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7 col-7">
+                        <div class="container d-flex" style="justify-content: flex-end; margin-left: -6%;">
+                            <img src="./assets/images/services/6-int-title.png" alt="img-2" style="width: 100%;"
+                                class="services">
+                        </div>
+                        <div class="d-flex text-white mt-3">
+                            <p class="expandable-para">
+                                We do Provide advices on the interior layout of a space or building and propose
+                                reconfigurations. Our professional team
+                                generates 2D or 3D interior design plans, drawings, mood boards and project
+                                visualisations. We Curates a considered selec-
+                                tion of Furniture, Fixtures and Fittings (FF&E) that required an implementation and
+                                procurement.
+                                <span class="read-more-content" style="display: none;">
+                                    <br>
+                                    <span class="row">
+                                        <span class="col-6">
+                                            &#8226;Effectively conveying inspiration.and vision for the space<br>
+                                            &#8226;Briefly address about creating the design and the way we
+                                            handle specific design challenges<br>
+                                            &#8226;Articulate overall ambiance of the room<br>
+                                        </span>
+                                        <span class="col-6" style="text-align: justify;">
+                                            &#8226;Origin of the design<br>
+                                            &#8226;Demonstrative ability to create a symbiotic relationship
+                                            between physical elements<br>
+                                        </span>
+                                    </span>
+                                </span>
+                                <a class="read-more-link" href="javascript:void(0)" onclick="toggleReadMore(this)">Read
+                                    more...</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-5">
+                        <img src="./assets/images/services/6-interior.png" alt="img-2" style="width: 70%;"
+                            class="services">
+                    </div>
+                </div>
+                <div class="row mt-5" id="review">
+                    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-5">
+                        <div class="container d-flex justify-content-center">
+                            <img src="./assets/images/services/7-design.png" alt="pic-1" style="width: 70%;"
+                                class="services">
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7 col-7" id="urban-1">
+                        <div class="container d-flex" style="justify-content: flex-end; margin-right: -6%;">
+                            <img src="./assets/images/services/7-title.png" alt="urban" style="width: 100%;"
+                                class="services">
+                        </div>
+                        <div class="d-flex text-white mt-3">
+                            <p class="expandable-para">
+                                We review the existing studies if any, requirements and schematic proposal and then
+                                develop with the Client the development
+                                components of the project and a Statement Requirements. These documents shall serve as
+                                the basis of design for the Project
+                                and eventually for the preparation of Conceptual design considering regional authority's
+                                rules and regulations, schematic
+                                design, working drawings, detail engineering to carry out the works. Drawings and
+                                specifications shall be reviewed as to com-
+                                pleteness and conformity to the approved preliminary drawings. prevailing codes,
+                                regulations and other statutory authority
+                                requirements. All reviews shall be taken into consideration our strategy to favor local
+                                economic benefit, defining packages in
+                                such a way as to continuously monitor project progress. Implement acceleration
+                                alternatives, when project delays appear do
+                                not impact on overall project time and budget.
+                                <span class="read-more-content" style="display: none;">
+                                    <br>
+                                    <span class="row">
+                                        <span class="col-6" style="text-align: justify;">
+                                            &#8226;Regularly review the progress of the work on site and in fabrication
+                                            shops relative to the project schedule<br>
+                                            &#8226;Identify actual or potential variances between the work to be taken
+                                            when
+                                            required<br>
+                                            on site and the project schedule and take action to eliminate
+                                            the risk of delay to the project schedule<br>
+                                        </span>
+                                        <span class="col-6">
+                                            &#8226;Obtain and analyze monthly updates from Work Contractors,
+                                            adjust the master schedule and discuss with any corrective action
+                                            to be taken when required<br>
+                                            &#8226;Prepare for the monthly project report a written narrative based on
+                                            the authorized schedule and the progress of the work to date<br>
+
+                                            <!-- &#8226;Drawings and Technical Specifications<br>
+                                            &#8226;Construction Supervision Management UpTo Hand Over to Client<br> -->
+                                        </span>
+                                    </span>
+                                </span>
+                                <a class="read-more-link" href="javascript:void(0)" onclick="toggleReadMore(this)">Read
+                                    more...</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-5" id="scape">
+                    <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7 col-7">
+                        <div class="container d-flex" style="justify-content: flex-end; margin-left: -6%;">
+                            <img src="./assets/images/services/8-title.png" alt="img-2" style="width: 100%;"
+                                class="services">
+                        </div>
+                        <div class="d-flex text-white mt-3">
+                            <p class="expandable-para">
+                                Next Engineering Consultants advise on, plan, design and oversee the creation,
+                                regeneration and development of external
+                                land areas such as gardens and recreational areas, as well as residential, industrial
+                                and commercial sites. Landscape plans
+                                include natural elements like flowers, trees, and grass as well as man-made elements
+                                such as lawn furniture, fountains, and
+                                sheds. Landscape designs may also include overlays for irrigation and lighting. We
+                                believe that landscape design goes
+                                beyond the scope of looking at the architecture the space. Our professional team have an
+                                eye for understanding the
+                                weather, levels, plot size, and natural colors in the environment to design a functional
+                                space that transforms your plot into
+                                an oasis.
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-5">
+                        <img src="./assets/images/services/8-landscape.png" alt="img-2" style="width: 70%;"
+                            class="services">
+                    </div>
+                </div>
+                <div class="row mt-5" id="tender">
+                    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-5">
+                        <div class="container d-flex justify-content-center">
+                            <img src="./assets/images/services/9-tendering.png" alt="pic-1" style="width: 70%;"
+                                class="services">
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7 col-7" id="urban-1">
+                        <div class="container d-flex" style="justify-content: flex-end; margin-right: -6%;">
+                            <img src="./assets/images/services/9-title.png" alt="urban" style="width: 100%;"
+                                class="services">
+                        </div>
+                        <div class="d-flex text-white mt-3">
+                            <p class="expandable-para">
+                                We do study tender documents and prepare submission documents as per the requirement of
+                                Technical and Commercial.
+                                The service includes preparation of the tender costing documents and a response time for
+                                the same. Our professional team
+                                ensures all the requirements of the tender documents are complied with and list out the
+                                non-compliance if any.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-5" id="value-eng">
+                    <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7 col-7">
+                        <div class="container d-flex" style="justify-content: flex-end; margin-left: -6%;">
+                            <img src="./assets/images/services/10-title.png" alt="img-2" style="width: 100%;"
+                                class="services">
+                        </div>
+                        <div class="d-flex text-white mt-3">
+                            <p class="expandable-para">
+                                Value Engineering is a continuous review and refinement process of design and
+                                specification, which augments the design
+                                efforts from initial concept up to the issuance of the last construction variation. It
+                                is normal that the integration of a Value
+                                Engineering program shall result in project savings of 5% to 15%, and a functional
+                                design constructible within budget.
+                                Utilizing a systematic approach, which identifies and provides the required functions of
+                                a project at the lowest possible
+                                cost, keeping the design intent unchanged, which shall result in the following:
+                                <span class="read-more-content" style="display: none;">
+                                    <br>
+                                    <span class="row">
+                                        <span class="col-6">
+                                            &#8226;Savings on construction costs<br>
+                                            &#8226;Lower life cycle costs<br>
+                                            &#8226;Improved operational performance<br>
+                                        </span>
+                                        <span class="col-6" style="text-align: justify;">
+                                            &#8226;Reduced maintenance costs<br>
+                                            &#8226;Identification of risks and mitigation strategies<br>
+                                        </span>
+                                    </span>
+                                </span>
+                                <a class="read-more-link" href="javascript:void(0)" onclick="toggleReadMore(this)">Read
+                                    more...</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-5">
+                        <img src="./assets/images/services/10-value.png" alt="img-2" style="width: 70%;"
+                            class="services">
+                    </div>
+                </div>
+                <div class="row mt-5" id="super-civil">
+                    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-5">
+                        <div class="container-fluid d-flex justify-content-center">
+                            <img src="./assets/images/services/11-super.png" alt="img-2" style="width: 70%;"
+                                class="services">
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7 col-7">
+                        <div class="container d-flex" style="justify-content: flex-end; margin-right: -6%;">
+                            <img src="./assets/images/services/11-title.png" alt="img-2" style="width: 100%;"
+                                class="services">
+                        </div>
+                        <div class="d-flex text-white mt-3">
+                            <p class="expandable-para">
+                                We take responsibility for monitoring ongoing construction projects to make sure that
+                                work is properly executed within dead-
+                                lines by planning and organizing tasks while also coordinating a team of civil engineers
+                                and/or contractors. These include pro-
+                                viding effective supervision to all ongoing construction activities by being familiar
+                                with all areas of the project, such as struc-
+                                tural drawings, blueprints, and deadlines.
+                                <span class="read-more-content" style="display: none;">
+                                    <br>
+                                    <span class="row">
+                                        <span class="col-6">
+                                            &#8226;Acting as the key person and/or point of contact for all activities
+                                            on
+                                            the construction site, and overseeing daily operations<br>
+                                            &#8226;Monitoring and updating calculations, designs, and tolerances<br>
+                                            &#8226;Overseeing and coordinating the ordering and delivery of materials
+                                            and equipment to endure efficiency<br>
+                                            &#8226;Examining and analyzing products, activities, designs, and works-in-
+                                            progress before approval<br>
+                                        </span>
+                                        <span class="col-6" style="text-align: justify;">
+                                            &#8226;Leading and working cooperatively with a team of engineers
+                                            to implement plans and liaise with contractors<br>
+                                            &#8226;Enforcing all safety regulations on the construction site to
+                                            ensure that all activities are disseminated safely<br>
+                                            &#8226;Gathering and submitting reports to management and/or
+                                            higher-level managers<br>
+                                            &#8226;Breaking down the costs for each element to ensure that
+                                            project remains within budget<br>
+                                        </span>
+                                    </span>
+                                </span>
+                                <a class="read-more-link" href="javascript:void(0)" onclick="toggleReadMore(this)">Read
+                                    more...</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <div class="icon-bar blur-select">
+            <a href="https://www.linkedin.com/company/next-engineering-consultants/" class="linkedin" target="_blank"><i
+                    class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/next.engineering.consultants/" class="instagram" target="_blank"><i
+                    class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/NEXT.Engineering.Consultants" class="facebook" target="_blank"><i
+                    class="fab fa-facebook"></i></a>
+            <a href="#" class="whatsapp"><i class="fab fa-whatsapp"></i></a>
+            <a href="#" class="comment-dots"><i class="far fa-comment-dots"></i></a>
+        </div>
+
+    </section>
+    <div class="container-fluid arrow-container">
+        <div class="blur-select left-arrow-class">
+            <a href="index.html"><img src="./assets/images/left-arrow.png" alt="left-arrow" class="left-arrow-img"></a>
+        </div>
+        <div id="right_arrow" class="blur-select">
+            <a href="services.html"><img src="./assets/images/right-arrow.png" alt="right-arrow"
+                    class="right-arrow-img"></a>
+        </div>
+    </div>
+    <section>
+        <div class="row my-3">
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3"></div>
+            <div class="col-xl-6 col-lg-6  iso-certificates">
+                <img src="./assets/images/home/1.png" alt="iso-1" style="width: 8%;" class="iso-1">
+                <img src="./assets/images/home/2.png" alt="iso-2" style="width: 8%;" class="iso-2">
+                <img src="./assets/images/home/3.png" alt="iso-3" style="width: 8%;" class="iso-3">
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3"></div>
+        </div>
+    </section>
+    <!-- all services image -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.131.2/examples/js/libs/stats.min.js"></script>
+    <script src="./js/serviceparticles.js"></script>
+    <script src="./js/blur.js"></script>
+    <script>
+        function myFunction(x) {
+            x.classList.toggle("bi-x-lg");
+        }
+    </script>
+    <!-- script for the smooth scroll of sections with classname scroll -->
+    <script>
+        $(window).scroll(function () {
+            $(".fade-in-section").each(function () {
+                var position = $(this).offset().top;
+                var scroll = $(window).scrollTop();
+                var windowHeight = $(window).height();
+
+                if (scroll + windowHeight > position) {
+                    $(this).addClass("is-visible");
+                }
+            });
+        });     
+    </script>
+    <!-- script to scroll from the headings -->
+    <script>
+        function scrollToClass(className) {
+            var element = document.querySelector("." + className);
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+    </script>
+    <!-- <script src="./js/arabicversion.js"></script> -->
+    <script>
+        if (window.screen.width === 280 && window.screen.height === 653) {
+            const styles = `
+            .logo img {
+                width: 95px;
+            }
+            .main_menu button.navbar-toggler {
+                position: relative;
+                top: -38px;
+                z-index: 3;
+            }
+            .contact_us .address_main li {
+    float: left;
+    width: 104%;
+    list-style: none;
+}
+
+            .welcometext_about h1 {
+                font-size: 50px;
+                line-height: 35px;
+                color: #1e2933;
+                letter-spacing: 2px;
+                text-align: center;
+                margin-left: -245px;
+                /* margin-right: 52px; */
+                margin-top: 25px;
+            }
+            .welcometext_about span.welcomeNext {
+    font-size: 25px;
+    color: #a7a9ac;
+    display: inline-block;
+    margin-left: 67px;
+    top: 0px;
+}
+            .welcometext_about span.donew, span.welcomeNext {
+                color: #E2E2E2;;
+                margin-left: 92px;
+            }
+
+            
+            .welcometext {
+                width: 100%;
+                left: 0;
+                position: absolute;
+                text-align: right;
+                padding-top: 0px;
+            }
+
+            .welcometext h1 {
+                color: #32373c;
+                font-size: 40px;
+                font-weight: 700;
+                line-height: 48px;
+                
+            }
+            span.welomeTo {
+                font-size: 28px;
+                font-weight: lighter;
+                color: #a7a9ac;
+                display: inline-block;
+                position: relative;
+                top: -21px;
+                right: 108px;
+            }
+            span.wel {
+                position: relative;
+                left: -35%;
+            }
+            span.welcomeNext {
+            color: #E2E2E2;;
+            position: absolute;
+            top: 36px;
+            left: 39px;
+            }
+
+
+            #left_arrow img {
+                width: 20px;
+                left: 8px;
+            }
+
+            #right_arrow img {
+                width: 20px;
+                right: 8px;
+            }
+
+            #footer a {
+                font-size: 3px;
+                margin-bottom: 15px;
+            }
+
+           
+        }
+    
+  `;
+            const styleSheet = document.createElement('style');
+            styleSheet.type = 'text/css';
+            styleSheet.innerText = styles;
+            document.head.appendChild(styleSheet);
+        }
+
+    </script>
+
+    <script>
+        function toggleReadMore(linkElement) {
+            const paraElement = linkElement.parentNode;
+            const readMoreContent = paraElement.querySelector(".read-more-content");
+            const readMoreLink = paraElement.querySelector(".read-more-link");
+
+            if (readMoreContent.style.display === "none") {
+                readMoreContent.style.display = "block";
+                readMoreLink.textContent = "Read less...";
+            } else {
+                readMoreContent.style.display = "none";
+                readMoreLink.textContent = "Read more...";
+            }
+        }
+
+    </script>
+</body>
+</html>
