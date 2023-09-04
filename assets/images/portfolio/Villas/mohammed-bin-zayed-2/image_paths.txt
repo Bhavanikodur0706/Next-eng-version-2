@@ -1,0 +1,7 @@
+C:\xampp\htdocs\Sahasra8\assests\images\portfolio\Villas\mohammed-bin-zayed-2\image_paths.txt
+C:\xampp\htdocs\Sahasra8\assests\images\portfolio\Villas\mohammed-bin-zayed-2\moh (1).jpg
+C:\xampp\htdocs\Sahasra8\assests\images\portfolio\Villas\mohammed-bin-zayed-2\moh (2).jpg
+C:\xampp\htdocs\Sahasra8\assests\images\portfolio\Villas\mohammed-bin-zayed-2\moh (3).jpg
+C:\xampp\htdocs\Sahasra8\assests\images\portfolio\Villas\mohammed-bin-zayed-2\moh (4).jpg
+C:\xampp\htdocs\Sahasra8\assests\images\portfolio\Villas\mohammed-bin-zayed-2\moh (5).jpg
+C:\xampp\htdocs\Sahasra8\assests\images\portfolio\Villas\mohammed-bin-zayed-2\moh (6).jpg

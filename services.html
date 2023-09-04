@@ -100,9 +100,17 @@
         }
 
         /* adjusting text inside the semi circle for all devices */
-        @media (min-width: 992px) {
+        @media (min-width: 768px) {
             .row-1 {
                 justify-content: space-evenly;
+            }
+
+            .right-image {
+                margin-right: -5%;
+            }
+
+            .left-image {
+                margin-left: -6%;
             }
         }
 
@@ -132,47 +140,8 @@
             }
         }
 
-        @media (min-width: 600px) and (max-width: 768px) {
-            .row-1 {
-                margin-top: 3%;
-                justify-content: center;
-                column-gap: 14%;
-            }
-
-            h5 {
-                font-size: 14px;
-            }
-
-            h3 {
-                font-size: 14px;
-                font-weight: bold !important;
-            }
-
-            .row-4 {
-                justify-content: space-between;
-            }
-
-            .row-5 {
-                margin-top: 3%;
-                justify-content: space-around;
-            }
-
-            .row-6 {
-                justify-content: space-between;
-            }
-            .particle-class {
-            position: absolute;
-            top: 40%;
-            left: 22%;
-            width: 500px;
-            height: 323px;
-            z-index: 1;
-            pointer-events: none;
-        }
-        }
-
         @media (max-width: 576px) {
-            h5 {
+            h5,.expandable-para {
                 font-size: 11px !important;
             }
 
@@ -186,7 +155,7 @@
         @media (min-width: 208px) and (max-width: 320px) {
 
             h5,
-            h3 {
+            h3,.expandable-para {
                 font-size: 7px !important;
             }
 
@@ -208,19 +177,20 @@
             .row-6 {
                 justify-content: space-between;
             }
+
             .particle-class {
-            position: absolute;
-            top: 40%;
-            left: 22%;
-            width: 150px;
-            height: 323px;
-            z-index: 1;
-            pointer-events: none;
-        }
+                position: absolute;
+                top: 40%;
+                left: 22%;
+                width: 150px;
+                height: 323px;
+                z-index: 1;
+                pointer-events: none;
+            }
         }
 
         @media (min-width: 320px) and (max-width: 479px) {
-            h5 {
+            h5,.expandable-para {
                 font-size: 11px !important;
             }
 
@@ -251,15 +221,17 @@
             .row-6 {
                 justify-content: space-between;
             }
+
             .particle-class {
-            position: absolute;
-            top: 40%;
-            left: 22%;
-            width: 200px;
-            height: 323px;
-            z-index: 1;
-            pointer-events: none;
-        }
+                position: absolute;
+                top: 23%;
+                left: 22%;
+                width: 189px;
+                height: 230px;
+                z-index: 1;
+                pointer-events: none;
+            }
+
         }
 
         @media (min-width: 480px) and (max-width: 576px) {
@@ -289,15 +261,25 @@
             .row-6 {
                 justify-content: space-between;
             }
+
             .particle-class {
-            position: absolute;
-            top: 40%;
-            left: 22%;
-            width: 300px;
-            height: 323px;
-            z-index: 1;
-            pointer-events: none;
-        }
+                position: absolute;
+                top: 40%;
+                left: 22%;
+                width: 300px;
+                height: 323px;
+                z-index: 1;
+                pointer-events: none;
+            }
+
+            .expandable-para {
+                font-size: 10px;
+                color: var(--secondary-color);
+                font-family: var(--font-family);
+                text-transform: none;
+                text-align: center;
+            }
+
         }
 
         @media (min-width: 576px) and (max-width: 768px) {
@@ -314,17 +296,80 @@
             .row-6 {
                 justify-content: space-between;
             }
+
             .particle-class {
-            position: absolute;
-            top: 40%;
-            left: 22%;
-            width: 400px;
-            height: 323px;
-            z-index: 1;
-            pointer-events: none;
-        }
+                position: absolute;
+                top: 40%;
+                left: 22%;
+                width: 400px;
+                height: 323px;
+                z-index: 1;
+                pointer-events: none;
+            }
 
         }
+
+        @media (min-width: 600px) and (max-width: 768px) {
+            .row-1 {
+                margin-top: 3%;
+                justify-content: center;
+                column-gap: 14%;
+            }
+
+            h5,.expandable-para {
+                font-size: 14px;
+            }
+
+            h3 {
+                font-size: 14px;
+                font-weight: bold !important;
+            }
+            .row-4 {
+                justify-content: space-between;
+            }
+
+            .row-5 {
+                margin-top: 3%;
+                justify-content: space-around;
+            }
+
+            .row-6 {
+                justify-content: space-between;
+            }
+
+            .particle-class {
+                position: absolute;
+                top: 53%;
+                left: 13%;
+                width: 395px;
+                height: 245px;
+                z-index: 1;
+                pointer-events: none;
+            }
+        }
+        @media (max-width: 768px) {
+            #managment{
+                display: flex;
+                flex-direction: column-reverse;
+            }
+            #structural{
+                display: flex;
+                flex-direction: column-reverse;
+            }
+            #design{
+                display: flex;
+                flex-direction: column-reverse;
+            }
+            #scape{
+                display: flex;
+                flex-direction: column-reverse;
+            }
+            #value-eng{
+                display: flex;
+                flex-direction: column-reverse;
+            }
+        }
+       
 
         @media (min-width: 768px) and (max-width: 850px) {
             .row-1 {
@@ -354,15 +399,32 @@
             .row-6 {
                 justify-content: space-between;
             }
-            .particle-class {
-            position: absolute;
-            top: 40%;
-            left: 22%;
-            width: 500px;
-            height: 323px;
-            z-index: 1;
-            pointer-events: none;
         }
+
+        @media (min-width: 708px) and (max-width: 820px) {
+
+            .particle-class {
+                position: absolute;
+                top: 15%;
+                left: 18%;
+                width: 472px;
+                height: 248px;
+                z-index: 1;
+                pointer-events: none;
+            }
+        }
+
+        @media (min-width: 820px) and (max-width: 850px) {
+
+            .particle-class {
+                position: absolute;
+                top: 48%;
+                left: 18%;
+                width: 475px;
+                height: 260px;
+                z-index: 1;
+                pointer-events: none;
+            }
         }
 
         @media (min-width: 850px) and (max-width: 992px) {
@@ -393,15 +455,16 @@
             .row-6 {
                 justify-content: space-between;
             }
+
             .particle-class {
-            position: absolute;
-            top: 40%;
-            left: 22%;
-            width: 500px;
-            height: 323px;
-            z-index: 1;
-            pointer-events: none;
-        }
+                position: absolute;
+                top: 40%;
+                left: 22%;
+                width: 500px;
+                height: 323px;
+                z-index: 1;
+                pointer-events: none;
+            }
         }
     </style>
 </head>
@@ -417,7 +480,7 @@
         <section id="#">
             <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="home-6.html" style="margin-left: 1%;">
+                    <a class="navbar-brand" href="index.html" style="margin-left: 1%;">
                         <img src="./assets/images/logo.webp" alt="Logo" width="150" height="auto">
                     </a>
                     <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
@@ -428,53 +491,53 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ms-auto">
                             <li class="nav-item">
-                                <a class="nav-link " href="home-6.html">Home</a>
+                                <a class="nav-link " href="index.html">Home</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle " href="about-6.html" role="button"
+                                <a class="nav-link dropdown-toggle " href="about.html" role="button"
                                     aria-expanded="false"> About us </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="about-6.html#ceo-message">Ceo's Message</a></li>
-                                    <li><a class="dropdown-item" href="about-6.html#vision">Vision</a></li>
-                                    <li><a class="dropdown-item" href="about-6.html#mission">Mission</a></li>
-                                    <li><a class="dropdown-item" href="about-6.html#values">values</a></li>
-                                    <li><a class="dropdown-item" href="about-6.html#team">Team</a></li>
-                                    <li><a class="dropdown-item" href="about-6.html#organization">Organization
-                                            structure</a></li>
+                                    <li><a class="dropdown-item" href="about.html#ceo-message">Ceo's Message</a></li>
+                                    <li><a class="dropdown-item" href="about.html#vision">Vision</a></li>
+                                    <li><a class="dropdown-item" href="about.html#mission">Mission</a></li>
+                                    <li><a class="dropdown-item" href="about.html#values">values</a></li>
+                                    <!-- <li><a class="dropdown-item" href="about.html#team">Team</a></li>
+                                    <li><a class="dropdown-item" href="about.html#organization">Organization
+                                            structure</a></li> -->
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle active" href="services-6.html" role="button"
+                                <a class="nav-link dropdown-toggle active" href="services.html" role="button"
                                     aria-expanded="false">
                                     Services
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="services-6.html#urban">URBAN&INFRASTRUCTURE FIELD
+                                    <li><a class="dropdown-item" href="services.html#urban">URBAN&INFRASTRUCTURE FIELD
                                             DEVELOPMENT</a></li>
-                                    <li><a class="dropdown-item" href="services-6.html#managment">PROJECT MANAGMENT</a>
+                                    <li><a class="dropdown-item" href="services.html#managment">PROJECT MANAGMENT</a>
                                     </li>
-                                    <li><a class="dropdown-item" href="services-6.html#architect">ARCHITECTURAL
+                                    <li><a class="dropdown-item" href="services.html#architect">ARCHITECTURAL
                                             DESIGN</a></li>
-                                    <li><a class="dropdown-item" href="services-6.html#structural">STRUCTURAL DESIGN</a>
+                                    <li><a class="dropdown-item" href="services.html#structural">STRUCTURAL DESIGN</a>
                                     </li>
-                                    <li><a class="dropdown-item" href="services-6.html#mep">MEP&LOWCURRENT DESIGN</a>
+                                    <li><a class="dropdown-item" href="services.html#mep">MEP&LOWCURRENT DESIGN</a>
                                     </li>
-                                    <li><a class="dropdown-item" href="services-6.html#design">INTERIOR DESIGN</a></li>
-                                    <li><a class="dropdown-item" href="services-6.html#review">DESIGN REVIEW</a></li>
-                                    <li><a class="dropdown-item" href="services-6.html#scape">LANDSCAPE DESIGN</a></li>
-                                    <li><a class="dropdown-item" href="services-6.html#tender">TENDERING PROCESS</a>
+                                    <li><a class="dropdown-item" href="services.html#design">INTERIOR DESIGN</a></li>
+                                    <li><a class="dropdown-item" href="services.html#review">DESIGN REVIEW</a></li>
+                                    <li><a class="dropdown-item" href="services.html#scape">LANDSCAPE DESIGN</a></li>
+                                    <li><a class="dropdown-item" href="services.html#tender">TENDERING PROCESS</a>
                                     </li>
-                                    <li><a class="dropdown-item" href="services-6.html#value-eng">VALUE ENGINEERING</a>
+                                    <li><a class="dropdown-item" href="services.html#value-eng">VALUE ENGINEERING</a>
                                     </li>
-                                    <li><a class="dropdown-item" href="services-6.html#super-civil">SUPERVISION&CIVIL
+                                    <li><a class="dropdown-item" href="services.html#super-civil">SUPERVISION&CIVIL
                                             CONSULTING</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="portfolio-6.html">Portfolio</a>
+                                <a class="nav-link" href="portfolio.html">Portfolio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="iconic-6.html">Iconic Projects</a>
+                                <a class="nav-link" href="iconic.html">Iconic Projects</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="more-6.html" role="button"
@@ -498,156 +561,6 @@
                 </div>
             </nav>
         </section>
-        <!-- <section>
-            <div class="container-fluid">
-                <div id="particle-container5" class="particle-class"></div>
-                <div class="count-particles">
-                    <span class="js-count-particles"></span>
-                </div>
-
-                <div class="space-semi-circle">
-                    <div class="row">
-                        <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1">
-                        </div>
-                        <div class="col-xl-10 col-lg-10 col-md-10 col-sm-10 col-sm-10">
-                            <div class="d-flex flex-column" id="titleContainer">
-                                <div class="row container title-container1 mt-3">
-                                    <div class="col-xl-6 col-lg-6 ">
-                                        <div class="title d-flex" style="justify-content: flex-end;">
-                                            <a href="#design">
-                                                <h5 class="heading services" style="color:#797B7C ;margin-top: 16%;">
-                                                    Interior Design</h5>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-6 col-lg-6 ">
-                                        <div class="title d-flex" style="justify-content: flex-start;">
-                                            <a href="#tender">
-                                                <h5 class="heading services" style="color:#606365 ;">Tendering</h5>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row container title-container2 mt-3">
-                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                                        <div class="title d-flex mt-3"
-                                            style="justify-content:flex-end;margin-right: 21%;">
-                                            <a href="#mep">
-                                                <h5 class="heading services" style="color:#9C9C9C ;margin-left: -5em;">
-                                                    Mechanical Design
-                                                </h5>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                                        <div class="title d-flex mt-2"
-                                            style="justify-content: center;margin-top: -2%;margin-left: -11%;">
-                                            <a href="#architect">
-                                                <h5 class="heading services" style="color: #5B5D60;">Architectural
-                                                    Design
-                                                </h5>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row container title-container3 mt-3">
-                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 ">
-                                        <div class="title d-flex mt-3" style="justify-content: end;">
-                                            <a href="#mep">
-                                                <h5 class="heading services" style="color:#9C9C9C ;">Electrical Design
-                                                </h5>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                                        <div class="title d-flex mt-3"
-                                            style="justify-content: flex-end;margin-right: -4%;">
-                                            <a href="#mep">
-                                                <h5 class="heading services" style="color:#5D6063;margin-top: -10%;">Low
-                                                    Current Design</h5>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row container title-container4 mt-3">
-                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                                        <div class="structural-container d-flex" style="margin-left: 20%;">
-                                            <a href="#structural">
-                                                <h5 class="heading services" style="color:#737576 ;margin-left: -2em">
-                                                    Structural Design
-                                                </h5>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                                        <div class="title d-flex">
-                                            <a href="#managment">
-                                                <h3 class="heading services" style="color:#6D6F6F ;">Project Managament
-                                                </h3>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row container title-container5 mt-3">
-                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                                        <div class="title d-flex mt-2"
-                                            style="justify-content: flex-end;margin-right: -10%;">
-                                            <a href="#mep">
-                                                <h5 class="heading services" style="color:#7F8182 ;">Plumbing Design
-                                                </h5>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-
-                                    </div>
-                                </div>
-                                <div class="row container title-container6 mt-3">
-                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                                        <div class="title d-flex" style="margin-left: -20%;">
-                                            <a href="#urban">
-                                                <h5 class="heading services" style="color: #7f8182;">
-                                                    Urban & Infrastructure<br>Field Development
-                                                </h5>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 mt-3">
-                                        <div class="title d-flex justify-content-center">
-                                            <a href="#review">
-                                                <h5 class="heading services" style="color:#9C9C9C;margin-top: -20%;">
-                                                    Design Review</h5>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row container title-container7 mt-3">
-                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                                        <div class="title d-flex" style="justify-content: flex-end;margin-right: -20%;">
-                                            <a href="#value-eng">
-                                                <h5 class="heading services" style="color:#78797B ;margin-top: -20%;">
-                                                    Value Engineering</h5>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 mt-3">
-                                        <div class="title d-flex justify-content-end" style="margin-right: -32%;">
-                                            <a href="#super-civil">
-                                                <h5 class="heading services" style="color:#545759 ;margin-top: -60%">
-                                                    Supervision & <br>
-                                                    Civil Consulting
-                                                </h5>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1"></div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
         <section>
             <div class="row">
                 <div class="col-xl-12 col-lg-12">
@@ -772,14 +685,14 @@
         <section>
             <div class="container-fluid " style="margin-top: -40%;">
                 <div class="row" id="urban">
-                    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-5">
+                    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12">
                         <div class="container d-flex justify-content-center">
                             <img src="./assets/images/services/1-urban.png" alt="pic-1" style="width: 70%;"
                                 class="services">
                         </div>
                     </div>
-                    <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7 col-7" id="urban-1">
-                        <div class="container d-flex" style="justify-content: flex-end; margin-right: -6%;">
+                    <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-12" id="urban-1">
+                        <div class="container-fluid d-flex right-image">
                             <img src="./assets/images/services/1-urban-title.png" alt="urban" style="width: 100%;"
                                 class="services">
                         </div>
@@ -814,8 +727,8 @@
                     </div>
                 </div>
                 <div class="row mt-5" id="managment">
-                    <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7 col-7">
-                        <div class="container d-flex" style="justify-content: flex-end; margin-left: -6%;">
+                    <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-12">
+                        <div class="container-fluid d-flex left-image">
                             <img src="./assets/images/services/2-proj-title.png" alt="img-2" class="services"
                                 style="width: 100%;">
                         </div>
@@ -868,19 +781,21 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-5">
-                        <img src="./assets/images/services/2-proj.png" alt="img-2" style="width: 70%;" class="services">
+                    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12">
+                        <div class="container d-flex justify-content-center">
+                            <img src="./assets/images/services/2-proj.png" alt="img-2" style="width: 70%;" class="services">
+                        </div>
                     </div>
                 </div>
                 <div class="row mt-5" id="architect">
-                    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-5">
+                    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12">
                         <div class="container d-flex justify-content-center">
                             <img src="./assets/images/services/3-archi.png" alt="pic-1" style="width: 70%;"
                                 class="services">
                         </div>
                     </div>
-                    <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7 col-7" id="urban-1">
-                        <div class="container d-flex" style="justify-content: flex-end; margin-right: -6%;">
+                    <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-12" id="urban-1">
+                        <div class="container-fluid d-flex right-image">
                             <img src="./assets/images/services/3-archi-title.png" alt="urban" class="services"
                                 style="width: 100%;">
                         </div>
@@ -918,8 +833,8 @@
                     </div>
                 </div>
                 <div class="row mt-5" id="structural">
-                    <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7 col-7">
-                        <div class="container d-flex" style="justify-content: flex-end; margin-left: -6%;">
+                    <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-12">
+                        <div class="container-fluid d-flex left-image">
                             <img src="./assets/images/services/4-title.png" alt="img-2" style="width: 100%;"
                                 class="services">
                         </div>
@@ -962,20 +877,22 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-5">
-                        <img src="./assets/images/services/4-struc.png" alt="img-2" style="width: 70%;"
-                            class="services">
+                    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12">
+                        <div class="container d-flex justify-content-center">
+                            <img src="./assets/images/services/4-struc.png" alt="img-2" style="width: 70%;"
+                                class="services">
+                        </div>
                     </div>
                 </div>
                 <div class="row mt-5" id="mep">
-                    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-5">
+                    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12">
                         <div class="container d-flex justify-content-center">
                             <img src="./assets/images/services/5-image.png" alt="pic-1" style="width: 70%;"
                                 class="services">
                         </div>
                     </div>
-                    <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7 col-7" id="urban-1">
-                        <div class="container d-flex" style="justify-content: flex-end; margin-right: -6%;">
+                    <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-12" id="urban-1">
+                        <div class="container-fluid d-flex right-image">
                             <img src="./assets/images/services/5-mep.png" alt="urban" style="width: 100%;"
                                 class="services">
                         </div>
@@ -1026,8 +943,8 @@
                     </div>
                 </div>
                 <div class="row mt-5" id="design">
-                    <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7 col-7">
-                        <div class="container d-flex" style="justify-content: flex-end; margin-left: -6%;">
+                    <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-12">
+                        <div class="container-fluid d-flex left-image">
                             <img src="./assets/images/services/6-int-title.png" alt="img-2" style="width: 100%;"
                                 class="services">
                         </div>
@@ -1060,20 +977,22 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-5">
-                        <img src="./assets/images/services/6-interior.png" alt="img-2" style="width: 70%;"
-                            class="services">
+                    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12">
+                        <div class="container d-flex justify-content-center">
+                            <img src="./assets/images/services/6-interior.png" alt="img-2" style="width: 70%;"
+                                class="services">
+                        </div>
                     </div>
                 </div>
                 <div class="row mt-5" id="review">
-                    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-5">
+                    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12">
                         <div class="container d-flex justify-content-center">
                             <img src="./assets/images/services/7-design.png" alt="pic-1" style="width: 70%;"
                                 class="services">
                         </div>
                     </div>
-                    <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7 col-7" id="urban-1">
-                        <div class="container d-flex" style="justify-content: flex-end; margin-right: -6%;">
+                    <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-12" id="urban-1">
+                        <div class="container-fluid d-flex right-image">
                             <img src="./assets/images/services/7-title.png" alt="urban" style="width: 100%;"
                                 class="services">
                         </div>
@@ -1125,8 +1044,8 @@
                     </div>
                 </div>
                 <div class="row mt-5" id="scape">
-                    <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7 col-7">
-                        <div class="container d-flex" style="justify-content: flex-end; margin-left: -6%;">
+                    <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-12">
+                        <div class="container-fluid d-flex left-image">
                             <img src="./assets/images/services/8-title.png" alt="img-2" style="width: 100%;"
                                 class="services">
                         </div>
@@ -1149,20 +1068,22 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-5">
-                        <img src="./assets/images/services/8-landscape.png" alt="img-2" style="width: 70%;"
-                            class="services">
+                    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12">
+                        <div class="container d-flex justify-content-center">
+                            <img src="./assets/images/services/8-landscape.png" alt="img-2" style="width: 70%;"
+                                class="services">
+                        </div>
                     </div>
                 </div>
                 <div class="row mt-5" id="tender">
-                    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-5">
+                    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12">
                         <div class="container d-flex justify-content-center">
                             <img src="./assets/images/services/9-tendering.png" alt="pic-1" style="width: 70%;"
                                 class="services">
                         </div>
                     </div>
-                    <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7 col-7" id="urban-1">
-                        <div class="container d-flex" style="justify-content: flex-end; margin-right: -6%;">
+                    <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-12" id="urban-1">
+                        <div class="container-fluid d-flex right-image">
                             <img src="./assets/images/services/9-title.png" alt="urban" style="width: 100%;"
                                 class="services">
                         </div>
@@ -1179,8 +1100,8 @@
                     </div>
                 </div>
                 <div class="row mt-5" id="value-eng">
-                    <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7 col-7">
-                        <div class="container d-flex" style="justify-content: flex-end; margin-left: -6%;">
+                    <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-12">
+                        <div class="container-fluid d-flex left-image">
                             <img src="./assets/images/services/10-title.png" alt="img-2" style="width: 100%;"
                                 class="services">
                         </div>
@@ -1214,20 +1135,22 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-5">
-                        <img src="./assets/images/services/10-value.png" alt="img-2" style="width: 70%;"
-                            class="services">
+                    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12">
+                        <div class="container d-flex justify-content-center">
+                            <img src="./assets/images/services/10-value.png" alt="img-2" style="width: 70%;"
+                                class="services">
+                        </div>
                     </div>
                 </div>
                 <div class="row mt-5" id="super-civil">
-                    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-5">
+                    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12">
                         <div class="container-fluid d-flex justify-content-center">
                             <img src="./assets/images/services/11-super.png" alt="img-2" style="width: 70%;"
                                 class="services">
                         </div>
                     </div>
-                    <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7 col-7">
-                        <div class="container d-flex" style="justify-content: flex-end; margin-right: -6%;">
+                    <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-12">
+                        <div class="container-fluid d-flex right-image">
                             <img src="./assets/images/services/11-title.png" alt="img-2" style="width: 100%;"
                                 class="services">
                         </div>
@@ -1287,10 +1210,10 @@
     </section>
     <div class="container-fluid arrow-container">
         <div class="blur-select left-arrow-class">
-            <a href="index.html"><img src="./assets/images/left-arrow.png" alt="left-arrow" class="left-arrow-img"></a>
+            <a href="about.html"><img src="./assets/images/left-arrow.png" alt="left-arrow" class="left-arrow-img"></a>
         </div>
         <div id="right_arrow" class="blur-select">
-            <a href="services.html"><img src="./assets/images/right-arrow.png" alt="right-arrow"
+            <a href="portfolio.html"><img src="./assets/images/right-arrow.png" alt="right-arrow"
                     class="right-arrow-img"></a>
         </div>
     </div>

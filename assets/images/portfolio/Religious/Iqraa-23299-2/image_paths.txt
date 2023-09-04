@@ -1,0 +1,8 @@
+C:\xampp\htdocs\Sahasra8\assests\images\portfolio\Religious\Iqraa-23299-2\image_paths.txt
+C:\xampp\htdocs\Sahasra8\assests\images\portfolio\Religious\Iqraa-23299-2\Iqraa (1).jpg
+C:\xampp\htdocs\Sahasra8\assests\images\portfolio\Religious\Iqraa-23299-2\Iqraa (2).jpg
+C:\xampp\htdocs\Sahasra8\assests\images\portfolio\Religious\Iqraa-23299-2\Iqraa (3).jpg
+C:\xampp\htdocs\Sahasra8\assests\images\portfolio\Religious\Iqraa-23299-2\Iqraa (4).jpg
+C:\xampp\htdocs\Sahasra8\assests\images\portfolio\Religious\Iqraa-23299-2\Iqraa (5).jpg
+C:\xampp\htdocs\Sahasra8\assests\images\portfolio\Religious\Iqraa-23299-2\Iqraa (6).jpg
+C:\xampp\htdocs\Sahasra8\assests\images\portfolio\Religious\Iqraa-23299-2\Iqraa (7).jpg

@@ -1,0 +1,423 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!--giving credit to Author - https://github.com/kenwheeler/slick
+        The MIT License (MIT)-Copyright (c) 2013-2016
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. -->
+    <!-- Required meta tags -->
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#7F6541">
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="black">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="/assets/imgs/fevicon.webp">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css" />
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Portfolio</title>
+    <style type="text/css">
+        /* Default slide */
+        .center-slider .slick-slide {
+            color: #FFF;
+            margin: 0 15px 0 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transform: scale(0.8);
+            transition: all 0.4s ease-in-out;
+            flex-flow: row wrap;
+        }
+
+        .center-slider .slick-slide,
+        .center-slider .slick-slide[aria-hidden="true"]:not(.slick-cloned)~.slick-cloned[aria-hidden="true"] {
+            transform: scale(0.8, 0.8);
+            transition: all 0.4s ease-in-out;
+        }
+
+        /* Active center slide (You can change anything here for cenetr slide)*/
+        .center-slider .slick-center,
+        .center-slider .slick-slide[aria-hidden="true"]:not([tabindex="-1"])+.slick-cloned[aria-hidden="true"] {
+            transform: scale(1.1);
+            background-color: transparent;
+        }
+
+        .center-slider .slick-current.slick-active {
+            transform: scale(1.1);
+            background-color: transparent;
+        }
+
+        .slick-next,
+        .slick-prev {
+            z-index: 5;
+        }
+
+        .slick-next {
+            right: 15px;
+        }
+
+        .slick-prev {
+            left: 15px;
+        }
+
+        .slick-next:before,
+        .slick-prev:before {
+            color: #000;
+            font-size: 26px;
+        }
+
+        @media (min-width: 992px) {
+            .me-1 {
+
+                z-index: 10;
+            }
+        }
+
+        .dropdown-toggle::after {
+            display: none !important;
+        }
+
+        /* styles for iconbar */
+        .icon-bar {
+            position: fixed;
+            top: 41%;
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+            right: 2.2%;
+            z-index: 10;
+        }
+
+        .icon-bar a {
+            display: block;
+            text-align: center;
+            padding: 3px;
+            transition: all 0.3s ease;
+            color: white;
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+
+        .icon-bar a:hover {
+            cursor: pointer;
+            color: #7F6541;
+            z-index: 10;
+        }
+        /* styles for the navlink as per the other pages and modified */
+        .nav-link {
+            color: #fff;
+            cursor: pointer;
+            font-family: century gothic;
+            font-size: 16px;
+            text-decoration: none;
+            text-transform: uppercase;
+            transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <section id="#">
+        <div class="row">
+            <div class="container-fluid button-container">
+                <button type="button" class="btn-translation text-white">En / عربى</button>
+            </div>
+        </div>
+    </section>
+    <section id="#">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html" style="margin-left: 1%;">
+                    <img src="./assets/images/logo.webp" alt="Logo" width="150" height="auto">
+                </a>
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link " href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle " href="about.html" role="button"
+                                aria-expanded="false"> About us </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="about.html#ceo-message">Ceo's Message</a></li>
+                                <li><a class="dropdown-item" href="about.html#vision">Vision</a></li>
+                                <li><a class="dropdown-item" href="about.html#mission">Mission</a></li>
+                                <li><a class="dropdown-item" href="about.html#values">values</a></li>
+                                <!-- <li><a class="dropdown-item" href="about.html#team">Team</a></li>
+                                <li><a class="dropdown-item" href="about.html#organization">Organization
+                                        structure</a></li> -->
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="services.html" role="button"
+                                aria-expanded="false">
+                                Services
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="services.html#urban">URBAN&INFRASTRUCTURE FIELD
+                                        DEVELOPMENT</a></li>
+                                <li><a class="dropdown-item" href="services.html#managment">PROJECT MANAGMENT</a>
+                                </li>
+                                <li><a class="dropdown-item" href="services.html#architect">ARCHITECTURAL
+                                        DESIGN</a></li>
+                                <li><a class="dropdown-item" href="services.html#structural">STRUCTURAL DESIGN</a>
+                                </li>
+                                <li><a class="dropdown-item" href="services.html#mep">MEP&LOWCURRENT DESIGN</a>
+                                </li>
+                                <li><a class="dropdown-item" href="services.html#design">INTERIOR DESIGN</a></li>
+                                <li><a class="dropdown-item" href="services.html#review">DESIGN REVIEW</a></li>
+                                <li><a class="dropdown-item" href="services.html#scape">LANDSCAPE DESIGN</a></li>
+                                <li><a class="dropdown-item" href="services.html#tender">TENDERING PROCESS</a>
+                                </li>
+                                <li><a class="dropdown-item" href="services.html#value-eng">VALUE ENGINEERING</a>
+                                </li>
+                                <li><a class="dropdown-item" href="services.html#super-civil">SUPERVISION&CIVIL
+                                        CONSULTING</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="iconic.html">Iconic Projects</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="more.html" role="button"
+                                aria-expanded="false">
+                                KNOW More
+                            </a>
+                            <ul class="dropdown-menu ">
+                                <li><a class="dropdown-item" href="more.html#announce">ANNOUNCEMENTS</a></li>
+                                <li><a class="dropdown-item" href="more.html#news">NEWS</a></li>
+                                <li><a class="dropdown-item" href="more.html#gallery">GALLERY</a></li>
+                                <li><a class="dropdown-item" href="more.html#promotions">PROMOTIONS</a></li>
+                                <li><a class="dropdown-item" href="more.html#freehand">FREEHAND SKETCH</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactus-no-change.html">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <section id="main_header_abouts">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-xl-12 position-relative">
+                    <div class="welcometext_about " data-translate="whatwehavedone">
+                        <h1>WHAT <br />
+                            <div class="container-fluid d-flex" style="flex-direction: row;">
+                                <span class="welcomeNext">WE'VE</span><span class="donew">DONE<span
+                                    class="dots1">&#9632;&#9632;</span></span></h1>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="main_slider_wwid">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-xl-12">
+                    <div class="wrapper">
+                        <div class="center-slider">
+                            <div class="category-image" data-category="residential">
+                                <img src="./assets/images/portfolio/Residential/IGO-23353-1/1-night.jpg" alt="hotel" loading="lazy"
+                                    class="slickimage" />
+                                <div data-translate="hotel">
+                                    <p>Residential</p>
+                                </div>
+                            </div>
+                            <div class="category-image" data-category="mixeduse">
+                                    <img src="./assets/images/portfolio/Mixed-use/MAdain-23200-1/madain-1.jpg" alt="">
+                                    <!-- <img src="./assets/images/portfolio/Mixed-use/La-vie-23002-3/1.jpg" alt="img-1"> -->
+                                
+                                    <p>Residential & Commerical</p>
+                               
+                            </div>
+                            <div class="category-image" data-category="hotel">
+                                <img src="./assets/images/portfolio/Hotel/Sls-1/sls (7).jpg" alt="hospital" loading="lazy"
+                                    class="slickimage" />
+                                <div data-translate="hosp">
+                                    <p>Hotels</p>
+                                </div>
+                            </div>
+                            <div class="category-image" data-category="master">
+                                <img src="./assets/images/portfolio/Master-planning/Dibba-1/dibba (3).jpg" alt="mall" loading="lazy"
+                                    class="slickimage" />
+                                <div data-translate="mal">
+                                    <p>Master Planning</p>
+                                </div>
+                            </div>
+                            <div class="category-image" data-category="villas">
+                                <img src="./assets/images/portfolio/Villas/ras-al-khaimah-1/ras-al (1).jpg" alt="gov" loading="lazy"
+                                    class="slickimage" />
+                                <div data-translate="adm">
+                                    <p>Villas</p>
+                                </div>
+                            </div>
+                            <div class="category-image" data-category="admin">
+                                <img src="./assets/images/portfolio/Admin/algerf-22130-1/algerf (1).jpg" alt="palace" loading="lazy"
+                                    class="slickimage" />
+                                <div data-translate="palac">
+                                    <p>Administration</p>
+                                </div>
+                            </div>
+                            <div class="category-image" data-category="educational">
+                                <img src="./assets/images/portfolio/Educational/edu (2).jpg" alt="school" loading="lazy"
+                                    class="slickimage" />
+                                <div data-translate="schoo">
+                                    <p>Educational</p>
+                                </div>
+                            </div>
+                            <div class="category-image" data-category="sportscenter">
+                                <img src="./assets/images/portfolio/Sports-center/Baniyas-22051-1/baniya (2).jpg" alt="school" loading="lazy"
+                                    class="slickimage" />
+                                <div data-translate="schoo">
+                                    <p>Sports Center</p>
+                                </div>
+                            </div>
+                            <div class="category-image" data-category="cultural">
+                                <img src="./assets/images/portfolio/Cultural-center/ummal-22955-1/ummal (3).jpg" alt="school" loading="lazy"
+                                    class="slickimage" />
+                                <div data-translate="schoo">
+                                    <p>Cultural Center</p>
+                                </div>
+                            </div>
+                            <div class="category-image" data-category="mosque">
+                                <img src="./assets/images/portfolio/Religious/Al-barsha-23028-1/al-barsha (8).jpg" alt="school" loading="lazy"
+                                    class="slickimage" />
+                                <div data-translate="schoo">
+                                    <p>Religious</p>
+                                </div>
+                            </div>
+                            <div class="category-image" data-category="overseas">
+                                <img src="./assets/images/portfolio/Overseas/Qatar-23333-1/qatar (1).jpg" alt="school" loading="lazy"
+                                    class="slickimage" />
+                                <div data-translate="schoo">
+                                    <p>Overseas</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="icon-bar">
+        <a href="https://www.linkedin.com/company/next-engineering-consultants/" class="linkedin" target="_blank"><i
+                class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/next.engineering.consultants/" class="instagram" target="_blank"><i
+                class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/NEXT.Engineering.Consultants" class="facebook" target="_blank"><i
+                class="fab fa-facebook"></i></a>
+        <a href="#" class="whatsapp"><i class="fab fa-whatsapp"></i></a>
+        <a href="#" class="comment-dots"><i class="far fa-comment-dots"></i></a>
+    </div>
+
+    </section>
+    <div class="container-fluid arrow-container">
+        <div class="blur-select left-arrow-class">
+            <a href="services.html"><img src="./assets/images/left-arrow.png" alt="left-arrow" class="left-arrow-img"></a>
+        </div>
+        <div id="right_arrow" class="blur-select">
+            <a href="index.html"><img src="./assets/images/right-arrow.png" alt="right-arrow"
+                    class="right-arrow-img"></a>
+        </div>
+    </div>
+    <section>
+        <div class="row my-3">
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3"></div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 iso-certificates">
+                <img src="./assets/images/home/1.png" alt="iso-1" style="width: 8%;" class="iso-1">
+                <img src="./assets/images/home/2.png" alt="iso-2" style="width: 8%;" class="iso-2">
+                <img src="./assets/images/home/3.png" alt="iso-3" style="width: 8%;" class="iso-3">
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3"></div>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.center-slider').slick({
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                centerMode: true,
+                arrows: true,
+                dots: false,
+                speed: 300,
+                centerPadding: '0',
+                infinite: true,
+                autoplaySpeed: 500000,
+                autoplay: true,
+                responsive: [
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            centerPadding: '40px',
+                            slidesToShow: 3
+                        }
+                    },
+                    {
+                        breakpoint: 575,
+                        settings: {
+                            centerPadding: '40px',
+                            slidesToShow: 1
+                        }
+                    }
+                ]
+            });
+        });
+        function myFunction(x) {
+            x.classList.toggle("bi-x-lg");
+        }
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const categoryImages = document.querySelectorAll(".category-image");
+            categoryImages.forEach((categoryImage) => {
+                categoryImage.addEventListener("click", () => {
+                    const category = categoryImage.getAttribute("data-category");
+                    window.location.href = `2ndpage-grid.html?category=${category}`;
+                });
+            });
+        });
+
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script>
+
+
+
+</body>
+</html>

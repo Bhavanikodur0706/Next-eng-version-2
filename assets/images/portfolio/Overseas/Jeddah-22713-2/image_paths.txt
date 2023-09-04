@@ -1,0 +1,4 @@
+C:\xampp\htdocs\Sahasra8\assests\images\portfolio\Overseas\Jeddah-22713-2\image_paths.txt
+C:\xampp\htdocs\Sahasra8\assests\images\portfolio\Overseas\Jeddah-22713-2\jeddah (1).jpg
+C:\xampp\htdocs\Sahasra8\assests\images\portfolio\Overseas\Jeddah-22713-2\jeddah (2).jpg
+C:\xampp\htdocs\Sahasra8\assests\images\portfolio\Overseas\Jeddah-22713-2\jeddah (3).jpg

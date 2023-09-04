@@ -1,0 +1,11 @@
+C:\xampp\htdocs\Sahasra8\assests\images\portfolio\Villas\ras-al-khaimah-1\image_paths.txt
+C:\xampp\htdocs\Sahasra8\assests\images\portfolio\Villas\ras-al-khaimah-1\ras-al (1).jpg
+C:\xampp\htdocs\Sahasra8\assests\images\portfolio\Villas\ras-al-khaimah-1\ras-al (10).jpg
+C:\xampp\htdocs\Sahasra8\assests\images\portfolio\Villas\ras-al-khaimah-1\ras-al (2).jpg
+C:\xampp\htdocs\Sahasra8\assests\images\portfolio\Villas\ras-al-khaimah-1\ras-al (3).jpg
+C:\xampp\htdocs\Sahasra8\assests\images\portfolio\Villas\ras-al-khaimah-1\ras-al (4).jpg
+C:\xampp\htdocs\Sahasra8\assests\images\portfolio\Villas\ras-al-khaimah-1\ras-al (5).jpg
+C:\xampp\htdocs\Sahasra8\assests\images\portfolio\Villas\ras-al-khaimah-1\ras-al (6).jpg
+C:\xampp\htdocs\Sahasra8\assests\images\portfolio\Villas\ras-al-khaimah-1\ras-al (7).jpg
+C:\xampp\htdocs\Sahasra8\assests\images\portfolio\Villas\ras-al-khaimah-1\ras-al (8).jpg
+C:\xampp\htdocs\Sahasra8\assests\images\portfolio\Villas\ras-al-khaimah-1\ras-al (9).jpg

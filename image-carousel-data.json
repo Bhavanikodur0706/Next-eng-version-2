@@ -1,0 +1,1015 @@
+{
+    "residential": {
+      "residential-image-1":{
+        "images": ["./assets/images/portfolio/Residential/IGO-23353-1/Igo (1).jpg","./assets/images/portfolio/Residential/IGO-23353-1/Igo (1).png","./assets/images/portfolio/Residential/IGO-23353-1/Igo (10).png","./assets/images/portfolio/Residential/IGO-23353-1/Igo (11).png","./assets/images/portfolio/Residential/IGO-23353-1/Igo (12).png","./assets/images/portfolio/Residential/IGO-23353-1/Igo (2).jpg","./assets/images/portfolio/Residential/IGO-23353-1/Igo (2).png","./assets/images/portfolio/Residential/IGO-23353-1/Igo (3).png","./assets/images/portfolio/Residential/IGO-23353-1/Igo (4).png"],
+        "description": {
+          "title": "SOCIETY HOUSE",
+          "content": "G + M + 4 P + 48 F + R",
+          "location": "Downtown,Dubai",
+          "client": "IGO",
+          "cost": "123",
+          "status": "Design Proposal"
+        }
+      },
+      "residential-image-2":{
+        "images": ["./assets/images/portfolio/Residential/Bluez-23364-2/Bluez (1).jpg","./assets/images/portfolio/Residential/Bluez-23364-2/Bluez (10).jpg","./assets/images/portfolio/Residential/Bluez-23364-2/Bluez (2).jpg","./assets/images/portfolio/Residential/Bluez-23364-2/Bluez (3).jpg","./assets/images/portfolio/Residential/Bluez-23364-2/Bluez (4).jpg","./assets/images/portfolio/Residential/Bluez-23364-2/Bluez (5).jpg","./assets/images/portfolio/Residential/Bluez-23364-2/Bluez (6).jpg","./assets/images/portfolio/Residential/Bluez-23364-2/Bluez (7).jpg","./assets/images/portfolio/Residential/Bluez-23364-2/Bluez (8).jpg","./assets/images/portfolio/Residential/Bluez-23364-2/Bluez (9).jpg"],
+        "description": {
+          "title": "BLUEZ",
+          "content": "G + 6 P + 42 F + R",
+          "location": "Business bay,Dubai",
+          "client": "Danube",
+          "cost": "123",
+          "status": "Design Proposal"
+        }
+      },
+      "residential-image-3":{
+        "images" :["./assets/images/portfolio/Residential/Trioz-23343-3/Trioz (1).jpg","./assets/images/portfolio/Residential/Trioz-23343-3/Trioz (2).jpg","./assets/images/portfolio/Residential/Trioz-23343-3/Trioz (3).jpg","./assets/images/portfolio/Residential/Trioz-23343-3/Trioz (4).jpg","./assets/images/portfolio/Residential/Trioz-23343-3/Trioz (5).jpg","./assets/images/portfolio/Residential/Trioz-23343-3/Trioz (6).jpg","./assets/images/portfolio/Residential/Trioz-23343-3/Trioz (7).jpg","./assets/images/portfolio/Residential/Trioz-23343-3/Trioz (8).jpg"],
+        "description": {
+          "title": "TRIOZ",
+          "content": "",
+          "location": "Business bay,Dubai",
+          "client": "Danube",
+          "cost": "123",
+          "status": "Design Proposal"
+        }
+
+      },
+      "residential-image-4":{
+        "images":["./assets/images/portfolio/Residential/Deyaar-22558-4/Dey-4 (1).jpg","./assets/images/portfolio/Residential/Deyaar-22558-4/Dey-4 (2).jpg","./assets/images/portfolio/Residential/Deyaar-22558-4/Dey-4 (3).jpg","./assets/images/portfolio/Residential/Deyaar-22558-4/Dey-4 (4).jpg"],
+        "description": {
+          "title": "DEYAAR TOWER",
+          "content": "B + G + Mez. & Podiums + 59 F",
+          "location": "Burj Khalifa Area, Dubai",
+          "client": "Burj District One Limited",
+          "cost": "123",
+          "status": "Under Construction 2019"
+        }
+      },
+      "residential-image-5":{
+        "images":["./assets/images/portfolio/Residential/Deyaar-23136-5/Dey-5 (1).jpg","./assets/images/portfolio/Residential/Deyaar-23136-5/Dey-5 (2).jpg","./assets/images/portfolio/Residential/Deyaar-23136-5/Dey-5 (3).jpg","./assets/images/portfolio/Residential/Deyaar-23136-5/Dey-5 (4).jpg"],
+        "description": {
+          "title": "DEYAAR TOWER",
+          "content": "G + 4 P + 44 F",
+          "location": "Maritime City, Dubai",
+          "client": "Deyaar Development Company",
+          "cost": "123",
+          "status": "Under Design Proposal"
+        }
+      },
+      "residential-image-6":{
+        "images":["./assets/images/portfolio/Residential/crystal-tower-6/Cryst (1).jpg","./assets/images/portfolio/Residential/crystal-tower-6/Cryst (1).png","./assets/images/portfolio/Residential/crystal-tower-6/Cryst (2).jpg","./assets/images/portfolio/Residential/crystal-tower-6/Cryst (2).png","./assets/images/portfolio/Residential/crystal-tower-6/Cryst (3).jpg","./assets/images/portfolio/Residential/crystal-tower-6/Cryst (4).jpg"],
+        "description": {
+          "title": "CRYSTAL TOWER / OFFICES",
+          "content": "G + 10 P + Mec. + 40 F",
+          "location": "Business Bay, Dubai",
+          "client": "Al Sayah Company",
+          "cost": "123",
+          "status": "Under Design Proposal"
+        }
+      },
+      "residential-image-7":{
+        "images":["./assets/images/portfolio/Residential/JVT-tower-23298-7/JVT (1).jpg","./assets/images/portfolio/Residential/JVT-tower-23298-7/JVT (1).png","./assets/images/portfolio/Residential/JVT-tower-23298-7/JVT (2).png","./assets/images/portfolio/Residential/JVT-tower-23298-7/JVT (3).png"],
+        "description": {
+          "title": "JVT TOWER",
+          "content": "1 B + G + 4 P + 3 Ofc. + 32 F",
+          "location": "JVT, Dubai",
+          "client": "Waleed Mohammed Mohammed",
+          "cost": "123",
+          "status": "Under Design"
+        }
+      },
+      "residential-image-8":{
+        "images":["./assets/images/portfolio/Residential/Sydney-22296-8/sydney (1).jpg","./assets/images/portfolio/Residential/Sydney-22296-8/sydney (2).jpg"],
+        "description": {
+          "title": "SYDNEY TOWER",
+          "content": "G + 4 P + 20 F + R",
+          "location": "Jumeirah Village, Dubai",
+          "client": "Mohammed Bakri",
+          "cost": "123",
+          "status": "Project Completed"
+        }
+      }
+    },
+    "mixeduse":{
+      "mixeduse-image-1":{
+        "images":["./assets/images/portfolio/Mixed-use/MAdain-23200-1/madain (1).jpg","./assets/images/portfolio/Mixed-use/MAdain-23200-1/madain (2).jpg","./assets/images/portfolio/Mixed-use/MAdain-23200-1/madain (3).jpg","./assets/images/portfolio/Mixed-use/MAdain-23200-1/madain (4).jpg","./assets/images/portfolio/Mixed-use/MAdain-23200-1/madain (5).jpg","./assets/images/portfolio/Mixed-use/MAdain-23200-1/madain (10).jpg","./assets/images/portfolio/Mixed-use/MAdain-23200-1/madain (11).jpg","./assets/images/portfolio/Mixed-use/MAdain-23200-1/madain (12).jpg","./assets/images/portfolio/Mixed-use/MAdain-23200-1/madain (13).jpg","./assets/images/portfolio/Mixed-use/MAdain-23200-1/madain (14).jpg","./assets/images/portfolio/Mixed-use/MAdain-23200-1/madain (15).jpg","./assets/images/portfolio/Mixed-use/MAdain-23200-1/madain (16).jpg","./assets/images/portfolio/Mixed-use/MAdain-23200-1/madain (17).jpg","./assets/images/portfolio/Mixed-use/MAdain-23200-1/madain (18).jpg","./assets/images/portfolio/Mixed-use/MAdain-23200-1/madain (19).jpg"],
+        "description": {
+          "title": "MADA'IN TOWER",
+          "content": "2 B + G + 4 P + Podium Roof + 64 F + 2 Mech. + R + Top Roof",
+          "location": "Marina, Dubai",
+          "client": "Mada'in",
+          "cost": "123",
+          "status": "Under Construction"
+        }
+      },
+      "mixeduse-image-2":{
+        "images":["./assets/images/portfolio/Mixed-use/Florenz-23312-2/florenz (1).jpg","./assets/images/portfolio/Mixed-use/Florenz-23312-2/florenz (2).jpg","./assets/images/portfolio/Mixed-use/Florenz-23312-2/florenz (3).jpg","./assets/images/portfolio/Mixed-use/Florenz-23312-2/florenz (4).jpg"],
+        "description": {
+          "title": "FLORENZ TOWER",
+          "content": "3 P + 45 F + Mec. + R",
+          "location": "City of Arabia, Dubai",
+          "client": "Danube",
+          "cost": "123",
+          "status": "Under Design Proposal"
+        }
+      },
+      "mixeduse-image-3":{
+        "images":["./assets/images/portfolio/Mixed-use/La-vie-23002-3/La-vie (1).jpg","./assets/images/portfolio/Mixed-use/La-vie-23002-3/La-vie (2).jpg","./assets/images/portfolio/Mixed-use/La-vie-23002-3/La-vie (3).jpg","./assets/images/portfolio/Mixed-use/La-vie-23002-3/La-vie (4).jpg","./assets/images/portfolio/Mixed-use/La-vie-23002-3/La-vie (5).jpg","./assets/images/portfolio/Mixed-use/La-vie-23002-3/La-vie (6).jpg","./assets/images/portfolio/Mixed-use/La-vie-23002-3/La-vie (7).jpg","./assets/images/portfolio/Mixed-use/La-vie-23002-3/La-vie (8).jpg","./assets/images/portfolio/Mixed-use/La-vie-23002-3/La-vie (9).jpg"],
+        "description": {
+          "title": "LA VIE TOWER",
+          "content": "B + G + 36 F + Mec. + R",
+          "location": "Jumeirah, Dubai",
+          "client": "North 25",
+          "cost": "123",
+          "status": "Under Construction"
+        }
+      },
+      "mixeduse-image-4":{
+        "images":["./assets/images/portfolio/Mixed-use/Naeem-23083-4/naeem (1).jpeg","./assets/images/portfolio/Mixed-use/Naeem-23083-4/naeem (2).jpg","./assets/images/portfolio/Mixed-use/Naeem-23083-4/naeem (3).jpg","./assets/images/portfolio/Mixed-use/Naeem-23083-4/naeem (4).jpg","./assets/images/portfolio/Mixed-use/Naeem-23083-4/naeem (1).jpg"],
+        "description": {
+          "title": "NAEEM - 5",
+          "content": "G + 3 Mez. + 30 F + R",
+          "location": "Duffan, Ras Al Khaimah",
+          "client": "Ahmed Eisa Ahmwed Alnuiam",
+          "cost": "123",
+          "status": "Proposal"
+        }
+      },
+      "mixeduse-image-5":{
+        "images":["./assets/images/portfolio/Mixed-use/Teraas-23291-5/Teraas (1).jpg","./assets/images/portfolio/Mixed-use/Teraas-23291-5/Teraas (2).jpg","./assets/images/portfolio/Mixed-use/Teraas-23291-5/Teraas (3).jpg"],
+        "description": {
+          "title": "TÈRASS TOWER",
+          "content": "G + 3 P + 24 F + R",
+          "location": "Sports City",
+          "client": "Abdulrahim Al Zarooni",
+          "cost": "123",
+          "status": "Under Design Proposal"
+        }
+      },
+      "mixeduse-image-6":{
+        "images":["./assets/images/portfolio/Mixed-use/Paragon-23306-6/paragon (1).jpg","./assets/images/portfolio/Mixed-use/Paragon-23306-6/paragon (2).jpg","./assets/images/portfolio/Mixed-use/Paragon-23306-6/paragon (3).jpg","./assets/images/portfolio/Mixed-use/Paragon-23306-6/paragon (4).jpg"],
+        "description": {
+          "title": "PARAGON TOWER",
+          "content": "3 B + G + P + 22 F + R",
+          "location": "Business bay,Dubai",
+          "client": "IGO",
+          "cost": "123",
+          "status": "Under Construction"
+        }
+
+      },
+      "mixeduse-image-7":{
+        "images":["./assets/images/portfolio/Mixed-use/tecom-23297-7/tecom (1).jpg","./assets/images/portfolio/Mixed-use/tecom-23297-7/tecom (2).jpg","./assets/images/portfolio/Mixed-use/tecom-23297-7/tecom (3).jpg","./assets/images/portfolio/Mixed-use/tecom-23297-7/tecom (4).jpg"],
+        "description": {
+          "title": "RESIDENTIAL BUILDING",
+          "content": "2 B + G + 19 F",
+          "location": "Tecom, Dubai",
+          "client": "DANUBE Properties",
+          "cost": "123",
+          "status": "Under Design Proposal"
+        }
+      },
+      "mixeduse-image-8":{
+        "images":["./assets/images/portfolio/Mixed-use/khalifa-22439-8/khalifa (1).jpg","./assets/images/portfolio/Mixed-use/khalifa-22439-8/khalifa (2).jpg"],
+        "description": {
+          "title": "RESIDENTIAL BUILDING",
+          "content": "2 B + G + Mez. + 7 F",
+          "location": "Khalifa City, Abu Dhabi",
+          "client": "H. H. Sheikh Sultan Khalifa Bin Zayed Al Nahyan",
+          "cost": "123",
+          "status": "Proposal"
+        }
+      }
+
+    },
+    "hotel":{
+      "hotel-image-1": {
+        "images": [
+          "./assets/images/portfolio/Hotel/Sls-1/sls (1).jpg",
+          "./assets/images/portfolio/Hotel/Sls-1/sls (2).jpg",
+          "./assets/images/portfolio/Hotel/Sls-1/sls (3).jpg",
+          "./assets/images/portfolio/Hotel/Sls-1/sls (4).jpg",
+          "./assets/images/portfolio/Hotel/Sls-1/sls (5).jpg",
+          "./assets/images/portfolio/Hotel/Sls-1/sls (6).jpg",
+          "./assets/images/portfolio/Hotel/Sls-1/sls (7).jpg"
+        ],
+        "description": {
+          "title": "SLS TOWER",
+          "content": "5 Star Hotel. 5 B + G + 5 P + 70 F",
+          "location": "Business bay,Dubai",
+          "client": "Wow investment company",
+          "cost": "123",
+          "status": "completed"
+        }
+      },      
+      "hotel-image-2":{
+        "images":["./assets/images/portfolio/Hotel/Crystal-2/crystal (1).jpg","./assets/images/portfolio/Hotel/Crystal-2/crystal (2).jpg","./assets/images/portfolio/Hotel/Crystal-2/crystal (3).jpg","./assets/images/portfolio/Hotel/Crystal-2/crystal (4).jpg","./assets/images/portfolio/Hotel/Crystal-2/crystal (5).jpg"],
+        "description": {
+          "title": "CRYSTAL TOWER",
+          "content": "G + 3 P + 51 F",
+          "location": "Al Wasl, Sheikh Zhayed Road, Dubai",
+          "client": "Naser Rashid Majid Lootah",
+          "cost": "123",
+          "status": "Proposal"
+        }
+      },
+      "hotel-image-3":{
+        "images":["./assets/images/portfolio/Hotel/Gargash-3/gargash (1).jpg","./assets/images/portfolio/Hotel/Gargash-3/gargash (2).jpg","./assets/images/portfolio/Hotel/Gargash-3/gargash (3).jpg","./assets/images/portfolio/Hotel/Gargash-3/gargash (4).jpg"],
+        "description": {
+          "title": "HOTEL",
+          "content": "B + G + 4 P + H.C. + 2 Mec. + 45 F",
+          "location": "Dubai Water Canal",
+          "client": "Tariq Abdullah Gargash",
+          "cost": "123",
+          "status": "Tender Stage"
+        }
+      },
+      "hotel-image-4":{
+        "images":["./assets/images/portfolio/Hotel/Marina-4/marina (1).jpg","./assets/images/portfolio/Hotel/Marina-4/marina (2).jpg","./assets/images/portfolio/Hotel/Marina-4/marina (3).jpg","./assets/images/portfolio/Hotel/Marina-4/marina (4).jpg","./assets/images/portfolio/Hotel/Marina-4/marina (5).jpg"],
+        "description": {
+          "title": "5 STAR HOTEL",
+          "content": "2 B + Mec. + G + 31 F + R",
+          "location": "Marina, Dubai",
+          "client": "Wasl Properties Dubai",
+          "cost": "123",
+          "status": "completed"
+        }
+      },
+      "hotel-image-5":{
+        "images":["./assets/images/portfolio/Hotel/Vizir-5/vizir (1).jpg","./assets/images/portfolio/Hotel/Vizir-5/vizir (2).jpg","./assets/images/portfolio/Hotel/Vizir-5/vizir (3).jpg","./assets/images/portfolio/Hotel/Vizir-5/vizir (4).jpg","./assets/images/portfolio/Hotel/Vizir-5/vizir (5).jpg"],
+        "description": {
+          "title": "HOTEL VIZIR DOWNTOWN",
+          "content": "B + G + Mez. 4+ P + 23 F + R",
+          "location": "Downtown, Dubai",
+          "client": "Haroon & Moosa Holding L.T.D.",
+          "cost": "123",
+          "status": "Design"
+        }
+      },
+      "hotel-image-6":{
+        "images":["./assets/images/portfolio/Hotel/Palm-6/palm (1).jpg","./assets/images/portfolio/Hotel/Palm-6/palm (2).jpg","./assets/images/portfolio/Hotel/Palm-6/palm (3).jpg","./assets/images/portfolio/Hotel/Palm-6/palm (4).jpg","./assets/images/portfolio/Hotel/Palm-6/palm (5).jpg","./assets/images/portfolio/Hotel/Palm-6/palm (6).jpg","./assets/images/portfolio/Hotel/Palm-6/palm (7).jpg"],
+        "description": {
+          "title": "PALM COUTURE",
+          "content": "B + G + 9 F",
+          "location": "Palm Jumeirah, Dubai",
+          "client": "Kaya Project Management",
+          "cost": "123",
+          "status": "Project Completed"
+        }
+      },
+      
+      "hotel-image-7":{
+        "images":["./assets/images/portfolio/Hotel/marjan-island-7/marjan (1).jpg", "./assets/images/portfolio/Hotel/marjan-island-7/marjan (2).jpg", "./assets/images/portfolio/Hotel/marjan-island-7/marjan (3).jpg","./assets/images/portfolio/Hotel/marjan-island-7/marjan (4).jpg","./assets/images/portfolio/Hotel/marjan-island-7/marjan (5).jpg","./assets/images/portfolio/Hotel/marjan-island-7/marjan (6).jpg","./assets/images/portfolio/Hotel/marjan-island-7/marjan (7).jpg","./assets/images/portfolio/Hotel/marjan-island-7/marjan (8).jpg","./assets/images/portfolio/Hotel/marjan-island-7/marjan (9).jpg","./assets/images/portfolio/Hotel/marjan-island-7/marjan (10).jpg"],
+        "description": {
+          "title": "MARJAN ISLAND",
+          "content": "G+12 F",
+          "location": "Murjan Island, RAK",
+          "client": "Marjan Island",
+          "cost": "123",
+          "status": "Under Design"
+        }
+      },
+      "hotel-image-8":{
+        "images":["./assets/images/portfolio/Hotel/Al-raffa-8/alraffa (1).jpg","./assets/images/portfolio/Hotel/Al-raffa-8/alraffa (2).jpg"],
+        "description": {
+          "title": "DUBAI REAL ESTATE HOTEL",
+          "content": "B + G + Mez. + 7 F",
+          "location": "Al Raffa, Dubai",
+          "client": "H. H. Al Shaikh Ahmad Bin Rashid Bin Saeed Al Maktoum",
+          "cost": "123",
+          "status": "Design"
+        }
+      }
+    },
+    "master":{
+      "master-image-1":{
+        "images":["./assets/images/portfolio/Master-planning/Dibba-1/dibba (1).jpg","./assets/images/portfolio/Master-planning/Dibba-1/dibba (2).jpg","./assets/images/portfolio/Master-planning/Dibba-1/dibba (3).jpg","./assets/images/portfolio/Master-planning/Dibba-1/dibba (4).jpg","./assets/images/portfolio/Master-planning/Dibba-1/dibba (5).jpg"],
+        "description": {
+          "title": "RESIDENTIAL COMPLEX",
+          "content": "Residential Complex + Yacht Marina. 71 Buildings. Offices + Appartments + 36 Villas + Mall",
+          "location": "Dibba, Fujairah",
+          "client": "Fujairah Government",
+          "cost": "123",
+          "status": "Under Design Proposal"
+        }
+
+      },
+      "master-image-2":{
+        "images":["./assets/images/portfolio/Master-planning/madinat-jumeirah-2/madinat (1).jpg","./assets/images/portfolio/Master-planning/madinat-jumeirah-2/madinat (2).jpg","./assets/images/portfolio/Master-planning/madinat-jumeirah-2/madinat (3).jpg","./assets/images/portfolio/Master-planning/madinat-jumeirah-2/madinat (4).jpg","./assets/images/portfolio/Master-planning/madinat-jumeirah-2/madinat (5).jpg","./assets/images/portfolio/Master-planning/madinat-jumeirah-2/madinat (6).jpg","./assets/images/portfolio/Master-planning/madinat-jumeirah-2/madinat (7).jpg","./assets/images/portfolio/Master-planning/madinat-jumeirah-2/madinat (8).jpg","./assets/images/portfolio/Master-planning/madinat-jumeirah-2/madinat (9).jpg","./assets/images/portfolio/Master-planning/madinat-jumeirah-2/madinat (10).jpg","./assets/images/portfolio/Master-planning/madinat-jumeirah-2/madinat (11).jpg","./assets/images/portfolio/Master-planning/madinat-jumeirah-2/madinat (12).jpg","./assets/images/portfolio/Master-planning/madinat-jumeirah-2/madinat (13).jpg","./assets/images/portfolio/Master-planning/madinat-jumeirah-2/madinat (14).jpg","./assets/images/portfolio/Master-planning/madinat-jumeirah-2/madinat (15).jpg","./assets/images/portfolio/Master-planning/madinat-jumeirah-2/madinat (16).jpg","./assets/images/portfolio/Master-planning/madinat-jumeirah-2/madinat (17).jpg"],
+        "description": {
+          "title": "MADINAT JUMEIRAH LIVING",
+          "content": "6 Phases. 19 Buildings. ( G + 6 ) to ( G + 10 ) on common podium. G + 1 F + Pool Deck",
+          "location": "Madinat Jumeirah, Dubai",
+          "client": "Dubai Holding - North 25",
+          "cost": "123",
+          "status": "Under Construction"
+        }
+      },
+      "master-image-3":{
+        "images":["./assets/images/portfolio/Master-planning/Al-Tay-3/Al-tay (1).jpg","./assets/images/portfolio/Master-planning/Al-Tay-3/Al-tay (2).jpg","./assets/images/portfolio/Master-planning/Al-Tay-3/Al-tay (3).png","./assets/images/portfolio/Master-planning/Al-Tay-3/Al-tay (4).jpg","./assets/images/portfolio/Master-planning/Al-Tay-3/Al-tay (5).jpg","./assets/images/portfolio/Master-planning/Al-Tay-3/Al-tay (6).jpg","./assets/images/portfolio/Master-planning/Al-Tay-3/Al-tay (7).jpg","./assets/images/portfolio/Master-planning/Al-Tay-3/Al-tay (8).jpg"],
+        "description": {
+          "title": "VILLA COMPLEX",
+          "content": "620 Villas + Mosque + Mall + Services + Landscape",
+          "location": "Al Tay, Sharjah",
+          "client": "Mada'in",
+          "cost": "123",
+          "status": "Under Design"
+        }
+      },
+      "master-image-4":{
+        "images":["./assets/images/portfolio/Master-planning/aldana-4/aldana (1).jpg","./assets/images/portfolio/Master-planning/aldana-4/aldana (2).jpg","./assets/images/portfolio/Master-planning/aldana-4/aldana (3).jpg","./assets/images/portfolio/Master-planning/aldana-4/aldana (4).jpg","./assets/images/portfolio/Master-planning/aldana-4/aldana (5).jpg","./assets/images/portfolio/Master-planning/aldana-4/aldana (6).jpg","./assets/images/portfolio/Master-planning/aldana-4/aldana (7).jpg","./assets/images/portfolio/Master-planning/aldana-4/aldana (8).jpg"],
+        "description": {
+          "title": "Al DANA ISLAND COMPOUND",
+          "content": "308 Villas. Ground + First + Boundary Wall + Services",
+          "location": "Al Dana Island, Dibba, Fujairah",
+          "client": "F3 Company L.L.C.",
+          "cost": "123",
+          "status": "Project Completed"
+        }
+      },
+      "master-image-5":{
+        "images":["./assets/images/portfolio/Master-planning/khalid-bin-nasser-5/Khalid-bin (1).jpg","./assets/images/portfolio/Master-planning/khalid-bin-nasser-5/Khalid-bin (10).jpg","./assets/images/portfolio/Master-planning/khalid-bin-nasser-5/Khalid-bin (11).jpg","./assets/images/portfolio/Master-planning/khalid-bin-nasser-5/Khalid-bin (12).jpg","./assets/images/portfolio/Master-planning/khalid-bin-nasser-5/Khalid-bin (13).jpg","./assets/images/portfolio/Master-planning/khalid-bin-nasser-5/Khalid-bin (2).jpg","./assets/images/portfolio/Master-planning/khalid-bin-nasser-5/Khalid-bin (3).jpg","./assets/images/portfolio/Master-planning/khalid-bin-nasser-5/Khalid-bin (4).jpg","./assets/images/portfolio/Master-planning/khalid-bin-nasser-5/Khalid-bin (5).jpg","./assets/images/portfolio/Master-planning/khalid-bin-nasser-5/Khalid-bin (6).jpg","./assets/images/portfolio/Master-planning/khalid-bin-nasser-5/Khalid-bin (7).jpg","./assets/images/portfolio/Master-planning/khalid-bin-nasser-5/Khalid-bin (8).jpg","./assets/images/portfolio/Master-planning/khalid-bin-nasser-5/Khalid-bin (9).jpg"],
+        "description": {
+          "title": "COMPLEX RESORT",
+          "content": "Villas and Mall. 25 Villas + Furniture Apartment Building. G + 11 F/ Hotel G + 5",
+          "location": "Fujairah",
+          "client": "Khalid Bin Nasser Bin Abdella Al Nasser",
+          "cost": "123",
+          "status": "Under Design"
+        }
+      },
+      "master-image-6":{
+        "images":["./assets/images/portfolio/Master-planning/meydan-6/meydan (1).jpg","./assets/images/portfolio/Master-planning/meydan-6/meydan (10).jpg","./assets/images/portfolio/Master-planning/meydan-6/meydan (10).png","./assets/images/portfolio/Master-planning/meydan-6/meydan (11).jpg","./assets/images/portfolio/Master-planning/meydan-6/meydan (12).jpg","./assets/images/portfolio/Master-planning/meydan-6/meydan (13).jpg","./assets/images/portfolio/Master-planning/meydan-6/meydan (14).jpg","./assets/images/portfolio/Master-planning/meydan-6/meydan (15).jpg","./assets/images/portfolio/Master-planning/meydan-6/meydan (16).jpg","./assets/images/portfolio/Master-planning/meydan-6/meydan (2).jpg","./assets/images/portfolio/Master-planning/meydan-6/meydan (2).png","./assets/images/portfolio/Master-planning/meydan-6/meydan (3).jpg","./assets/images/portfolio/Master-planning/meydan-6/meydan (3).png","./assets/images/portfolio/Master-planning/meydan-6/meydan (4).png","./assets/images/portfolio/Master-planning/meydan-6/meydan (4).jpg","./assets/images/portfolio/Master-planning/meydan-6/meydan (4).png","./assets/images/portfolio/Master-planning/meydan-6/meydan (5).jpg","./assets/images/portfolio/Master-planning/meydan-6/meydan (5).png","./assets/images/portfolio/Master-planning/meydan-6/meydan (6).jpg","./assets/images/portfolio/Master-planning/meydan-6/meydan (6).png","./assets/images/portfolio/Master-planning/meydan-6/meydan (7).jpg","./assets/images/portfolio/Master-planning/meydan-6/meydan (7).png","./assets/images/portfolio/Master-planning/meydan-6/meydan (8).jpg","./assets/images/portfolio/Master-planning/meydan-6/meydan (8).png","./assets/images/portfolio/Master-planning/meydan-6/meydan (9).jpg","./assets/images/portfolio/Master-planning/meydan-6/meydan (9).png"],
+        "description": {
+          "title": "MEYDAN 88 VILLAS",
+          "content": "(G + 1F + R)(G+1F)",
+          "location": "Meydan City, Dubai",
+          "client": "Dubai Investments",
+          "cost": "123",
+          "status": "Concept"
+        }
+      },
+      "master-image-7":{
+        "images":["./assets/images/portfolio/Master-planning/coming-soon.jpg"],
+        "description": {
+          "title": "coming soon",
+          "content": "coming soon",
+          "location": "coming soon",
+          "client": "coming soon",
+          "cost": "coming soon",
+          "status": "coming soon"
+        }
+      },
+      "master-image-8":{
+        "images":["./assets/images/portfolio/Master-planning/coming-soon.jpg"],
+        "description": {
+          "title": "coming soon",
+          "content": "coming soon",
+          "location": "coming soon",
+          "client": "coming soon",
+          "cost": "coming soon",
+          "status": "coming soon"
+        }
+      }
+    },
+    "villas":{
+      "villas-image-1":{
+        "images":["./assets/images/portfolio/Villas/ras-al-khaimah-1/ras-al (1).jpg","./assets/images/portfolio/Villas/ras-al-khaimah-1/ras-al (10).jpg","./assets/images/portfolio/Villas/ras-al-khaimah-1/ras-al (2).jpg","./assets/images/portfolio/Villas/ras-al-khaimah-1/ras-al (3).jpg","./assets/images/portfolio/Villas/ras-al-khaimah-1/ras-al (4).jpg","./assets/images/portfolio/Villas/ras-al-khaimah-1/ras-al (5).jpg","./assets/images/portfolio/Villas/ras-al-khaimah-1/ras-al (6).jpg","./assets/images/portfolio/Villas/ras-al-khaimah-1/ras-al (7).jpg","./assets/images/portfolio/Villas/ras-al-khaimah-1/ras-al (8).jpg","./assets/images/portfolio/Villas/ras-al-khaimah-1/ras-al (9).jpg"],
+        "description": {
+          "title": "PRIVATE VILLA",
+          "content": "G + 1 F + Wall",
+          "location": "Ras Al Khaimah",
+          "client": "Faize Abdella Rashid Altayre",
+          "cost": "123",
+          "status": "Design Proposal"
+        }
+      },
+      "villas-image-2":{
+        "images":["./assets/images/portfolio/Villas/mohammed-bin-zayed-2/moh (1).jpg","./assets/images/portfolio/Villas/mohammed-bin-zayed-2/moh (2).jpg","./assets/images/portfolio/Villas/mohammed-bin-zayed-2/moh (3).jpg","./assets/images/portfolio/Villas/mohammed-bin-zayed-2/moh (4).jpg","./assets/images/portfolio/Villas/mohammed-bin-zayed-2/moh (5).jpg","./assets/images/portfolio/Villas/mohammed-bin-zayed-2/moh (6).jpg"],
+        "description": {
+          "title": "VILLA",
+          "content": "G + 1 F",
+          "location": "Mohammed Bin Zayed, Abu Dhabi",
+          "client": "Aidarous Kasim Al Zubaidi",
+          "cost": "123",
+          "status": "Proposal"
+        }
+      },
+      "villas-image-3":{
+        "images":["./assets/images/portfolio/Villas/Aws-kamael-3/Aws (1).jpg","./assets/images/portfolio/Villas/Aws-kamael-3/Aws (2).jpg","./assets/images/portfolio/Villas/Aws-kamael-3/Aws (3).jpg","./assets/images/portfolio/Villas/Aws-kamael-3/Aws (4).jpg","./assets/images/portfolio/Villas/Aws-kamael-3/Aws (5).jpg","./assets/images/portfolio/Villas/Aws-kamael-3/Aws (6).jpg","./assets/images/portfolio/Villas/Aws-kamael-3/Aws (7).jpg","./assets/images/portfolio/Villas/Aws-kamael-3/Aws (8).jpg","./assets/images/portfolio/Villas/Aws-kamael-3/Aws (9).jpg"],
+        "description": {
+          "title": "PRIVATE VILLA",
+          "content": "B + G + 1 F",
+          "location": "Dubai",
+          "client": "AWS Kamael Al Sharqi",
+          "cost": "123",
+          "status": "Design & Supervision"
+        }
+      },
+      "villas-image-4":{
+        "images":["./assets/images/portfolio/Villas/Sheikh-ahmed-4/sheikh (1).jpg","./assets/images/portfolio/Villas/Sheikh-ahmed-4/sheikh (2).jpg"],
+        "description": {
+          "title": "PRIVATE VILLA",
+          "content": "2 Villas. B + G + 1 F",
+          "location": "Sheikh Ahmed Abdul Aziz Muhammad Al Mualla/",
+          "client": "Sheikh Ali Abulaziz Muhammad Al Majid Al Mualla",
+          "cost": "123",
+          "status": "Design Proposal"
+        }
+      },
+      "villas-image-5":{
+        "images":["./assets/images/portfolio/Villas/coming-soon.jpg"],
+        "description": {
+          "title": "coming soon",
+          "content": "coming soon",
+          "location": "coming soon",
+          "client": "coming soon",
+          "cost": "coming soon",
+          "status": "coming soon"
+        }
+      },
+      "villas-image-6":{
+        "images":["./assets/images/portfolio/Villas/coming-soon.jpg"],
+        "description": {
+          "title": "coming soon",
+          "content": "coming soon",
+          "location": "coming soon",
+          "client": "coming soon",
+          "cost": "coming soon",
+          "status": "coming soon"
+        }
+      },
+      "villas-image-7":{
+        "images":["./assets/images/portfolio/Villas/coming-soon.jpg"],
+        "description": {
+          "title": "coming soon",
+          "content": "coming soon",
+          "location": "coming soon",
+          "client": "coming soon",
+          "cost": "coming soon",
+          "status": "coming soon"
+        }
+      },
+      "villas-image-8":{
+        "images":["./assets/images/portfolio/Villas/coming-soon.jpg"],
+        "description": {
+          "title": "coming soon",
+          "content": "coming soon",
+          "location": "coming soon",
+          "client": "coming soon",
+          "cost": "coming soon",
+          "status": "coming soon"
+        }
+      }
+    },
+    "admin":{
+      "admin-image-1":{
+        "images":["./assets/images/portfolio/Admin/algerf-22130-1/algerf (1).jpg","./assets/images/portfolio/Admin/algerf-22130-1/algerf (2).jpg"],
+        "description": {
+          "title": "CIVIL DEFENCE",
+          "content": "G + 1 F",
+          "location": "Algerf, Ajman",
+          "client": "Ministry of Public Works - General Administration of Civil Defence",
+          "cost": "123",
+          "status": "Proposal"
+        }
+      },
+    
+      "admin-image-2":{
+        "images":["./assets/images/portfolio/Admin/22806-2/22806 (1).jpg","./assets/images/portfolio/Admin/22806-2/22806 (1).png","./assets/images/portfolio/Admin/22806-2/22806 (2).jpg","./assets/images/portfolio/Admin/22806-2/22806 (3).jpg","./assets/images/portfolio/Admin/22806-2/22806 (4).jpg","./assets/images/portfolio/Admin/22806-2/22806 (5).jpg"],
+        "description": {
+          "title": "AL AWQAF",
+          "content": "2 B + G + 5 F",
+          "location": "Al Garhoud, Dubai",
+          "client": "Al Awqaf & Minors Affairs Foundation",
+          "cost": "123",
+          "status": "Design & Supervision"
+        }
+      },
+      "admin-image-3":{
+        "images":["./assets/images/portfolio/Admin/coming-soon.jpg"],
+        "description": {
+          "title": "coming soon",
+          "content": "coming soon",
+          "location": "coming soon",
+          "client": "coming soon",
+          "cost": "coming soon",
+          "status": "coming soon"
+        }
+      },
+      "admin-image-4":{
+        "images":["./assets/images/portfolio/Admin/coming-soon.jpg"],
+        "description": {
+          "title": "coming soon",
+          "content": "coming soon",
+          "location": "coming soon",
+          "client": "coming soon",
+          "cost": "coming soon",
+          "status": "coming soon"
+        }
+      },
+      "admin-image-5":{
+        "images":["./assets/images/portfolio/Admin/coming-soon.jpg"],
+        "description": {
+          "title": "coming soon",
+          "content": "coming soon",
+          "location": "coming soon",
+          "client": "coming soon",
+          "cost": "coming soon",
+          "status": "coming soon"
+        }
+      },
+      "admin-image-6":{
+        "images":["./assets/images/portfolio/Admin/coming-soon.jpg"],
+        "description": {
+          "title": "coming soon",
+          "content": "coming soon",
+          "location": "coming soon",
+          "client": "coming soon",
+          "cost": "coming soon",
+          "status": "coming soon"
+        }
+      },
+      "admin-image-7":{
+        "images":["./assets/images/portfolio/Admin/coming-soon.jpg"],
+        "description": {
+          "title": "coming soon",
+          "content": "coming soon",
+          "location": "coming soon",
+          "client": "coming soon",
+          "cost": "coming soon",
+          "status": "coming soon"
+        }
+      },
+    
+      "admin-image-8":{
+        "images":["./assets/images/portfolio/Admin/coming-soon.jpg"],
+        "description": {
+          "title": "coming soon",
+          "content": "coming soon",
+          "location": "coming soon",
+          "client": "coming soon",
+          "cost": "coming soon",
+          "status": "coming soon"
+        }
+      }
+    },
+    "educational":{
+      "educational-image-1":{
+        "images":["./assets/images/portfolio/Educational/edu (1).jpg","./assets/images/portfolio/Educational/edu (2).jpg","./assets/images/portfolio/Educational/edu (3).jpg","./assets/images/portfolio/Educational/edu (4).jpg"],
+        "description": {
+          "title": "BRITISH UNIVERSITY",
+          "content": "New Campus Building",
+          "location": "Academic City, Dubai",
+          "client": "Wow investment company",
+          "cost": "123",
+          "status": "completed"
+        }
+      },
+      "educational-image-2":{
+        "images":["./assets/images/portfolio/Educational/coming-soon.jpg"],
+        "description": {
+          "title": "coming soon",
+          "content": "coming soon",
+          "location": "coming soon",
+          "client": "coming soon",
+          "cost": "coming soon",
+          "status": "coming soon"
+        }
+      },
+      "educational-image-3":{
+        "images":["./assets/images/portfolio/Educational/coming-soon.jpg"],
+        "description": {
+          "title": "coming soon",
+          "content": "coming soon",
+          "location": "coming soon",
+          "client": "coming soon",
+          "cost": "coming soon",
+          "status": "coming soon"
+        }
+      },
+      "educational-image-4":{
+        "images":["./assets/images/portfolio/Educational/coming-soon.jpg"],
+        "description": {
+          "title": "coming soon",
+          "content": "coming soon",
+          "location": "coming soon",
+          "client": "coming soon",
+          "cost": "coming soon",
+          "status": "coming soon"
+        }
+      },
+      "educational-image-5":{
+        "images":["./assets/images/portfolio/Educational/coming-soon.jpg"],
+        "description": {
+          "title": "coming soon",
+          "content": "coming soon",
+          "location": "coming soon",
+          "client": "coming soon",
+          "cost": "coming soon",
+          "status": "coming soon"
+        }
+      },
+      "educational-image-6":{
+        "images":["./assets/images/portfolio/Educational/coming-soon.jpg"],
+        "description": {
+          "title": "coming soon",
+          "content": "coming soon",
+          "location": "coming soon",
+          "client": "coming soon",
+          "cost": "coming soon",
+          "status": "coming soon"
+        }
+      },
+      "educational-image-7":{
+        "images":["./assets/images/portfolio/Educational/coming-soon.jpg"],
+        "description": {
+          "title": "coming soon",
+          "content": "coming soon",
+          "location": "coming soon",
+          "client": "coming soon",
+          "cost": "coming soon",
+          "status": "coming soon"
+        }
+      },
+      "educational-image-8":{
+        "images":["./assets/images/portfolio/Educational/coming-soon.jpg"],
+        "description": {
+          "title": "coming soon",
+          "content": "coming soon",
+          "location": "coming soon",
+          "client": "coming soon",
+          "cost": "coming soon",
+          "status": "coming soon"
+        }
+      }
+    } , 
+    "sportscenter":{
+      "sportscenter-image-1":{
+        "images":["./assets/images/portfolio/Sports-center/Baniyas-22051-1/baniya (1).jpg","./assets/images/portfolio/Sports-center/Baniyas-22051-1/baniya (2).jpg"],
+        "description": {
+          "title": "HANDICAPPED CLUB",
+          "content": "G + 1 F",
+          "location": "Bani Yas, Abu Dhab",
+          "client": "Abu-Dhabi Club for People of determination",
+          "cost": "123",
+          "status": "Proposal"
+        }
+
+      },
+      "sportscenter-image-2":{
+        "images":["./assets/images/portfolio/Sports-center/Al-Dhaid-2/al-dhaid (1).jpg","./assets/images/portfolio/Sports-center/Al-Dhaid-2/al-dhaid (2).jpg","./assets/images/portfolio/Sports-center/Al-Dhaid-2/al-dhaid (3).jpg","./assets/images/portfolio/Sports-center/Al-Dhaid-2/al-dhaid (4).jpg","./assets/images/portfolio/Sports-center/Al-Dhaid-2/al-dhaid (5).jpg"],
+        "description": {
+          "title": "AL DHAID CULTURAL CLUB",
+          "content": "G + ?",
+          "location": "Al Dhaid, Sharjah",
+          "client": "Government of Sharjah",
+          "cost": "123",
+          "status": "Concept"
+        }
+      },
+      "sportscenter-image-3":{
+        "images":["./assets/images/portfolio/Sports-center/coming-soon.jpg"],
+        "description": {
+          "title": "coming soon",
+          "content": "coming soon",
+          "location": "coming soon",
+          "client": "coming soon",
+          "cost": "coming soon",
+          "status": "coming soon"
+        }
+
+      },
+      "sportscenter-image-4":{
+        "images":["./assets/images/portfolio/Sports-center/coming-soon.jpg"],
+        "description": {
+          "title": "coming soon",
+          "content": "coming soon",
+          "location": "coming soon",
+          "client": "coming soon",
+          "cost": "coming soon",
+          "status": "coming soon"
+        }
+      },
+      "sportscenter-image-5":{
+        "images":["./assets/images/portfolio/Sports-center/coming-soon.jpg"],
+        "description": {
+          "title": "coming soon",
+          "content": "coming soon",
+          "location": "coming soon",
+          "client": "coming soon",
+          "cost": "coming soon",
+          "status": "coming soon"
+        }
+      },
+      "sportscenter-image-6":{
+        "images":["./assets/images/portfolio/Sports-center/coming-soon.jpg"],
+        "description": {
+          "title": "coming soon",
+          "content": "coming soon",
+          "location": "coming soon",
+          "client": "coming soon",
+          "cost": "coming soon",
+          "status": "coming soon"
+        }
+      },
+      "sportscenter-image-7":{
+        "images":["./assets/images/portfolio/Sports-center/coming-soon.jpg"],
+        "description": {
+          "title": "coming soon",
+          "content": "coming soon",
+          "location": "coming soon",
+          "client": "coming soon",
+          "cost": "coming soon",
+          "status": "coming soon"
+        }
+      },
+      "sportscenter-image-8":{
+        "images":["./assets/images/portfolio/Sports-center/coming-soon.jpg"],
+        "description": {
+          "title": "coming soon",
+          "content": "coming soon",
+          "location": "coming soon",
+          "client": "coming soon",
+          "cost": "coming soon",
+          "status": "coming soon"
+        }
+      }
+    },
+    "cultural":{
+      "cultural-image-1":{
+        "images":["./assets/images/portfolio/Cultural-center/ummal-22955-1/ummal (1).jpg", "./assets/images/portfolio/Cultural-center/ummal-22955-1/ummal (2).jpg", "./assets/images/portfolio/Cultural-center/ummal-22955-1/ummal (3).jpg", "./assets/images/portfolio/Cultural-center/ummal-22955-1/ummal (4).jpg"],
+        "description": {
+          "title": "HAMADAN BIN MOHAMMED HERITAGE CENTER",
+          "content": "2 F",
+          "location": "Umm Al-Momineen, Dubai",
+          "client": "Hamdan Bin Mohammed Heritage Center",
+          "cost": "123",
+          "status": "Design & Supervision"
+        }
+      },
+      "cultural-image-2":{
+        "images":["./assets/images/portfolio/Cultural-center/funn-22932-2/fun (1).jpg", "./assets/images/portfolio/Cultural-center/funn-22932-2/fun (2).jpg", "./assets/images/portfolio/Cultural-center/funn-22932-2/fun (3).jpg", "./assets/images/portfolio/Cultural-center/funn-22932-2/fun (4).jpg"],
+        "description": {
+          "title": "CULTURAL CENTER",
+          "content": "Activities, Offices, Various Events Building. Ground Only.",
+          "location": "Sharjah",
+          "client": "Funn Foundation for Children & Young People",
+          "cost": "123",
+          "status": "Design Competetion"
+        }
+      },
+      "cultural-image-3":{
+        "images":["./assets/images/portfolio/Cultural-center/coming-soon.jpg"],
+        "description": {
+          "title": "coming soon",
+          "content": "coming soon",
+          "location": "coming soon",
+          "client": "coming soon",
+          "cost": "coming soon",
+          "status": "coming soon"
+        }
+      },
+      "cultural-image-4":{
+        "images":["./assets/images/portfolio/Cultural-center/coming-soon.jpg"],
+        "description": {
+          "title": "coming soon",
+          "content": "coming soon",
+          "location": "coming soon",
+          "client": "coming soon",
+          "cost": "coming soon",
+          "status": "coming soon"
+        }
+      },
+      "cultural-image-5":{
+        "images":["./assets/images/portfolio/Cultural-center/coming-soon.jpg"],
+        "description": {
+          "title": "coming soon",
+          "content": "coming soon",
+          "location": "coming soon",
+          "client": "coming soon",
+          "cost": "coming soon",
+          "status": "coming soon"
+        }
+      },
+      "cultural-image-6":{
+        "images":["./assets/images/portfolio/Cultural-center/coming-soon.jpg"],
+        "description": {
+          "title": "coming soon",
+          "content": "coming soon",
+          "location": "coming soon",
+          "client": "coming soon",
+          "cost": "coming soon",
+          "status": "coming soon"
+        }
+      },
+      "cultural-image-7":{
+        "images":["./assets/images/portfolio/Cultural-center/coming-soon.jpg"],
+        "description": {
+          "title": "coming soon",
+          "content": "coming soon",
+          "location": "coming soon",
+          "client": "coming soon",
+          "cost": "coming soon",
+          "status": "coming soon"
+        }
+      },
+      "cultural-image-8":{
+        "images":["./assets/images/portfolio/Cultural-center/coming-soon.jpg"],
+        "description": {
+          "title": "coming soon",
+          "content": "coming soon",
+          "location": "coming soon",
+          "client": "coming soon",
+          "cost": "coming soon",
+          "status": "coming soon"
+        }
+      }
+    },
+    "mosque":{
+      "mosque-image-1":{
+        "images":["./assets/images/portfolio/Religious/Al-barsha-23028-1/al-barsha (1).jpg","./assets/images/portfolio/Religious/Al-barsha-23028-1/al-barsha (2).jpg","./assets/images/portfolio/Religious/Al-barsha-23028-1/al-barsha (3).JPG","./assets/images/portfolio/Religious/Al-barsha-23028-1/al-barsha (4).jpg","./assets/images/portfolio/Religious/Al-barsha-23028-1/al-barsha (5).JPG","./assets/images/portfolio/Religious/Al-barsha-23028-1/al-barsha (6).jpg","./assets/images/portfolio/Religious/Al-barsha-23028-1/al-barsha (7).jpg","./assets/images/portfolio/Religious/Al-barsha-23028-1/al-barsha (8).jpg","./assets/images/portfolio/Religious/Al-barsha-23028-1/al-barsha (9).jpg"],
+        "description": {
+          "title": "MOSQUE",
+          "content": "1000 Prayers",
+          "location": "Al Barsha South, Dubai",
+          "client": "Heirs Abdulwahed Hassan Al Rustamani",
+          "cost": "123",
+          "status": "Design & Supervision"
+        }  
+      },
+      "mosque-image-2":{
+        "images":["./assets/images/portfolio/Religious/Iqraa-23299-2/Iqraa (1).jpg","./assets/images/portfolio/Religious/Iqraa-23299-2/Iqraa (2).jpg","./assets/images/portfolio/Religious/Iqraa-23299-2/Iqraa (3).jpg","./assets/images/portfolio/Religious/Iqraa-23299-2/Iqraa (4).jpg","./assets/images/portfolio/Religious/Iqraa-23299-2/Iqraa (5).jpg"],
+        "description": {
+          "title": "IQRAA MOSQUE",
+          "content": "G + 1 F",
+          "location": "Sports City, Dubai",
+          "client": "Mr. Abdulrahim Al Zarooni",
+          "cost": "123",
+          "status": "Concept"
+        }
+      },
+      "mosque-image-3":{
+        "images":["./assets/images/portfolio/Religious/mosque-23358-3/Mosq (1).jpg","./assets/images/portfolio/Religious/mosque-23358-3/Mosq (2).jpg","./assets/images/portfolio/Religious/mosque-23358-3/Mosq (3).jpg","./assets/images/portfolio/Religious/mosque-23358-3/Mosq (4).jpg","./assets/images/portfolio/Religious/mosque-23358-3/Mosq (5).jpg","./assets/images/portfolio/Religious/mosque-23358-3/Mosq (6).jpg","./assets/images/portfolio/Religious/mosque-23358-3/Mosq (7).jpg","./assets/images/portfolio/Religious/mosque-23358-3/Mosq (8).jpg"],
+        "description": {
+          "title": "MOSQUE",
+          "content": "G + 1 F",
+          "location": "Dubai-Al Ain Road, Dubai",
+          "client": "Islamic Affairs & Charitable Activities Department",
+          "cost": "123",
+          "status": "Design Proposal"
+        }
+      },
+      "mosque-image-4":{
+        "images":["./assets/images/portfolio/Religious/Arada-mosque/arada (1).jpg","./assets/images/portfolio/Religious/Arada-mosque/arada (2).jpg","./assets/images/portfolio/Religious/Arada-mosque/arada (3).jpg","./assets/images/portfolio/Religious/Arada-mosque/arada (4).jpg","./assets/images/portfolio/Religious/Arada-mosque/arada (5).jpg","./assets/images/portfolio/Religious/Arada-mosque/arada (6).jpg","./assets/images/portfolio/Religious/Arada-mosque/arada (7).jpg"],
+        "description": {
+          "title": "MOSQUE?",
+          "content": "G + ?",
+          "location": "location?",
+          "client": "client?",
+          "cost": "123",
+          "status": "Design Proposal?"
+        }  
+      },
+      "mosque-image-5":{
+        "images":["./assets/images/portfolio/Religious/coming-soon.jpg"],
+        "description": {
+          "title": "coming soon",
+          "content": "coming soon",
+          "location": "coming soon",
+          "client": "coming soon",
+          "cost": "coming soon",
+          "status": "coming soon"
+        }
+      },
+      "mosque-image-6": {
+        "images":["./assets/images/portfolio/Religious/coming-soon.jpg"],
+      "description": {
+        "title": "coming soon",
+        "content": "coming soon",
+        "location": "coming soon",
+        "client": "coming soon",
+        "cost": "coming soon",
+        "status": "coming soon"
+      }
+      },
+        
+      "mosque-image-7":{ 
+        "images":["./assets/images/portfolio/Religious/coming-soon.jpg"],
+      "description": {
+        "title": "coming soon",
+        "content": "coming soon",
+        "location": "coming soon",
+        "client": "coming soon",
+        "cost": "coming soon",
+        "status": "coming soon"
+      }
+      },
+  
+      "mosque-image-8":{ 
+      "images":["./assets/images/portfolio/Religious/coming-soon.jpg"],
+      "description": {
+        "title": "coming soon",
+        "content": "coming soon",
+        "location": "coming soon",
+        "client": "coming soon",
+        "cost": "coming soon",
+        "status": "coming soon"
+      }
+      }   
+    },
+    "overseas":{
+      "overseas-image-1":{
+        "images":["./assets/images/portfolio/Overseas/Qatar-23333-1/qatar (1).jpg","./assets/images/portfolio/Overseas/Qatar-23333-1/qatar (2).jpg","./assets/images/portfolio/Overseas/Qatar-23333-1/qatar (3).jpg","./assets/images/portfolio/Overseas/Qatar-23333-1/qatar (4).jpg","./assets/images/portfolio/Overseas/Qatar-23333-1/qatar (5).jpg"],
+        "description": {
+          "title": "RESIDENTIAL BUILDING",
+          "content": "G (Retail) + F (Offices) + 4 Typical Floors",
+          "location": "Qatar",
+          "client": "Ali A. Hashim",
+          "cost": "123",
+          "status": "Proposal"
+        } 
+      },
+      "overseas-image-2":{
+        "images":["./assets/images/portfolio/Overseas/Jeddah-22713-2/jeddah (1).jpg","./assets/images/portfolio/Overseas/Jeddah-22713-2/jeddah (2).jpg","./assets/images/portfolio/Overseas/Jeddah-22713-2/jeddah (3).jpg"],
+        "description": {
+          "title": "JEDDAH HOTEL",
+          "content": "2 B + G + 3 P + 25 F",
+          "location": "Jeddah, KSA",
+          "client": "Mahmoud Bin Ali Bin Ibrahim Al Saqer",
+          "cost": "123",
+          "status": "Under Concept Design"
+        } 
+      },
+      "overseas-image-3":{
+        "images":["./assets/images/portfolio/Overseas/coming-soon.jpg"],
+        "description": {
+          "title": "coming soon",
+          "content": "coming soon",
+          "location": "coming soon",
+          "client": "coming soon",
+          "cost": "coming soon",
+          "status": "coming soon"
+        }
+      },
+      "overseas-image-4":{
+        "images":["./assets/images/portfolio/Overseas/coming-soon.jpg"],
+        "description": {
+          "title": "coming soon",
+          "content": "coming soon",
+          "location": "coming soon",
+          "client": "coming soon",
+          "cost": "coming soon",
+          "status": "coming soon"
+        }
+      },
+      "overseas-image-5":{
+        "images":["./assets/images/portfolio/Overseas/coming-soon.jpg"],
+        "description": {
+          "title": "coming soon",
+          "content": "coming soon",
+          "location": "coming soon",
+          "client": "coming soon",
+          "cost": "coming soon",
+          "status": "coming soon"
+        }
+      },
+      "overseas-image-6":{
+        "images":["./assets/images/portfolio/Overseas/coming-soon.jpg"],
+        "description": {
+          "title": "coming soon",
+          "content": "coming soon",
+          "location": "coming soon",
+          "client": "coming soon",
+          "cost": "coming soon",
+          "status": "coming soon"
+        }
+      },
+      "overseas-image-7":{
+        "images":["./assets/images/portfolio/Overseas/coming-soon.jpg"],
+        "description": {
+          "title": "coming soon",
+          "content": "coming soon",
+          "location": "coming soon",
+          "client": "coming soon",
+          "cost": "coming soon",
+          "status": "coming soon"
+        }
+      },
+      "overseas-image-8":{
+        "images":["./assets/images/portfolio/Overseas/coming-soon.jpg"],
+        "description": {
+          "title": "coming soon",
+          "content": "coming soon",
+          "location": "coming soon",
+          "client": "coming soon",
+          "cost": "coming soon",
+          "status": "coming soon"
+        }
+      }
+
+    }
+    
+  }
+  
+  

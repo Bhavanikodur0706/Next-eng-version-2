@@ -1,0 +1,6 @@
+C:\xampp\htdocs\Sahasra8\assests\images\portfolio\Educational\coming-soon.jpg
+C:\xampp\htdocs\Sahasra8\assests\images\portfolio\Educational\edu (1).jpg
+C:\xampp\htdocs\Sahasra8\assests\images\portfolio\Educational\edu (2).jpg
+C:\xampp\htdocs\Sahasra8\assests\images\portfolio\Educational\edu (3).jpg
+C:\xampp\htdocs\Sahasra8\assests\images\portfolio\Educational\edu (4).jpg
+C:\xampp\htdocs\Sahasra8\assests\images\portfolio\Educational\image_paths.txt

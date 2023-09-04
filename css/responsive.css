@@ -764,6 +764,7 @@ h1 {
     color: var(--secondary-color);
     font-family: var(--font-family);
     text-transform: none;
+    text-align: justify;
 }
 .heading{
     font-family: var(--font-family);
@@ -810,8 +811,8 @@ h1 {
 }
 @media (min-width: 330px) and (max-width: 413px) {
     .space-semi-circle {
-        width: 350px!important;
-        height: 410px!important;
+        width: 324px!important;
+        height: 453px!important;
         background: rgba(0, 0, 0, 0.1);
         border-radius: 50%;
         position: relative;
@@ -859,7 +860,7 @@ h1 {
 @media (min-width: 601px) and (max-width: 799px) {
     .space-semi-circle {
         width: 600px!important;
-        height: 711px!important;
+        height: 518px!important;
         background: rgba(0, 0, 0, 0.1);
         border-radius: 50%;
         position: relative;
@@ -891,4 +892,330 @@ h1 {
         box-shadow: 0 -1px 25px rgba(251, 249, 249, 0.5);
         clip-path: polygon(0 0, 100% -6%, 100% 50%, 0% 50%);
     }
+}
+/* portfolio styles random */
+/* *media quuires portfolio2 start*/ 
+#main_slider_wwid .slick-slide {
+    margin: 0;
+    height: 456px;
+}
+
+#main_slider_wwid .slick-slide img {
+    height: 350px;
+    /* disabling object-fit makes the images in its original width */
+    /* object-fit: cover; */
+   
+    padding: 5px;
+    width: inherit;
+}
+
+#main_slider_wwid .slick-slide img:hover {
+    transform: scale(1.1);
+}
+
+#main_slider_wwid .slick-slide p {
+    text-align: center;
+    color: #7F6541;
+    font-size: 20px;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+#main_slider_wwid .slick-slide.slick-current.slick-active.slick-center {
+    margin: 20px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.slick-slide.slick-current.slick-active.slick-center {
+    width: auto !important;
+}
+
+.slick-list.draggable {
+    height: 470px;
+    margin-top: 120px;
+}
+ @media only screen and (min-width: 768px) and (max-width: 991px) {
+    section#main_slider_wwid {
+        margin: -65px 0 65px 0;
+
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    section#main_slider_wwid {
+        margin: 0 0 65px 0;
+    }
+
+    .portfolio_main .donew {
+        line-height: 18px;
+        display: block;
+    }
+
+    #main_slider_wwid .slick-next {
+        top: -32px;
+    }
+}
+
+/*media quuires portfolio2 end*/
+/* ovveride hotelpage */
+@media (max-width: 767px) {
+    #footer p.address_p {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+    .footer_social {
+        text-align: center;
+    }
+
+    .footer_social img {
+        max-width: 25px;
+        margin: 0 5px;
+        margin-left: 5%;
+    }
+}
+
+/* styles for the about us paragraph */
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+    .main_content_about_us .about-para {
+        height: 90vh;
+    }
+}
+/* another styles */
+#main_slider_wwid .slick-slide {
+    margin: 0;
+    height: 456px;
+}
+
+#main_slider_wwid .slick-slide img {
+    height: 350px;
+    /* disabling object-fit makes the images in its original width */
+    /* object-fit: cover; */
+   
+    padding: 5px;
+    width: inherit;
+}
+
+#main_slider_wwid .slick-slide img:hover {
+    transform: scale(1.1);
+}
+
+#main_slider_wwid .slick-slide p {
+    text-align: center;
+    color: #7F6541;
+    font-size: 20px;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+#main_slider_wwid .slick-slide.slick-current.slick-active.slick-center {
+    margin: 20px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.slick-slide.slick-current.slick-active.slick-center {
+    width: auto !important;
+}
+
+.slick-list.draggable {
+    height: 470px;
+    margin-top: 120px;
+}
+
+#about_us_id::before {
+    content: "";
+    background-image: url(../assests/imgs/bcpattern.webp), url(../assests/imgs/bcpattern.webp);
+    background-repeat: repeat;
+    background-size: 65%, 65%;
+    transform: rotate(45deg) scale(1.45);
+    z-index: -1;
+}
+
+.welcometext_about h1 {
+    font-size: 50px;
+    line-height: 50px;
+    color: #1e2933;
+    letter-spacing: 2px;
+    margin-top: -7%;
+    letter-spacing: 2px;
+    margin-top: 0%;
+    font-weight: bold;
+    font-family: century gothic;
+}
+
+.welcometext_about span.welcomeNext {
+    font-size: 26px;
+    font-weight: lighter;
+    color: #a7a9ac;
+    display: inline-block;
+    right: 3%;
+    margin-left: 48px;
+    position: relative;
+    top: -16px;
+}
+
+.welcometext_about span.donew {
+    color: #32393D;
+}
+
+/* .dots{
+    color: #7F6541;
+} */
+span.donew .dots {
+    display: inline;
+    margin: 0;
+    letter-spacing: 2px;
+    font-size: 12px;
+    position: relative;
+    color: #32393D;
+    top: 0px;
+
+}
+
+.dots1 {
+    display: inline;
+    margin: 0;
+    letter-spacing: 2px;
+    font-size: 12px;
+    position: relative;
+    left: 2px;
+    color: #32393D;
+    top: 0px;
+}
+/* another styles */
+#main_slider_wwid .slick-prev.slick-arrow {
+    position: absolute;
+    bottom: 0;
+    top: auto;
+    color: #fff;
+}
+
+#main_slider_wwid .slick-next {
+    position: absolute;
+    top: 0;
+    color: #fff;
+}
+
+#main_slider_wwid .wrapper {
+    position: relative;
+}
+
+#main_slider_wwid .slick-next:before,
+#main_slider_wwid .slick-prev:before {
+    color: #fff;
+}
+
+.list_hotels img.img-fluid {
+    height: 265px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.list_mosques img.img-fluid {
+    height: 200px;
+    border: 1px solid #7F6541;
+    padding: 7px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.list_hotels p {
+    text-align: center;
+    color: #fff;
+    margin-top: 16px;
+    padding-bottom: 24px;
+}
+
+.modal-dialog.modal-dialog-centered.modal-xl {
+    width: 991px;
+    position: relative;
+}
+
+button.btn-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.modal-content {
+    background: transparent;
+}
+
+img.d-block.w-100 {
+    height: 470px;
+    object-fit: contain;
+    padding-bottom: 16px;
+}
+
+.main_home_about {
+    background: #00070d;
+}
+
+/* #carouselExampleControls {
+    border: 1px solid #7F6541;
+    padding: 10px;
+} */
+.main_home_about p {
+    color: #7F6541;
+    padding-left: 1%;
+    /* margin-left: 17%; */
+}
+
+#carouselExampleControls .carousel-control-next,
+#carouselExampleControls .carousel-control-prev {
+    opacity: 1;
+    width: 10%;
+}
+
+span.btn-close {
+    background: transparent;
+    position: absolute;
+    top: -20px;
+    right: -12px;
+    font-size: 26px;
+    color: #fff;
+    font-weight: bold;
+    opacity: 1;
+    cursor: pointer;
+    padding: 0;
+    z-index: 1;
+}
+
+.hotel_id {
+    margin-top: 70px !important;
+}
+/* styles for portfolio heading */
+section#main_header_abouts .welcometext_about {
+    position: absolute;
+        left: 143px;
+    }
+    .welcometext_about h1 {
+        color: rgb(206, 202, 196);
+    }
+    .welcometext_about h1 {
+        font-size: 50px;
+        line-height: 50px;
+        color: #1e2933;
+        letter-spacing: 2px;
+        margin-top: -7%;
+        letter-spacing: 2px;
+        margin-top: 0%;
+        font-weight: bold;
+        font-family: century gothic;
+    }
+.welcometext_about span.welcomeNext {
+    font-size: 26px;
+    font-weight: lighter;
+    color: #a7a9ac;
+    display: inline-block;
+    right: -3%;
+    margin-left: 48px;
+    position: relative;
+    top: -8px;
+}
+.welcometext_about {
+    position: absolute;
+    top: 12%;
 }

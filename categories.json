@@ -1,0 +1,392 @@
+{
+    "residential": [
+        {
+            "url": "./assets/images/portfolio/Residential/IGO-23353-1/Igo (2).jpg",
+            "name": "IGO" 
+        },
+        {
+            "url": "./assets/images/portfolio/Residential/Bluez-23364-2/Bluez (1).jpg",
+            "name": "BLUEZ" 
+        },
+        {
+            "url": "./assets/images/portfolio/Residential/Trioz-23343-3/Trioz (8).jpg",
+            "name": "TRIOZ" 
+        },
+        {
+            "url":  "./assets/images/portfolio/Residential/Deyaar-22558-4/Dey-4 (1).jpg",
+            "name": "Deyaar" 
+        },
+        {
+            "url": "./assets/images/portfolio/Residential/Deyaar-23136-5/Dey-5 (4).jpg",
+            "name": "DEYAAR" 
+        },
+        {
+            "url":  "./assets/images/portfolio/Residential/crystal-tower-6/Cryst (3).jpg",
+            "name": "CRYSTAL" 
+        },
+        {
+            "url":  "./assets/images/portfolio/Residential/JVT-tower-23298-7/JVT (1).jpg",
+            "name": "JVT" 
+        },
+        {
+            "url":  "./assets/images/portfolio/Residential/Sydney-22296-8/sydney (1).jpg",
+            "name": "SYDNEY" 
+        }
+        
+    ],
+    "mixeduse": [
+        {
+            "url": "./assets/images/portfolio/Mixed-use/MAdain-23200-1/madain-1.jpg",
+            "name": "MADA'IN" 
+        },
+        {
+            "url": "./assets/images/portfolio/Mixed-use/Florenz-23312-2/florenz (2).jpg",
+            "name": "FLORENZ" 
+        },
+        {
+            "url": "./assets/images/portfolio/Mixed-use/La-vie-23002-3/La-vie (1).jpg",
+            "name": "LA VIE" 
+        },
+        {
+            "url":  "./assets/images/portfolio/Mixed-use/Naeem-23083-4/naeem (3).jpg",
+            "name": "NAEEM-5" 
+        },
+        {
+            "url": "./assets/images/portfolio/Mixed-use/Teraas-23291-5/Teraas (1).jpg",
+            "name": "TERASS " 
+        },
+        {
+            "url":  "./assets/images/portfolio/Mixed-use/Paragon-23306-6/paragon (2).jpg",
+            "name": "PARAGON" 
+        },
+        {
+            "url":  "./assets/images/portfolio/Mixed-use/tecom-23297-7/tecom (1).jpg",
+            "name": "TECOM" 
+        },
+        {
+            "url":  "./assets/images/portfolio/Mixed-use/khalifa-22439-8/khalifa (1).jpg",
+            "name": "KHALIFA CITY" 
+        }
+        
+    ],
+    "hotel": [
+        {
+            "url": "./assets/images/portfolio/Hotel/Sls-1/sls (7).jpg",
+            "name": "SLS" 
+        },
+        {
+            "url": "./assets/images/portfolio/Hotel/Crystal-2/crystal (1).jpg",
+            "name": "CRYSTAL TOWER" 
+        },
+        {
+            "url": "./assets/images/portfolio/Hotel/Gargash-3/gargash (3).jpg",
+            "name": "GERGASH" 
+        },
+        {
+            "url":  "./assets/images/portfolio/Hotel/Marina-4/marina (2).jpg",
+            "name": "MARINA" 
+        },
+        {
+            "url": "./assets/images/portfolio/Hotel/Vizir-5/vizir (3).jpg",
+            "name": "VIZIR" 
+        },
+        {
+            "url":  "./assets/images/portfolio/Hotel/Palm-6/palm (2).jpg",
+            "name": "PALM" 
+        },
+        {
+            "url":  "./assets/images/portfolio/Hotel/marjan-island-7/marjan (5).jpg",
+            "name": "MARJAN" 
+        },
+        {
+            "url":  "./assets/images/portfolio/Hotel/Al-raffa-8/alraffa (1).jpg",
+            "name": "AL RAFFA" 
+        }
+        
+    ],
+    "master": [
+        {
+            "url": "./assets/images/portfolio/Master-planning/Dibba-1/dibba (3).jpg",
+            "name": "DIBBA" 
+        },
+        {
+            "url": "./assets/images/portfolio/Master-planning/madinat-jumeirah-2/madinat (1).jpg",
+            "name": "MADINAT" 
+        },
+        {
+            "url": "./assets/images/portfolio/Master-planning/Al-Tay-3/Al-tay (1).jpg",
+            "name": "AL-TAY" 
+        },
+        {
+            "url":  "./assets/images/portfolio/Master-planning/aldana-4/aldana (3).jpg",
+            "name": "ALDANA" 
+        },
+        {
+            "url": "./assets/images/portfolio/Master-planning/khalid-bin-nasser-5/Khalid-bin (7).jpg",
+            "name": "KHALID" 
+        },
+        {
+            "url":  "./assets/images/portfolio/Master-planning/meydan-6/meydan (1).jpg",
+            "name": "MEYDAN" 
+        },
+        {
+            "url":  "./assets/images/portfolio/Master-planning/coming-soon.jpg",
+            "name": "COMING SOON" 
+        },
+        {
+            "url":  "./assets/images/portfolio/Master-planning/coming-soon.jpg",
+            "name": "COMING SOON" 
+        }
+
+        
+    ],
+    "villas": [
+        {
+            "url": "./assets/images/portfolio/Villas/ras-al-khaimah-1/ras-al (1).jpg",
+            "name": "RAS-AL-KHAIMA" 
+        },
+        {
+            "url": "./assets/images/portfolio/Villas/mohammed-bin-zayed-2/moh (6).jpg",
+            "name": "MOHAMMED BIN ZAYAD" 
+        },
+        {
+            "url": "./assets/images/portfolio/Villas/Aws-kamael-3/Aws (2).jpg",
+            "name": "AWS" 
+        },
+        {
+            "url":  "./assets/images/portfolio/Villas/Sheikh-ahmed-4/sheikh (2).jpg",
+            "name": "SHEIKH AHMED" 
+        },
+        {
+            "url": "./assets/images/portfolio/Villas/coming-soon.jpg",
+            "name": "COMING SOON" 
+        },
+        {
+            "url": "./assets/images/portfolio/Villas/coming-soon.jpg",
+            "name": "COMING SOON" 
+        },
+        {
+            "url": "./assets/images/portfolio/Villas/coming-soon.jpg",
+            "name": "COMING SOON" 
+        },
+        {
+            "url": "./assets/images/portfolio/Villas/coming-soon.jpg",
+            "name": "COMING SOON" 
+        }
+        
+    ],
+    "admin": [
+        {
+            "url": "./assets/images/portfolio/Admin/algerf-22130-1/algerf (1).jpg",
+            "name": "AL GERF" 
+        },
+        {
+            "url": "./assets/images/portfolio/Admin/22806-2/22806 (1).png",
+            "name": "AWQAAF & MINOR AFFAIR FOUNDATION" 
+        },
+        {
+            "url": "./assets/images/portfolio/Admin/coming-soon.jpg",
+            "name": "COMING SOON" 
+        },
+        {
+            "url": "./assets/images/portfolio/Admin/coming-soon.jpg",
+            "name": "COMING SOON" 
+        },
+        {
+            "url": "./assets/images/portfolio/Admin/coming-soon.jpg",
+            "name": "COMING SOON" 
+        },
+        {
+            "url": "./assets/images/portfolio/Admin/coming-soon.jpg",
+            "name": "COMING SOON" 
+        },
+        {
+            "url": "./assets/images/portfolio/Admin/coming-soon.jpg",
+            "name": "COMING SOON" 
+        },
+        {
+            "url": "./assets/images/portfolio/Admin/coming-soon.jpg",
+            "name": "COMING SOON" 
+        }
+        
+    ],
+    "educational": [
+        {
+            "url": "./assets/images/portfolio/Educational/edu (2).jpg",
+            "name": "BRITISH UNIVERSITY" 
+        },
+        {
+            "url": "./assets/images/portfolio/Educational/coming-soon.jpg",
+            "name": "COMING SOON" 
+        } ,  
+        {
+            "url": "./assets/images/portfolio/Educational/coming-soon.jpg",
+            "name": "COMING SOON" 
+        } , 
+        {
+            "url": "./assets/images/portfolio/Educational/coming-soon.jpg",
+            "name": "COMING SOON" 
+        } , 
+        {
+            "url": "./assets/images/portfolio/Educational/coming-soon.jpg",
+            "name": "COMING SOON" 
+        } , 
+        {
+            "url": "./assets/images/portfolio/Educational/coming-soon.jpg",
+            "name": "COMING SOON" 
+        } , 
+        {
+            "url": "./assets/images/portfolio/Educational/coming-soon.jpg",
+            "name": "COMING SOON" 
+        } , 
+        {
+            "url": "./assets/images/portfolio/Educational/coming-soon.jpg",
+            "name": "COMING SOON" 
+        } 
+
+    ],
+    "sportscenter": [
+        {
+            "url": "./assets/images/portfolio/Sports-center/Baniyas-22051-1/baniya (2).jpg",
+            "name": "BANIYAS" 
+        },
+        {
+            "url": "./assets/images/portfolio/Sports-center/Al-Dhaid-2/al-dhaid (1).jpg",
+            "name": "AL DHAID" 
+        },
+        {
+            "url": "./assets/images/portfolio/Sports-center/coming-soon.jpg",
+            "name": "COMING SOON" 
+        },
+        {
+            "url": "./assets/images/portfolio/Sports-center/coming-soon.jpg",
+            "name": "COMING SOON" 
+        },
+        {
+            "url": "./assets/images/portfolio/Sports-center/coming-soon.jpg",
+            "name": "COMING SOON" 
+        },
+        {
+            "url": "./assets/images/portfolio/Sports-center/coming-soon.jpg",
+            "name": "COMING SOON" 
+        },
+        {
+            "url": "./assets/images/portfolio/Sports-center/coming-soon.jpg",
+            "name": "COMING SOON" 
+        },
+        {
+            "url": "./assets/images/portfolio/Sports-center/coming-soon.jpg",
+            "name": "COMING SOON" 
+        }
+        
+        
+    ],
+    "cultural": [
+        {
+            "url": "./assets/images/portfolio/Cultural-center/ummal-22955-1/ummal (3).jpg",
+            "name": "HAMADAN HERITAGE" 
+        },
+        {
+            "url": "./assets/images/portfolio/Cultural-center/funn-22932-2/fun (4).jpg",
+            "name": "FUNN FOUNDATION" 
+        },
+        {
+            "url": "./assets/images/portfolio/Cultural-center/coming-soon.jpg",
+            "name": "COMING SOON" 
+        },
+        {
+            "url": "./assets/images/portfolio/Cultural-center/coming-soon.jpg",
+            "name": "COMING SOON" 
+        },
+        {
+            "url": "./assets/images/portfolio/Cultural-center/coming-soon.jpg",
+            "name": "COMING SOON" 
+        },
+        {
+            "url": "./assets/images/portfolio/Cultural-center/coming-soon.jpg",
+            "name": "COMING SOON" 
+        },
+        {
+            "url": "./assets/images/portfolio/Cultural-center/coming-soon.jpg",
+            "name": "COMING SOON" 
+        },
+        {
+            "url": "./assets/images/portfolio/Cultural-center/coming-soon.jpg",
+            "name": "COMING SOON" 
+        }
+
+        
+    ],
+    "mosque": [
+        {
+            "url":  "./assets/images/portfolio/Religious/Al-barsha-23028-1/al-barsha (8).jpg",
+            "name": "HeirsofAbdulWahid MOSQUE" 
+        },
+        {
+            "url":  "./assets/images/portfolio/Religious/Iqraa-23299-2/Iqraa (1).jpg",
+            "name": "IQRAA MOSQUE" 
+        },
+        {
+            "url":  "./assets/images/portfolio/Religious/mosque-23358-3/Mosq (1).jpg",
+            "name": "GENERAL AUTHORITY OF ISLAMIC AFFAIRS" 
+        },
+        {
+            "url":   "./assets/images/portfolio/Religious/Arada-mosque/arada (5).jpg",
+            "name": "ARADA MOSQUE" 
+        },
+        {
+            "url":  "./assets/images/portfolio/Religious/coming-soon.jpg",
+            "name": "COMING SOON" 
+        },
+        {
+            "url":  "./assets/images/portfolio/Religious/coming-soon.jpg",
+            "name": "COMING SOON" 
+        },
+        {
+            "url":  "./assets/images/portfolio/Religious/coming-soon.jpg",
+            "name": "COMING SOON" 
+        },
+        {
+            "url":  "./assets/images/portfolio/Religious/coming-soon.jpg",
+            "name": "COMING SOON" 
+        }
+
+          
+    ],
+    "overseas": [
+        {
+            "url":  "./assets/images/portfolio/Overseas/Qatar-23333-1/qatar (1).jpg",
+            "name": "Ibrahim Khalifa Al Suwaidi_Emirati Hospital" 
+        },
+        {
+            "url": "./assets/images/portfolio/Overseas/Jeddah-22713-2/jeddah (1).jpg",
+            "name": "Ms.Juma& Darwish Building company (LLC)" 
+        },
+        {
+            "url": "./assets/images/portfolio/Overseas/coming-soon.jpg",
+            "name": "COMING SOON" 
+        },
+        {
+            "url": "./assets/images/portfolio/Overseas/coming-soon.jpg",
+            "name": "COMING SOON" 
+        },
+        {
+            "url": "./assets/images/portfolio/Overseas/coming-soon.jpg",
+            "name": "COMING SOON" 
+        },
+        {
+            "url": "./assets/images/portfolio/Overseas/coming-soon.jpg",
+            "name": "COMING SOON" 
+        },
+        {
+            "url": "./assets/images/portfolio/Overseas/coming-soon.jpg",
+            "name": "COMING SOON" 
+        },
+        {
+            "url": "./assets/images/portfolio/Overseas/coming-soon.jpg",
+            "name": "COMING SOON" 
+        }
+        
+    ]
+    
+}
