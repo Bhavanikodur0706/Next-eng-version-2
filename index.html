@@ -48,8 +48,25 @@
     .footer {
         margin-top: auto; /* Pushes the footer to the bottom */
     }
+    #tsparticles{
+      width: 100%;
+      height: 305px;
+    }
+    /* Default styles for larger screens blur effect*/
+    /* Default blur styles for all elements */
+    .blur {
+            backdrop-filter: blur(3px);
+            filter: blur(3px);
+        }
 
-    /* Default styles for larger screens */
+/* Styles for the active tab and its dropdown */
+        .nav-item.non-blur,
+        .nav-item.non-blur .dropdown-menu,
+        .non-blur {
+            backdrop-filter: none !important;
+            filter: none !important;
+        }
+
   </style>
 </head>
 <body>
@@ -74,7 +91,7 @@
               <a class="nav-link active" href="index.html">Home</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="about.html" role="button" data-bs-toggle="dropdown"
+              <a class="nav-link dropdown-toggle" href="about.html" role="button" 
                 aria-expanded="false">
                 About us
               </a>
@@ -118,23 +135,23 @@
               <a class="nav-link" href="portfolio.html">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Iconic Projects</a>
+              <a class="nav-link" href="iconic.html">Iconic Projects</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              <a class="nav-link dropdown-toggle" href="more.html" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
                 Know more
               </a>
-              <ul class="dropdown-menu ">
-                <li><a class="dropdown-item" href="more-6.html#announce">ANNOUNCEMENTS</a></li>
-                <li><a class="dropdown-item" href="more-6.html#news">NEWS</a></li>
-                <li><a class="dropdown-item" href="more-6.html#gallery">GALLERY</a></li>
-                <li><a class="dropdown-item" href="more-6.html#promotions">PROMOTIONS</a></li>
-                <li><a class="dropdown-item" href="more-6.html#freehand">FREEHAND SKETCH</a></li>
-              </ul>
+              <!-- <ul class="dropdown-menu ">
+                <li><a class="dropdown-item" href="more.html#announce">ANNOUNCEMENTS</a></li>
+                <li><a class="dropdown-item" href="more.html#news">NEWS</a></li>
+                <li><a class="dropdown-item" href="more.html#gallery">GALLERY</a></li>
+                <li><a class="dropdown-item" href="more.html#promotions">PROMOTIONS</a></li>
+                <li><a class="dropdown-item" href="more.html#freehand">FREEHAND SKETCH</a></li>
+              </ul> -->
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact us</a>
+              <a class="nav-link" href="contactus.html">Contact us</a>
             </li>
 
           </ul>
@@ -167,7 +184,7 @@
     </div>
     <div class="container-fluid arrow-container">
       <div class="blur-select left-arrow-class"> 
-        <a href="portfolio.html"><img src="./assets/images/left-arrow.png" alt="left-arrow" class="left-arrow-img"></a>
+        <a href="contactus.html"><img src="./assets/images/left-arrow.png" alt="left-arrow" class="left-arrow-img"></a>
       </div>
       <div id="right_arrow" class="blur-select">
         <a href="about.html"><img src="./assets/images/right-arrow.png" alt="right-arrow" class="right-arrow-img"></a>
@@ -186,7 +203,7 @@
     <div class="row">
       <div class="col-xl-2 col-lg-2 col-md-2"></div>
       <div class="col-xl-10 col-lg-10 col-md-10">
-        <img src="./assets/images/home/home-2.png" alt="img" style="width: 110%;opacity: 25%;">
+        <img src="./assets/images/home/home-2.png" alt="img" style="width: 110%;opacity: 25%;margin-top: -10%;">
       </div>
 
     </div>
@@ -225,5 +242,6 @@
   <script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2.5.0/webcomponents-loader.js"></script>
   <script type="module" src="https://cdn.jsdelivr.net/npm/web-particles@1.1.0/dist/web-particles.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/three@0.131.2/examples/js/libs/stats.min.js"></script>
+  <script src="./js/blur.js"></script>
 </body>
 </html>

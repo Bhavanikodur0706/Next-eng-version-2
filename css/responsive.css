@@ -96,14 +96,14 @@ body {
     width: 1%;
     position: fixed;
     top: 64%;
-    left: 2%;
+    left: 1%;
     z-index: 11;
 }
 .right-arrow-img{
     width: 1%;
     position: fixed;
     top: 64%;
-    right: 2%;
+    right: 1%;
     z-index: 11;
 }
 
@@ -1187,14 +1187,15 @@ span.btn-close {
     margin-top: 70px !important;
 }
 /* styles for portfolio heading */
+
 section#main_header_abouts .welcometext_about {
     position: absolute;
         left: 143px;
     }
-    .welcometext_about h1 {
+    .welcometext_about-port h1 {
         color: rgb(206, 202, 196);
     }
-    .welcometext_about h1 {
+    .welcometext_about-port h1 {
         font-size: 50px;
         line-height: 50px;
         color: #1e2933;
@@ -1205,7 +1206,7 @@ section#main_header_abouts .welcometext_about {
         font-weight: bold;
         font-family: century gothic;
     }
-.welcometext_about span.welcomeNext {
+.welcometext_about-port span.welcomeNext {
     font-size: 26px;
     font-weight: lighter;
     color: #a7a9ac;
@@ -1215,7 +1216,7 @@ section#main_header_abouts .welcometext_about {
     position: relative;
     top: -8px;
 }
-.welcometext_about {
+.welcometext_about-port {
     position: absolute;
     top: 12%;
 }

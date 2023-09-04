@@ -109,7 +109,20 @@
     
 
 
-    /* Default styles for larger screens */
+    /* Default styles for larger screens blur effect*/
+    /* Default blur styles for all elements */
+    .blur {
+            backdrop-filter: blur(3px);
+            filter: blur(3px);
+        }
+
+/* Styles for the active tab and its dropdown */
+        .nav-item.non-blur,
+        .nav-item.non-blur .dropdown-menu,
+        .non-blur {
+            backdrop-filter: none !important;
+            filter: none !important;
+        } 
   </style>
 </head>
 <body>
@@ -121,7 +134,7 @@
   <div class="row">
     <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
       <div class="container-fluid">
-        <a class="navbar-brand" href="home-6.html" style="margin-left: 1%;">
+        <a class="navbar-brand" href="index.html" style="margin-left: 1%;">
           <img src="./assets/images/logo.webp" alt="Logo" width="150" height="auto">
         </a>
         <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -134,7 +147,7 @@
               <a class="nav-link " href="index.html">Home</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle active" href="about.html" role="button" aria-expanded="false"> About us
+              <a class="nav-link active" href="about.html" role="button" aria-expanded="false"> About us
               </a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="about.html#ceo-message">Ceo's Message</a></li>
@@ -176,22 +189,22 @@
               <a class="nav-link" href="portfolio.html">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="iconic-6.html">Iconic Projects</a>
+              <a class="nav-link" href="iconic.html">Iconic Projects</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="more-6.html" role="button" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" href="more.html" role="button" aria-expanded="false">
                 KNOW More
               </a>
-              <ul class="dropdown-menu ">
-                <li><a class="dropdown-item" href="more-6.html#announce">ANNOUNCEMENTS</a></li>
-                <li><a class="dropdown-item" href="more-6.html#news">NEWS</a></li>
-                <li><a class="dropdown-item" href="more-6.html#gallery">GALLERY</a></li>
-                <li><a class="dropdown-item" href="more-6.html#promotions">PROMOTIONS</a></li>
-                <li><a class="dropdown-item" href="more-6.html#freehand">FREEHAND SKETCH</a></li>
-              </ul>
+              <!-- <ul class="dropdown-menu ">
+                <li><a class="dropdown-item" href="more.html#announce">ANNOUNCEMENTS</a></li>
+                <li><a class="dropdown-item" href="more.html#news">NEWS</a></li>
+                <li><a class="dropdown-item" href="more.html#gallery">GALLERY</a></li>
+                <li><a class="dropdown-item" href="more.html#promotions">PROMOTIONS</a></li>
+                <li><a class="dropdown-item" href="more.html#freehand">FREEHAND SKETCH</a></li>
+              </ul> -->
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contactus-no-change.html">Contact us</a>
+              <a class="nav-link" href="contactus.html">Contact us</a>
             </li>
 
           </ul>

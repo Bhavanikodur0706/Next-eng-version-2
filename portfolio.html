@@ -133,6 +133,19 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. -->
             text-transform: uppercase;
             transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
         }
+        /* Default blur styles for all elements */
+        .blur {
+            backdrop-filter: blur(3px);
+            filter: blur(3px);
+        }
+
+/* Styles for the active tab and its dropdown */
+        .nav-item.non-blur,
+        .nav-item.non-blur .dropdown-menu,
+        .non-blur {
+            backdrop-filter: none !important;
+            filter: none !important;
+        } 
     </style>
 </head>
 <body>
@@ -210,16 +223,16 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. -->
                                 aria-expanded="false">
                                 KNOW More
                             </a>
-                            <ul class="dropdown-menu ">
+                            <!-- <ul class="dropdown-menu ">
                                 <li><a class="dropdown-item" href="more.html#announce">ANNOUNCEMENTS</a></li>
                                 <li><a class="dropdown-item" href="more.html#news">NEWS</a></li>
                                 <li><a class="dropdown-item" href="more.html#gallery">GALLERY</a></li>
                                 <li><a class="dropdown-item" href="more.html#promotions">PROMOTIONS</a></li>
                                 <li><a class="dropdown-item" href="more.html#freehand">FREEHAND SKETCH</a></li>
-                            </ul>
+                            </ul> -->
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contactus-no-change.html">Contact us</a>
+                            <a class="nav-link" href="contactus.html">Contact us</a>
                         </li>
                     </ul>
                 </div>
@@ -230,7 +243,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. -->
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-xl-12 position-relative">
-                    <div class="welcometext_about " data-translate="whatwehavedone">
+                    <div class="welcometext_about-port " data-translate="whatwehavedone">
                         <h1>WHAT <br />
                             <div class="container-fluid d-flex" style="flex-direction: row;">
                                 <span class="welcomeNext">WE'VE</span><span class="donew">DONE<span
@@ -347,7 +360,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. -->
             <a href="services.html"><img src="./assets/images/left-arrow.png" alt="left-arrow" class="left-arrow-img"></a>
         </div>
         <div id="right_arrow" class="blur-select">
-            <a href="index.html"><img src="./assets/images/right-arrow.png" alt="right-arrow"
+            <a href="iconic.html"><img src="./assets/images/right-arrow.png" alt="right-arrow"
                     class="right-arrow-img"></a>
         </div>
     </div>
@@ -416,6 +429,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. -->
 
     </script>
     <script src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script>
+    <script src="./js/blur.js"></script>
 
 
 
